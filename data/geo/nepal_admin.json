@@ -1,0 +1,529 @@
+{
+ "source": "Government of Nepal administrative division under the Constitution of Nepal (2015): 7 provinces, 77 districts. Names entered by the project team; cross-check against the Ministry of Federal Affairs and General Administration (MoFAGA) list before publication.",
+ "municipalities_note": "The 753 local levels are NOT bundled, to avoid hand-typed records. Import them from an authoritative dataset (MoFAGA, or the OCHA/HDX Nepal administrative boundaries COD) with scripts/import_municipalities.py.",
+ "provinces": [
+  {
+   "id": 1,
+   "name_en": "Koshi",
+   "name_ne": "कोशी",
+   "districts": [
+    {
+     "id": 1,
+     "name_en": "Taplejung",
+     "name_ne": "ताप्लेजुङ",
+     "aliases": []
+    },
+    {
+     "id": 2,
+     "name_en": "Panchthar",
+     "name_ne": "पाँचथर",
+     "aliases": []
+    },
+    {
+     "id": 3,
+     "name_en": "Ilam",
+     "name_ne": "इलाम",
+     "aliases": []
+    },
+    {
+     "id": 4,
+     "name_en": "Jhapa",
+     "name_ne": "झापा",
+     "aliases": []
+    },
+    {
+     "id": 5,
+     "name_en": "Morang",
+     "name_ne": "मोरङ",
+     "aliases": []
+    },
+    {
+     "id": 6,
+     "name_en": "Sunsari",
+     "name_ne": "सुनसरी",
+     "aliases": []
+    },
+    {
+     "id": 7,
+     "name_en": "Dhankuta",
+     "name_ne": "धनकुटा",
+     "aliases": []
+    },
+    {
+     "id": 8,
+     "name_en": "Terhathum",
+     "name_ne": "तेह्रथुम",
+     "aliases": []
+    },
+    {
+     "id": 9,
+     "name_en": "Sankhuwasabha",
+     "name_ne": "संखुवासभा",
+     "aliases": []
+    },
+    {
+     "id": 10,
+     "name_en": "Bhojpur",
+     "name_ne": "भोजपुर",
+     "aliases": []
+    },
+    {
+     "id": 11,
+     "name_en": "Solukhumbu",
+     "name_ne": "सोलुखुम्बु",
+     "aliases": []
+    },
+    {
+     "id": 12,
+     "name_en": "Okhaldhunga",
+     "name_ne": "ओखलढुङ्गा",
+     "aliases": []
+    },
+    {
+     "id": 13,
+     "name_en": "Khotang",
+     "name_ne": "खोटाङ",
+     "aliases": []
+    },
+    {
+     "id": 14,
+     "name_en": "Udayapur",
+     "name_ne": "उदयपुर",
+     "aliases": []
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name_en": "Madhesh",
+   "name_ne": "मधेश",
+   "districts": [
+    {
+     "id": 15,
+     "name_en": "Saptari",
+     "name_ne": "सप्तरी",
+     "aliases": []
+    },
+    {
+     "id": 16,
+     "name_en": "Siraha",
+     "name_ne": "सिराहा",
+     "aliases": []
+    },
+    {
+     "id": 17,
+     "name_en": "Dhanusha",
+     "name_ne": "धनुषा",
+     "aliases": []
+    },
+    {
+     "id": 18,
+     "name_en": "Mahottari",
+     "name_ne": "महोत्तरी",
+     "aliases": []
+    },
+    {
+     "id": 19,
+     "name_en": "Sarlahi",
+     "name_ne": "सर्लाही",
+     "aliases": []
+    },
+    {
+     "id": 20,
+     "name_en": "Rautahat",
+     "name_ne": "रौतहट",
+     "aliases": []
+    },
+    {
+     "id": 21,
+     "name_en": "Bara",
+     "name_ne": "बारा",
+     "aliases": []
+    },
+    {
+     "id": 22,
+     "name_en": "Parsa",
+     "name_ne": "पर्सा",
+     "aliases": []
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name_en": "Bagmati",
+   "name_ne": "बागमती",
+   "districts": [
+    {
+     "id": 23,
+     "name_en": "Dolakha",
+     "name_ne": "दोलखा",
+     "aliases": []
+    },
+    {
+     "id": 24,
+     "name_en": "Sindhupalchok",
+     "name_ne": "सिन्धुपाल्चोक",
+     "aliases": []
+    },
+    {
+     "id": 25,
+     "name_en": "Rasuwa",
+     "name_ne": "रसुवा",
+     "aliases": []
+    },
+    {
+     "id": 26,
+     "name_en": "Dhading",
+     "name_ne": "धादिङ",
+     "aliases": []
+    },
+    {
+     "id": 27,
+     "name_en": "Nuwakot",
+     "name_ne": "नुवाकोट",
+     "aliases": []
+    },
+    {
+     "id": 28,
+     "name_en": "Kathmandu",
+     "name_ne": "काठमाडौं",
+     "aliases": []
+    },
+    {
+     "id": 29,
+     "name_en": "Bhaktapur",
+     "name_ne": "भक्तपुर",
+     "aliases": []
+    },
+    {
+     "id": 30,
+     "name_en": "Lalitpur",
+     "name_ne": "ललितपुर",
+     "aliases": []
+    },
+    {
+     "id": 31,
+     "name_en": "Kavrepalanchok",
+     "name_ne": "काभ्रेपलाञ्चोक",
+     "aliases": [
+      "Kavre"
+     ]
+    },
+    {
+     "id": 32,
+     "name_en": "Ramechhap",
+     "name_ne": "रामेछाप",
+     "aliases": []
+    },
+    {
+     "id": 33,
+     "name_en": "Sindhuli",
+     "name_ne": "सिन्धुली",
+     "aliases": []
+    },
+    {
+     "id": 34,
+     "name_en": "Makwanpur",
+     "name_ne": "मकवानपुर",
+     "aliases": []
+    },
+    {
+     "id": 35,
+     "name_en": "Chitwan",
+     "name_ne": "चितवन",
+     "aliases": []
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name_en": "Gandaki",
+   "name_ne": "गण्डकी",
+   "districts": [
+    {
+     "id": 36,
+     "name_en": "Gorkha",
+     "name_ne": "गोरखा",
+     "aliases": []
+    },
+    {
+     "id": 37,
+     "name_en": "Manang",
+     "name_ne": "मनाङ",
+     "aliases": []
+    },
+    {
+     "id": 38,
+     "name_en": "Mustang",
+     "name_ne": "मुस्ताङ",
+     "aliases": []
+    },
+    {
+     "id": 39,
+     "name_en": "Myagdi",
+     "name_ne": "म्याग्दी",
+     "aliases": []
+    },
+    {
+     "id": 40,
+     "name_en": "Kaski",
+     "name_ne": "कास्की",
+     "aliases": []
+    },
+    {
+     "id": 41,
+     "name_en": "Lamjung",
+     "name_ne": "लमजुङ",
+     "aliases": []
+    },
+    {
+     "id": 42,
+     "name_en": "Tanahun",
+     "name_ne": "तनहुँ",
+     "aliases": []
+    },
+    {
+     "id": 43,
+     "name_en": "Nawalpur",
+     "name_ne": "नवलपुर",
+     "aliases": [
+      "Nawalparasi (Bardaghat Susta East)",
+      "Nawalparasi East"
+     ]
+    },
+    {
+     "id": 44,
+     "name_en": "Syangja",
+     "name_ne": "स्याङ्जा",
+     "aliases": []
+    },
+    {
+     "id": 45,
+     "name_en": "Parbat",
+     "name_ne": "पर्वत",
+     "aliases": []
+    },
+    {
+     "id": 46,
+     "name_en": "Baglung",
+     "name_ne": "बागलुङ",
+     "aliases": []
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name_en": "Lumbini",
+   "name_ne": "लुम्बिनी",
+   "districts": [
+    {
+     "id": 47,
+     "name_en": "Rukum East",
+     "name_ne": "रुकुम (पूर्व)",
+     "aliases": [
+      "Eastern Rukum"
+     ]
+    },
+    {
+     "id": 48,
+     "name_en": "Rolpa",
+     "name_ne": "रोल्पा",
+     "aliases": []
+    },
+    {
+     "id": 49,
+     "name_en": "Pyuthan",
+     "name_ne": "प्युठान",
+     "aliases": []
+    },
+    {
+     "id": 50,
+     "name_en": "Gulmi",
+     "name_ne": "गुल्मी",
+     "aliases": []
+    },
+    {
+     "id": 51,
+     "name_en": "Arghakhanchi",
+     "name_ne": "अर्घाखाँची",
+     "aliases": []
+    },
+    {
+     "id": 52,
+     "name_en": "Palpa",
+     "name_ne": "पाल्पा",
+     "aliases": []
+    },
+    {
+     "id": 53,
+     "name_en": "Parasi",
+     "name_ne": "परासी",
+     "aliases": [
+      "Nawalparasi (Bardaghat Susta West)",
+      "Nawalparasi West"
+     ]
+    },
+    {
+     "id": 54,
+     "name_en": "Rupandehi",
+     "name_ne": "रुपन्देही",
+     "aliases": []
+    },
+    {
+     "id": 55,
+     "name_en": "Kapilvastu",
+     "name_ne": "कपिलवस्तु",
+     "aliases": []
+    },
+    {
+     "id": 56,
+     "name_en": "Dang",
+     "name_ne": "दाङ",
+     "aliases": []
+    },
+    {
+     "id": 57,
+     "name_en": "Banke",
+     "name_ne": "बाँके",
+     "aliases": []
+    },
+    {
+     "id": 58,
+     "name_en": "Bardiya",
+     "name_ne": "बर्दिया",
+     "aliases": []
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name_en": "Karnali",
+   "name_ne": "कर्णाली",
+   "districts": [
+    {
+     "id": 59,
+     "name_en": "Dolpa",
+     "name_ne": "डोल्पा",
+     "aliases": []
+    },
+    {
+     "id": 60,
+     "name_en": "Mugu",
+     "name_ne": "मुगु",
+     "aliases": []
+    },
+    {
+     "id": 61,
+     "name_en": "Humla",
+     "name_ne": "हुम्ला",
+     "aliases": []
+    },
+    {
+     "id": 62,
+     "name_en": "Jumla",
+     "name_ne": "जुम्ला",
+     "aliases": []
+    },
+    {
+     "id": 63,
+     "name_en": "Kalikot",
+     "name_ne": "कालिकोट",
+     "aliases": []
+    },
+    {
+     "id": 64,
+     "name_en": "Dailekh",
+     "name_ne": "दैलेख",
+     "aliases": []
+    },
+    {
+     "id": 65,
+     "name_en": "Jajarkot",
+     "name_ne": "जाजरकोट",
+     "aliases": []
+    },
+    {
+     "id": 66,
+     "name_en": "Rukum West",
+     "name_ne": "रुकुम (पश्चिम)",
+     "aliases": [
+      "Western Rukum"
+     ]
+    },
+    {
+     "id": 67,
+     "name_en": "Salyan",
+     "name_ne": "सल्यान",
+     "aliases": []
+    },
+    {
+     "id": 68,
+     "name_en": "Surkhet",
+     "name_ne": "सुर्खेत",
+     "aliases": []
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name_en": "Sudurpashchim",
+   "name_ne": "सुदूरपश्चिम",
+   "districts": [
+    {
+     "id": 69,
+     "name_en": "Bajura",
+     "name_ne": "बाजुरा",
+     "aliases": []
+    },
+    {
+     "id": 70,
+     "name_en": "Bajhang",
+     "name_ne": "बझाङ",
+     "aliases": []
+    },
+    {
+     "id": 71,
+     "name_en": "Achham",
+     "name_ne": "अछाम",
+     "aliases": []
+    },
+    {
+     "id": 72,
+     "name_en": "Doti",
+     "name_ne": "डोटी",
+     "aliases": []
+    },
+    {
+     "id": 73,
+     "name_en": "Kailali",
+     "name_ne": "कैलाली",
+     "aliases": []
+    },
+    {
+     "id": 74,
+     "name_en": "Kanchanpur",
+     "name_ne": "कञ्चनपुर",
+     "aliases": []
+    },
+    {
+     "id": 75,
+     "name_en": "Dadeldhura",
+     "name_ne": "डडेल्धुरा",
+     "aliases": []
+    },
+    {
+     "id": 76,
+     "name_en": "Baitadi",
+     "name_ne": "बैतडी",
+     "aliases": []
+    },
+    {
+     "id": 77,
+     "name_en": "Darchula",
+     "name_ne": "दार्चुला",
+     "aliases": []
+    }
+   ]
+  }
+ ]
+}

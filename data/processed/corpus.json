@@ -1,0 +1,6147 @@
+[
+  {
+    "id": 1,
+    "corpus_id": "NVL-001",
+    "status": "active",
+    "text": {
+      "nepali": "भाडा लिऊँ भने इष्ट बाङ्गो; भाडा नलिऊँ भने आफू नाङ्गो।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Bhāḍā liū̃ bhane iṣṭa bāṅgo; bhāḍā naliū̃ bhane āphū nāṅgo.",
+      "transliteration_original": "Bhāḍā liū̃ bhane iṣṭa bāṅgo; bhāḍā naliū̃ bhane āphū nāṅgo.",
+      "transliteration_notes": [],
+      "translation": "If I ask for the fare, my relatives and close ones turn sour; if I don't, I'm the one left with nothing.",
+      "translation_original": "If I ask for the fare, people become unhappy; if I do not ask for it, I suffer the loss myself.",
+      "translation_normalized": "If I ask for the fare, my relatives and close ones turn sour; if I don't, I'm the one left with nothing."
+    },
+    "original_theme": [
+      "Livelihood",
+      "economic survival",
+      "dignity of labour",
+      "social pressure"
+    ],
+    "coding": {
+      "text_types": [
+        "Folk saying",
+        "Couplet"
+      ],
+      "secondary_domains": [
+        "Interpersonal (kin)",
+        "Occupational"
+      ],
+      "emotions": [
+        "Frustration",
+        "Ambivalence"
+      ],
+      "emotional_targets": [
+        "Self",
+        "Kin and close acquaintances"
+      ],
+      "relationship_types": [
+        "Worker–kin passenger"
+      ],
+      "love_types": [],
+      "cultural_concepts": [
+        "इष्ट (kin network)",
+        "kin obligation"
+      ],
+      "rhetorical_devices": [
+        "Parallelism",
+        "Rhyme (बाङ्गो/नाङ्गो)",
+        "Double bind"
+      ],
+      "primary_domain": "Economic / Livelihood",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: fare as income vs. obligation",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Occupational (driver/conductor)",
+      "aspiration": null,
+      "agency": "Individual — constrained",
+      "humor_irony": "Wry",
+      "valence": "Negative",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "A double bind between kin obligation and livelihood; asking kin for money damages relationships, not asking erodes income.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Reflection"
+        ],
+        "note": null,
+        "raw": "Reflection"
+      },
+      "evidence": [
+        "इष्ट बाङ्गो",
+        "आफू नाङ्गो"
+      ]
+    },
+    "codes": [
+      "FARE_LIVELIHOOD",
+      "LABOR_DIGNITY",
+      "MONEY_MATERIALISM"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Translation renders इष्ट as 'people'; it means relatives/close ones, which is the core of the dilemma.",
+      "priority": "High — meaning changes",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Mistranslations",
+        "finding": "See Human_Review (High priority)."
+      }
+    ],
+    "clusters": [
+      "The fare and the driver's dignity"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 2,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 2,
+    "corpus_id": "NVL-002",
+    "status": "active",
+    "text": {
+      "nepali": "तिमी स्त्री हौ, तिमीलाई हरकोहीकी प्यारी हुने हक छ। म त पुरुष हुँ, आफ्नै घरको प्यारो हुन पनि धन कमाउनुपर्छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Timī strī hau, timīlāī harkohīkī pyārī hune hak cha. Ma ta puruṣ hũ, āphnai gharko pyāro huna pani dhan kamāunuparcha.",
+      "transliteration_original": "Timī strī hau, timīlāī harkohīkī pyārī hune hak cha. Ma ta puruṣ hũ, āphnai gharko pyāro huna pani dhan kamāunupardcha.",
+      "transliteration_notes": [
+        "'-pardcha' corrected to '-parcha' (QC log)"
+      ],
+      "translation": "You are a woman, and you have the right to be loved by anyone. But I am a man, and even to be loved in my own home, I have to earn money.",
+      "translation_original": "You are a woman, and you have the right to be loved by anyone. But I am a man, and even to be loved in my own home, I have to earn money.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Gender roles",
+      "masculinity",
+      "family expectations",
+      "money",
+      "patriarchy"
+    ],
+    "coding": {
+      "text_types": [
+        "Personal expression",
+        "Social commentary"
+      ],
+      "secondary_domains": [
+        "Economic",
+        "Family"
+      ],
+      "emotions": [
+        "Resentment",
+        "Self-pity"
+      ],
+      "emotional_targets": [
+        "Women (addressee)",
+        "Self",
+        "Family"
+      ],
+      "relationship_types": [
+        "Man–woman (generic)",
+        "Family"
+      ],
+      "love_types": [
+        "Storge (conditional)"
+      ],
+      "cultural_concepts": [
+        "Male breadwinner norm"
+      ],
+      "rhetorical_devices": [
+        "Antithesis (स्त्री / पुरुष)"
+      ],
+      "primary_domain": "Gender",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: being loved at home is conditional on earning",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "Masculinity as provider burden; contrasts with a generalization that women are loved unconditionally",
+      "identity_theme": "Masculine",
+      "aspiration": null,
+      "agency": "Individual — constrained",
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Frames male worth inside the family as earned through income.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Critique",
+          "Reproduction"
+        ],
+        "note": "critiques provider burden while reproducing a gender stereotype",
+        "raw": "Critique + Reproduction (critiques provider burden while reproducing a gender stereotype)"
+      },
+      "evidence": [
+        "आफ्नै घरको प्यारो हुन पनि धन कमाउनुपर्छ"
+      ]
+    },
+    "codes": [
+      "MASCULINITY",
+      "WOMEN_REPRESENTATION",
+      "MONEY_MATERIALISM",
+      "FAMILY"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Original theme label 'patriarchy' is an interpretation; text explicitly describes the male breadwinner burden. Check label wording.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Transliteration error",
+        "finding": "'-pardcha' for पर्छ (should be 'parcha')."
+      }
+    ],
+    "clusters": [
+      "Masculine burden and display"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 3,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 3,
+    "corpus_id": "NVL-003",
+    "status": "active",
+    "text": {
+      "nepali": "धनसम्पत्ति रहेछ यहाँ मायाभन्दा माथि; रित्तो गोजीको काम छैन, के गर्छौ त साथी?",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Dhan-sampatti rahecha yahā̃ māyābhanda māthi; ritto gojīko kām chaina, ke garchhau ta sāthī?",
+      "transliteration_original": "Dhan-sampatti rahecha yahā̃ māyābhanda māthi; ritto gojīko kām chaina, ke garchhau ta sāthī?",
+      "transliteration_notes": [],
+      "translation": "It seems that wealth is valued above love here; an empty pocket is of no use, so what can you do, my friend?",
+      "translation_original": "It seems that wealth is valued above love here; an empty pocket is of no use, so what can you do, my friend?",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Materialism",
+      "poverty",
+      "economic status",
+      "changing values"
+    ],
+    "coding": {
+      "text_types": [
+        "Couplet",
+        "Social commentary"
+      ],
+      "secondary_domains": [
+        "Interpersonal"
+      ],
+      "emotions": [
+        "Disillusionment",
+        "Resignation"
+      ],
+      "emotional_targets": [
+        "Society",
+        "Friend (addressee)"
+      ],
+      "relationship_types": [
+        "Friendship (address form)"
+      ],
+      "love_types": [
+        "Ambiguous"
+      ],
+      "cultural_concepts": [
+        "माया"
+      ],
+      "rhetorical_devices": [
+        "Rhetorical question",
+        "Rhyme (माथि/साथी)"
+      ],
+      "primary_domain": "Economic / Values",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: wealth ranked above love; empty pocket",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Wry",
+      "valence": "Negative",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Observes a value order in which money outranks affection.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Critique"
+        ],
+        "note": null,
+        "raw": "Critique"
+      },
+      "evidence": [
+        "धनसम्पत्ति रहेछ यहाँ मायाभन्दा माथि"
+      ]
+    },
+    "codes": [
+      "MONEY_MATERIALISM",
+      "CLASS_INEQUALITY_CRITIQUE",
+      "DISTRUST_HYPOCRISY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Love and money",
+      "Wealth, class and fair-weather kin"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 4,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 4,
+    "corpus_id": "NVL-004",
+    "status": "active",
+    "text": {
+      "nepali": "एक्कासी बाढी आयो, घर-आँगन बगायो। हेर्दाहेर्दै त्यो भेलले जिन्दगीभरको धन बगायो। घर त फेरि बन्ला, धन फेरि कमाइएला; कठैबरा, छिनभरमै कैयौँको जीवन बगायो।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Ekkāsī bāḍhī āyo, ghar-ā̃gan bagāyo. Herdā-herdai tyo bhelle jindagībharko dhan bagāyo. Ghar ta pheri banlā, dhan pheri kamāielā; kaṭhaibarā, chhinbharmā kaiyaũko jīvan bagāyo.",
+      "transliteration_original": "Ekkāsī bāḍhī āyo, ghar-ā̃gan bagāyo. Herdā-herdai tyo bhelle jindagībharko dhan bagāyo. Ghar ta pheri banlā, dhan pheri kamāielā; kaṭhaibarā, chhinbharmā kaiyaũko jīvan bagāyo.",
+      "transliteration_notes": [],
+      "translation": "A sudden flood came and swept away homes and courtyards. Before our eyes, the torrent carried away wealth accumulated over a lifetime. A house can be rebuilt and wealth can be earned again, but, sadly, many lives were swept away in an instant.",
+      "translation_original": "A sudden flood came and swept away homes and courtyards. Before our eyes, the torrent carried away wealth accumulated over a lifetime. A house can be rebuilt and wealth can be earned again, but, sadly, many lives were swept away in an instant.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Natural disaster",
+      "loss",
+      "vulnerability",
+      "impermanence",
+      "human life"
+    ],
+    "coding": {
+      "text_types": [
+        "Elegy",
+        "Poetic expression"
+      ],
+      "secondary_domains": [
+        "Economic"
+      ],
+      "emotions": [
+        "Grief",
+        "Sorrow",
+        "Compassion"
+      ],
+      "emotional_targets": [
+        "Disaster victims"
+      ],
+      "relationship_types": [
+        "Human–nature"
+      ],
+      "love_types": [],
+      "cultural_concepts": [
+        "कठैबरा (pity interjection)"
+      ],
+      "rhetorical_devices": [
+        "Epistrophe (repeated बगायो)",
+        "Contrast (property vs. life)"
+      ],
+      "primary_domain": "Existential / Disaster",
+      "emotion_intensity": "High",
+      "economic_theme": "Explicit: lifetime wealth lost",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": "Nature",
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Past",
+      "deeper_meaning": "Ranks human life above recoverable property; event-specific rather than a general saying.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "घर त फेरि बन्ला... कैयौँको जीवन बगायो"
+      ]
+    },
+    "codes": [
+      "MORTALITY_RISK"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Likely refers to a specific flood; date/location of the inscription unknown.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Escaped characters",
+        "finding": "Markdown backslashes (-, !) removed in this workbook."
+      }
+    ],
+    "clusters": [
+      "Mortality and the road"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 5,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 5,
+    "corpus_id": "NVL-005",
+    "status": "active",
+    "text": {
+      "nepali": "नेपालीमा ‘माया’ अरे, हिन्दीमा ‘प्यार’; दुई बच्चाकी आमाले पनि ‘अङ्कल’ भन्छे यार।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Nepālīmā “māyā” are, Hindīmā “pyār”; duī bacchākī āmāle pani “aṅkal” bhanche yār.",
+      "transliteration_original": "Nepālīmā “māyā” are, Hindīmā “pyār”; duī bacchākī āmāle pani “aṅkal” bhanche yār.",
+      "transliteration_notes": [],
+      "translation": "In Nepali it's 'maya', in Hindi 'pyaar' — and even a mother of two calls me 'uncle', man!",
+      "translation_original": "In Nepali it is “maya,” and in Hindi it is “pyaar”; even a mother of two children calls someone “uncle,” my friend.",
+      "translation_normalized": "In Nepali it's 'maya', in Hindi 'pyaar' — and even a mother of two calls me 'uncle', man!"
+    },
+    "original_theme": [
+      "Language",
+      "humour",
+      "changing relationships",
+      "popular culture",
+      "multilingualism"
+    ],
+    "coding": {
+      "text_types": [
+        "Humor",
+        "Wordplay",
+        "Couplet"
+      ],
+      "secondary_domains": [
+        "Language",
+        "Ageing"
+      ],
+      "emotions": [
+        "Amusement",
+        "Mild chagrin"
+      ],
+      "emotional_targets": [
+        "Self"
+      ],
+      "relationship_types": [
+        "Driver–passenger"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme (प्यार/यार)",
+        "Code-mixing (Hindi, English 'uncle')"
+      ],
+      "primary_domain": "Humor",
+      "emotion_intensity": "Low",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "Woman (mother of two) used as a measure of the speaker's age",
+      "identity_theme": "Ageing male",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Self-deprecating: even a mother of two calls him 'uncle'",
+      "valence": "Mixed",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "The joke is on the speaker: he is being read as old.",
+      "confidence": "Medium",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "दुई बच्चाकी आमाले पनि 'अङ्कल' भन्छे"
+      ]
+    },
+    "codes": [
+      "HUMOR",
+      "CODE_MIXING_SLANG"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Original translation ('calls someone uncle') misses that the speaker is the one called uncle.",
+      "priority": "High — meaning changes",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Mistranslations",
+        "finding": "See Human_Review (High priority)."
+      }
+    ],
+    "clusters": [
+      "Youth humour and code-mixing"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 6,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 6,
+    "corpus_id": "NVL-006",
+    "status": "active",
+    "text": {
+      "nepali": "लुटेराको बस्तीमा जिन्दगी बित्यो मस्तीमा।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Luṭerāko bastīmā jindagī bityo mastīmā.",
+      "transliteration_original": "Luṭerāko bastīmā jindagī bityo mastīmā.",
+      "transliteration_notes": [],
+      "translation": "Life was spent joyfully in a settlement of looters.",
+      "translation_original": "Life was spent joyfully in a settlement of looters.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Social criticism",
+      "survival",
+      "humour",
+      "inequality",
+      "resilience"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism",
+        "Satire"
+      ],
+      "secondary_domains": [
+        "Possible political"
+      ],
+      "emotions": [
+        "Defiant cheer",
+        "Irony"
+      ],
+      "emotional_targets": [
+        "Society (unspecified 'looters')"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme (बस्तीमा/मस्तीमा)",
+        "Paradox"
+      ],
+      "primary_domain": "Social",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": "Possible critique of exploitative surroundings; not explicit",
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": "Individual — resilient",
+      "humor_irony": "Irony / paradox",
+      "valence": "Mixed",
+      "temporal_orientation": "Past",
+      "deeper_meaning": "Joyful survival amid exploitation.",
+      "confidence": "Low",
+      "alternative_interpretation": "'Looters' could be society, officials, the transport sector itself (self-mockery), or passengers.",
+      "power_hierarchy": {
+        "stances": [
+          "Critique",
+          "Ambiguous"
+        ],
+        "note": "ambiguous",
+        "raw": "Critique (ambiguous)"
+      },
+      "evidence": [
+        "लुटेराको बस्तीमा ... मस्तीमा"
+      ]
+    },
+    "codes": [
+      "HUMOR",
+      "DISTRUST_HYPOCRISY",
+      "HOPE_RESILIENCE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Referent of 'looters' ambiguous.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Distrust of the world"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 7,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 7,
+    "corpus_id": "NVL-007",
+    "status": "active",
+    "text": {
+      "nepali": "उडायो तिम्रो पछ्यौरी, मेरो रफ्तारको के दोष?",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Uḍāyo timro pachhyauṛī, mero raftārko ke doṣ?",
+      "transliteration_original": "Uḍāyo timro pachhyauṛī, mero raftārko ke doṣ?",
+      "transliteration_notes": [],
+      "translation": "My speed blew away your scarf; how is that my fault?",
+      "translation_original": "My speed blew away your scarf; how is that my fault?",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Vehicle culture",
+      "speed",
+      "humour",
+      "flirtation",
+      "masculinity"
+    ],
+    "coding": {
+      "text_types": [
+        "Humor",
+        "Flirtation"
+      ],
+      "secondary_domains": [
+        "Romance",
+        "Gender"
+      ],
+      "emotions": [
+        "Playful bravado"
+      ],
+      "emotional_targets": [
+        "Woman (addressee)"
+      ],
+      "relationship_types": [
+        "Stranger flirtation"
+      ],
+      "love_types": [
+        "Eros (playful)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhetorical question"
+      ],
+      "primary_domain": "Vehicle culture",
+      "emotion_intensity": "Low",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "Male display through speed; deflection of responsibility",
+      "identity_theme": "Driver",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Teasing deflection",
+      "valence": "Positive",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Speed as masculine display; the driver disclaims responsibility for its effects.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Reproduction"
+        ],
+        "note": "mild",
+        "raw": "Reproduction (mild)"
+      },
+      "evidence": [
+        "मेरो रफ्तारको के दोष?"
+      ]
+    },
+    "codes": [
+      "HUMOR",
+      "MASCULINITY",
+      "LOVE_ROMANCE",
+      "DRIVER_IDENTITY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Masculine burden and display"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 8,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 8,
+    "corpus_id": "NVL-008",
+    "status": "active",
+    "text": {
+      "nepali": "प्रभु येशू, म असल गोठालो हुँ। असल गोठालोले आफ्ना भेडाहरूका निम्ति आफ्नो प्राण अर्पण गर्छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Prabhu Yeshu, ma asal goṭhālo hũ. Asal goṭhāle āphnā bheḍāharūkā nimti āphno prāṇ arpaṇ garcha.",
+      "transliteration_original": "Prabhu Yeshu, ma asal goṭhālo hũ. Asal goṭhāle āphnā bheḍāharūkā nimti āphno prāṇ arpaṇ garcha.",
+      "transliteration_notes": [],
+      "translation": "“I am the good shepherd.” The good shepherd gives his life for his sheep.",
+      "translation_original": "“I am the good shepherd.” The good shepherd gives his life for his sheep.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Christian faith",
+      "sacrifice",
+      "religious identity",
+      "care",
+      "moral responsibility"
+    ],
+    "coding": {
+      "text_types": [
+        "Religious quotation"
+      ],
+      "secondary_domains": [
+        "Moral"
+      ],
+      "emotions": [
+        "Devotion",
+        "Reverence"
+      ],
+      "emotional_targets": [
+        "Christ"
+      ],
+      "relationship_types": [
+        "Divine–devotee"
+      ],
+      "love_types": [
+        "Agape (explicit self-sacrifice)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Metaphor (shepherd/sheep)"
+      ],
+      "primary_domain": "Religious",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": "Christian; paraphrase of John 10:11",
+      "gender_theme": null,
+      "identity_theme": "Religious (of the display, not necessarily the owner)",
+      "aspiration": null,
+      "agency": "Divine",
+      "humor_irony": null,
+      "valence": "Positive",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Sacrificial care as an ideal.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "असल गोठालोले ... प्राण अर्पण गर्छ"
+      ]
+    },
+    "codes": [
+      "RELIGION_FATE",
+      "MORAL_ADVICE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Nepali reads as the speaker addressing Jesus while saying 'I am the good shepherd' (in John 10:11 Jesus speaks). Verify the painted wording. Transliteration 'goṭhāle' ≠ गोठालोले.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Transliteration mismatch",
+        "finding": "'goṭhāle' vs गोठालोले; 'restoran' vs रेस्टुरेन्ट."
+      }
+    ],
+    "clusters": [],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 9,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 9,
+    "corpus_id": "NVL-009",
+    "status": "active",
+    "text": {
+      "nepali": "ढिला हुन्छ, तर सबै राम्रो हुन्छ; समय खराब हो, जिन्दगी होइन, साथी।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Ḍhilā hunchha, tara sabai rāmrō hunchha; samaya kharāb ho, jindagī hoina, sāthī.",
+      "transliteration_original": "Ḍhilā hunchha, tara sabai rāmrō hunchha; samaya kharāb ho, jindagī hoina, sāthī.",
+      "transliteration_notes": [],
+      "translation": "It may take time, but everything will be fine; it is the time that is bad, not life itself, my friend.",
+      "translation_original": "It may take time, but everything will be fine; it is the time that is bad, not life itself, my friend.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Hope",
+      "patience",
+      "hardship",
+      "optimism",
+      "resilience"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism",
+        "Encouragement"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Hope",
+        "Patience"
+      ],
+      "emotional_targets": [
+        "Friend / reader"
+      ],
+      "relationship_types": [
+        "Friendship (address form)"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Antithesis (time vs. life)"
+      ],
+      "primary_domain": "Philosophical / Hope",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": "Individual — resilient",
+      "humor_irony": null,
+      "valence": "Positive",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Separates temporary circumstance from the worth of life.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "समय खराब हो, जिन्दगी होइन"
+      ]
+    },
+    "codes": [
+      "HOPE_RESILIENCE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Duplicate of #47 (one-character variant होइन/हैन). Keep one, record the other as variant.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Exact/near duplicates",
+        "finding": "Identical except होइन/हैन."
+      }
+    ],
+    "clusters": [
+      "Hope, patience, endurance"
+    ],
+    "variant": {
+      "group": "dup-9-47",
+      "relation": "near-duplicate (होइन/हैन)"
+    },
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 10,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 10,
+    "corpus_id": "NVL-010",
+    "status": "active",
+    "text": {
+      "nepali": "किन पर्खी बस्थ्यौ र? खाडी जानेलाई धेरै–धेरै बधाई छ; छाडी जानेलाई तिम्रो बाँकी जिन्दगी सुखद अनि सफल बितोस्। यही शुभकामना टाढी जानेलाई माया।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Kina parkhī basthyou ra? Khāḍī jānelāī dherai-dherai badhāī cha; chhāḍī jānelāī timro bā̃kī jindagī sukhad ani safal bitos. Yahī śubhakamana ṭāḍhī jānelāī māyā.",
+      "transliteration_original": "Kina parkhī basthyou ra? Khāḍī jānelāī dherai-dherai badhāī cha; chhāḍī jānelāī timro bā̃kī jindagī sukhad ani safal bitos. Yahī śubhakamana ṭāḍhī jānelāī māyā.",
+      "transliteration_notes": [],
+      "translation": "Why would you have waited? Congratulations to the one going to the Gulf; to the one who left me, may the rest of your life be happy and successful — these good wishes, and love, to the one who went far away.",
+      "translation_original": "Why would you keep waiting? Many congratulations to those going to the Gulf; to those leaving, may the rest of your life be happy and successful. These are my good wishes and love for those going far away.",
+      "translation_normalized": "Why would you have waited? Congratulations to the one going to the Gulf; to the one who left me, may the rest of your life be happy and successful — these good wishes, and love, to the one who went far away."
+    },
+    "original_theme": [
+      "Foreign employment",
+      "migration",
+      "economic aspiration",
+      "separation",
+      "family"
+    ],
+    "coding": {
+      "text_types": [
+        "Personal expression",
+        "Poetic expression"
+      ],
+      "secondary_domains": [
+        "Migration"
+      ],
+      "emotions": [
+        "Wounded goodwill",
+        "Longing",
+        "Possible sarcasm"
+      ],
+      "emotional_targets": [
+        "Former lover"
+      ],
+      "relationship_types": [
+        "Romantic (abandoned)"
+      ],
+      "love_types": [
+        "Eros (lost)"
+      ],
+      "cultural_concepts": [
+        "Gulf (खाडी) labour migration"
+      ],
+      "rhetorical_devices": [
+        "Rhyme (खाडी/छाडी/टाढी)",
+        "Possible sarcasm"
+      ],
+      "primary_domain": "Interpersonal / Romance",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: Gulf migration",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Past/Future",
+      "deeper_meaning": "A farewell that braids migration with romantic abandonment.",
+      "confidence": "Medium",
+      "alternative_interpretation": "(a) sincere farewell to migrants; (b) sarcastic farewell to a lover who left with/for a Gulf migrant.",
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "छाडी जानेलाई"
+      ]
+    },
+    "codes": [
+      "MIGRATION",
+      "LOVE_ROMANCE",
+      "SEPARATION_LOSS"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "'छाडी जाने' = the one who left (me), not 'those leaving'. First clause appears garbled.",
+      "priority": "High — meaning changes",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Mistranslations",
+        "finding": "See Human_Review (High priority)."
+      }
+    ],
+    "clusters": [
+      "Romantic loss and longing",
+      "Gulf migration as default exit"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 11,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 11,
+    "corpus_id": "NVL-011",
+    "status": "active",
+    "text": {
+      "nepali": "केलाउँछु धागोको माला, हार पाएपछि; के हिँड्थ्यो मसँग, कार पाएपछि?",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Kelāũchu dhāgoko mālā, hār pāepachi; ke hĩḍthyo ma-sãga, kār pāepachi?",
+      "transliteration_original": "Kelāũchu dhāgoko mālā, hār pāepachi; ke hĩḍthyo ma-sãga, kār pāepachi?",
+      "transliteration_notes": [],
+      "translation": "Who bothers sorting out a thread garland once they've got a (gold) necklace? Why would she walk with me once she's got a car?",
+      "translation_original": "I will string a thread garland after receiving a necklace; why would someone walk with me after getting a car?",
+      "translation_normalized": "Who bothers sorting out a thread garland once they've got a (gold) necklace? Why would she walk with me once she's got a car?"
+    },
+    "original_theme": [
+      "Materialism",
+      "social status",
+      "wealth",
+      "changing relationships",
+      "consumer culture"
+    ],
+    "coding": {
+      "text_types": [
+        "Couplet",
+        "Social commentary"
+      ],
+      "secondary_domains": [
+        "Economic / Status"
+      ],
+      "emotions": [
+        "Bitterness",
+        "Disillusionment"
+      ],
+      "emotional_targets": [
+        "Former partner"
+      ],
+      "relationship_types": [
+        "Romantic (lost to wealthier rival)"
+      ],
+      "love_types": [
+        "Eros (lost)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme and wordplay (हार/कार)",
+        "Rhetorical questions"
+      ],
+      "primary_domain": "Interpersonal / Romance",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: necklace vs. thread garland; car",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Past",
+      "deeper_meaning": "Love displaced by status goods.",
+      "confidence": "Medium",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Reflection"
+        ],
+        "note": null,
+        "raw": "Reflection"
+      },
+      "evidence": [
+        "के हिँड्थ्यो मसँग, कार पाएपछि?"
+      ]
+    },
+    "codes": [
+      "LOVE_ROMANCE",
+      "SEPARATION_LOSS",
+      "CONSUMER_STATUS",
+      "MONEY_MATERIALISM"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Original translation ('I will string a thread garland') misreads a rhetorical question.",
+      "priority": "High — meaning changes",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Mistranslations",
+        "finding": "See Human_Review (High priority)."
+      }
+    ],
+    "clusters": [
+      "Romantic loss and longing",
+      "Love and money"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 12,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 12,
+    "corpus_id": "NVL-012",
+    "status": "active",
+    "text": {
+      "nepali": "कहाँ मन परोस् अब बाटोमा उभिएर चटपटे र पानीपुरी खान, ठूला–ठूला रेस्टुरेन्ट पार लाने अरू कोही भेटेपछि?",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Kahā̃ mana paros aba bāṭomā ubhiera caṭpaṭe ra pānīpurī khān, ṭhūlā-ṭhūlā restoran pār lāne arū kohī bheṭepachi?",
+      "transliteration_original": "Kahā̃ mana paros aba bāṭomā ubhiera caṭpaṭe ra pānīpurī khān, ṭhūlā-ṭhūlā restoran pār lāne arū kohī bheṭepachi?",
+      "transliteration_notes": [],
+      "translation": "How could I still enjoy standing by the roadside to eat chatpate and panipuri after meeting someone else who takes me to big restaurants?",
+      "translation_original": "How could I still enjoy standing by the roadside to eat chatpate and panipuri after meeting someone else who takes me to big restaurants?",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Consumer culture",
+      "social status",
+      "romantic relationships",
+      "changing aspirations",
+      "class"
+    ],
+    "coding": {
+      "text_types": [
+        "Personal expression",
+        "Satire"
+      ],
+      "secondary_domains": [
+        "Class / Consumption"
+      ],
+      "emotions": [
+        "Bitterness",
+        "Wounded pride"
+      ],
+      "emotional_targets": [
+        "Former partner"
+      ],
+      "relationship_types": [
+        "Romantic (lost to wealthier rival)"
+      ],
+      "love_types": [
+        "Eros (lost)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhetorical question",
+        "Ventriloquism (voices the ex)"
+      ],
+      "primary_domain": "Interpersonal / Romance",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: street food vs. big restaurants as class markers",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Past",
+      "deeper_meaning": "Consumption sites encode class; romance follows them.",
+      "confidence": "Medium",
+      "alternative_interpretation": "Could be the speaker's own voice rather than ventriloquizing the ex.",
+      "power_hierarchy": {
+        "stances": [
+          "Critique"
+        ],
+        "note": null,
+        "raw": "Critique"
+      },
+      "evidence": [
+        "चटपटे र पानीपुरी ... ठूला–ठूला रेस्टुरेन्ट"
+      ]
+    },
+    "codes": [
+      "LOVE_ROMANCE",
+      "SEPARATION_LOSS",
+      "CONSUMER_STATUS",
+      "CLASS_INEQUALITY_CRITIQUE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Transliteration mismatch",
+        "finding": "'goṭhāle' vs गोठालोले; 'restoran' vs रेस्टुरेन्ट."
+      }
+    ],
+    "clusters": [
+      "Romantic loss and longing",
+      "Love and money"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 13,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 13,
+    "corpus_id": "NVL-013",
+    "status": "active",
+    "text": {
+      "nepali": "हाइ भन्दा ‘बाइ’ रे, नम्बर देऊ भन्दा ‘नाइ’ रे; रिस उठेर ‘लभ यू’ भन्देको, ‘ठट्टा नगर्नु दाइ’ रे।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Hāi bhanda “bāi” re, nambar deu bhanda “nāi” re; ris uṭhera “love you” bhandeko, “ṭaṭṭā nagarnu dāi” re.",
+      "transliteration_original": "Hāi bhanda “bāi” re, nambar deu bhanda “nāi” re; ris uṭhera “love you” bhandeko, “ṭaṭṭā nagarnu dāi” re.",
+      "transliteration_notes": [],
+      "translation": "Say “Hi,” and she says “Bye”; ask for her number, and she says “No”; say “I love you” in frustration, and she says, “Don’t joke, brother.” **I call her I call her darling but she calls me dustbin**.",
+      "translation_original": "Say “Hi,” and she says “Bye”; ask for her number, and she says “No”; say “I love you” in frustration, and she says, “Don’t joke, brother.” **I call her I call her darling but she calls me dustbin**.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Youth culture",
+      "courtship",
+      "gender relations",
+      "rejection",
+      "humour",
+      "English influence"
+    ],
+    "coding": {
+      "text_types": [
+        "Humor",
+        "Courtship narrative"
+      ],
+      "secondary_domains": [
+        "Language"
+      ],
+      "emotions": [
+        "Frustration",
+        "Amusement"
+      ],
+      "emotional_targets": [
+        "Woman"
+      ],
+      "relationship_types": [
+        "Courtship (rejected)"
+      ],
+      "love_types": [
+        "Eros (unrequited)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme (बाइ/नाइ/दाइ)",
+        "Code-mixing (hi, bye, love you)"
+      ],
+      "primary_domain": "Interpersonal / Youth",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "Courtship script; rejection via 'दाइ' (brother-zoning)",
+      "identity_theme": "Youth",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Escalating rejection",
+      "valence": "Mixed",
+      "temporal_orientation": "Past",
+      "deeper_meaning": "Comic narration of failed courtship.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "'ठट्टा नगर्नु दाइ' रे"
+      ]
+    },
+    "codes": [
+      "HUMOR",
+      "LOVE_ROMANCE",
+      "CODE_MIXING_SLANG",
+      "WOMEN_REPRESENTATION"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Translation field contains an appended bold English line ('I call her I call her darling but she calls me dustbin') absent from the Nepali; likely a separate inscription. Split or remove.",
+      "priority": "High — meaning changes",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Contaminated field",
+        "finding": "Unrelated English line appended in bold to translation."
+      }
+    ],
+    "clusters": [
+      "Youth humour and code-mixing"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 14,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 14,
+    "corpus_id": "NVL-014",
+    "status": "active",
+    "text": {
+      "nepali": "दुवै नभए कतार छ, हामीलाई अलिक हतार छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Duvai nabhae Qatar cha, hāmīlāī alik hatār cha.",
+      "transliteration_original": "Duvai nabhae Qatar cha, hāmīlāī alik hatār cha.",
+      "transliteration_notes": [],
+      "translation": "If neither of the two works, Qatar is there; we are in somewhat of a hurry.",
+      "translation_original": "If neither of the two works, Qatar is there; we are in somewhat of a hurry.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Foreign employment",
+      "migration",
+      "economic pressure",
+      "youth aspiration"
+    ],
+    "coding": {
+      "text_types": [
+        "Slogan",
+        "Humor"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Urgency",
+        "Resigned humour"
+      ],
+      "emotional_targets": [
+        "Self / peers"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme (कतार/हतार)"
+      ],
+      "primary_domain": "Economic / Migration",
+      "emotion_intensity": "Low",
+      "economic_theme": "Explicit: Qatar as fallback",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Youth|Migrant",
+      "aspiration": "Migration as default exit",
+      "agency": "Constrained",
+      "humor_irony": "Deadpan",
+      "valence": "Mixed",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Labour migration as the default option.",
+      "confidence": "Medium",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "दुवै नभए कतार छ"
+      ]
+    },
+    "codes": [
+      "MIGRATION",
+      "HUMOR"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "'दुवै' (both) has no referent; likely a fragment of a longer couplet (cf. #54).",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Shared rhyme formula",
+        "finding": "कतार/हतार used in both."
+      }
+    ],
+    "clusters": [
+      "Gulf migration as default exit"
+    ],
+    "variant": {
+      "group": "rhyme-katar-hatar",
+      "relation": "shared rhyme formula (कतार/हतार)"
+    },
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 15,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 15,
+    "corpus_id": "NVL-015",
+    "status": "active",
+    "text": {
+      "nepali": "गाडी हो मुगालीको, आवाज दिन्छ फाइबरको; दुनियाँका छोरी पोइल जान्छन्, दोष किन ड्राइभरको?",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Gāḍī ho Mugālīko, āwāj dincha phāibarko; duniyākā chorī poil jānchan, doṣ kina ḍrāibarko?",
+      "transliteration_original": "Gāḍī ho Mugālīko, āwāj dincha phāibarko; duniyākā chorī poil jānchan, doṣ kina ḍrāibarko?",
+      "transliteration_notes": [],
+      "translation": "The vehicle belongs to a Mugali (a person from Mugu); it sounds like fibre. The world's daughters elope — why blame the driver?",
+      "translation_original": "The vehicle belongs to Mugali and makes a sound like fibre; girls in this world marry and leave, so why blame the driver?",
+      "translation_normalized": "The vehicle belongs to a Mugali (a person from Mugu); it sounds like fibre. The world's daughters elope — why blame the driver?"
+    },
+    "original_theme": [
+      "Marriage",
+      "gender",
+      "responsibility and blame",
+      "mobility",
+      "humour"
+    ],
+    "coding": {
+      "text_types": [
+        "Couplet",
+        "Humor"
+      ],
+      "secondary_domains": [
+        "Driver identity",
+        "Place"
+      ],
+      "emotions": [
+        "Defensiveness",
+        "Playful"
+      ],
+      "emotional_targets": [
+        "Society"
+      ],
+      "relationship_types": [
+        "Driver–society"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme (फाइबर/ड्राइभर)",
+        "Rhetorical question"
+      ],
+      "primary_domain": "Gender",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "Women's elopement (पोइल जानु); deflects blame from drivers",
+      "identity_theme": "Regional (मुगाली, Mugu)|Driver",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Deflection",
+      "valence": "Mixed",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Responds to a stereotype of drivers as eloping partners; places agency on women.",
+      "confidence": "Medium",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Reproduction",
+          "Ambiguous"
+        ],
+        "note": "ambiguous",
+        "raw": "Reproduction (ambiguous)"
+      },
+      "evidence": [
+        "छोरी पोइल जान्छन्, दोष किन ड्राइभरको?"
+      ]
+    },
+    "codes": [
+      "DRIVER_IDENTITY",
+      "WOMEN_REPRESENTATION",
+      "PLACE_IDENTITY",
+      "HUMOR"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "'पोइल जानु' means a woman eloping/leaving with a man, not 'marry and leave'. 'Mugali' is a demonym, not a name. 'आवाज दिन्छ फाइबरको' unclear.",
+      "priority": "High — meaning changes",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Mistranslations",
+        "finding": "See Human_Review (High priority)."
+      }
+    ],
+    "clusters": [
+      "Karnali place-names"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 16,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 16,
+    "corpus_id": "NVL-016",
+    "status": "active",
+    "text": {
+      "nepali": "हेर्दै जाऊ, मेरो यादमा रुने बनाउँछु; फोटो च्याती आगो बाल्ने तिम्रा हातहरू हरेक पल मेरै तस्बिर छुने बनाउँछु।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Herdai jāu, mero yādamā rune banāũchu; phoṭo chyātī āgo bālne timrā hātarū harek pal merai tasbīr chhune banāũchu.",
+      "transliteration_original": "Herdai jāu, mero yādamā rune banāũchu; phoṭo chyātī āgo bālne timrā hātarū harek pal merai tasbīr chhune banāũchu.",
+      "transliteration_notes": [],
+      "translation": "Just wait and see; I will make you cry in my memory. I will make the hands that tore up my photograph and burned it touch my picture every moment.",
+      "translation_original": "Just wait and see; I will make you cry in my memory. I will make the hands that tore up my photograph and burned it touch my picture every moment.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Love",
+      "heartbreak",
+      "memory",
+      "separation",
+      "emotional attachment"
+    ],
+    "coding": {
+      "text_types": [
+        "Personal expression",
+        "Poetic expression"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Wounded love",
+        "Vindictive longing"
+      ],
+      "emotional_targets": [
+        "Former lover"
+      ],
+      "relationship_types": [
+        "Romantic (rejected)"
+      ],
+      "love_types": [
+        "Eros (lost)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Hyperbole",
+        "Image (burning photograph)"
+      ],
+      "primary_domain": "Interpersonal / Romance",
+      "emotion_intensity": "High",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": "Individual — claims control over the ex's future feelings",
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Heartbreak turned into a promise of emotional reversal.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "मेरो यादमा रुने बनाउँछु"
+      ]
+    },
+    "codes": [
+      "LOVE_ROMANCE",
+      "SEPARATION_LOSS"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Romantic loss and longing"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 17,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 17,
+    "corpus_id": "NVL-017",
+    "status": "active",
+    "text": {
+      "nepali": "ड्राइभर भन्छ: सबैले मलाई कर्म मेरो मोटर गुडाउने; कच्ची बाटो हिँड्नुपर्छ, कान्छी, रहर होइन धुलो उडाउने।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Ḍrāibar bhancha: sabaile malāī karma mero moṭar guḍāune; kacchī bāṭo hĩḍnuparcha, kāñchhī, rahar hoina dhulo uḍāune.",
+      "transliteration_original": "Ḍrāibar bhancha: sabaile malāī karma mero moṭar guḍāune; kacchī bāṭo hĩḍnupardcha, kāñchhī, rahar hoina dhulo uḍāune.",
+      "transliteration_notes": [
+        "'-pardcha' corrected to '-parcha' (QC log)"
+      ],
+      "translation": "The driver says: my work is to drive the vehicle; I have to travel on rough roads, dear, and raising dust is not my hobby.",
+      "translation_original": "The driver says: my work is to drive the vehicle; I have to travel on rough roads, dear, and raising dust is not my hobby.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Dignity of labour",
+      "occupation",
+      "rural roads",
+      "infrastructure",
+      "working conditions"
+    ],
+    "coding": {
+      "text_types": [
+        "Personal expression"
+      ],
+      "secondary_domains": [
+        "Infrastructure"
+      ],
+      "emotions": [
+        "Weariness",
+        "Self-justification"
+      ],
+      "emotional_targets": [
+        "Woman (कान्छी)",
+        "Passers-by"
+      ],
+      "relationship_types": [
+        "Driver–public"
+      ],
+      "love_types": [],
+      "cultural_concepts": [
+        "कर्म (duty/occupation)"
+      ],
+      "rhetorical_devices": [
+        "Rhyme (गुडाउने/उडाउने)"
+      ],
+      "primary_domain": "Occupational",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Implicit: work conditions",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Driver",
+      "aspiration": null,
+      "agency": "Constrained",
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Dust is a condition of the work, not a choice.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "रहर होइन धुलो उडाउने"
+      ]
+    },
+    "codes": [
+      "DRIVER_IDENTITY",
+      "LABOR_DIGNITY"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "First clause syntax garbled ('सबैले मलाई कर्म मेरो'); verify against source photo.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Transliteration error",
+        "finding": "'-pardcha' for पर्छ (should be 'parcha')."
+      }
+    ],
+    "clusters": [
+      "The fare and the driver's dignity"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 18,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 18,
+    "corpus_id": "NVL-018",
+    "status": "active",
+    "text": {
+      "nepali": "बाल नदिनेहरूको अगाडि बबाल भएर हिँड्न मन छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Bāl nadineharūko agāḍi babāl bhaera hĩḍna man cha.",
+      "transliteration_original": "Bāl nadineharūko agāḍi babāl bhaera hĩḍna man cha.",
+      "transliteration_notes": [],
+      "translation": "I want to strut, looking awesome, in front of those who don't give a damn about me.",
+      "translation_original": "I want to walk boldly before those who pay no attention to me.",
+      "translation_normalized": "I want to strut, looking awesome, in front of those who don't give a damn about me."
+    },
+    "original_theme": [
+      "Self-respect",
+      "recognition",
+      "confidence",
+      "youth culture",
+      "social status"
+    ],
+    "coding": {
+      "text_types": [
+        "Slang",
+        "Self-assertion"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Defiant pride"
+      ],
+      "emotional_targets": [
+        "Those who ignore the speaker"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Wordplay (बाल/बबाल)",
+        "Slang"
+      ],
+      "primary_domain": "Self-regard",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Youth",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Swagger",
+      "valence": "Positive",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Recognition sought through display.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "बाल नदिनेहरू ... बबाल"
+      ]
+    },
+    "codes": [
+      "SELF_RESPECT",
+      "CODE_MIXING_SLANG"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Self-assertion and swagger",
+      "Youth humour and code-mixing"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 19,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 19,
+    "corpus_id": "NVL-019",
+    "status": "active",
+    "text": {
+      "nepali": "घरि–घरि यही जताउन आउँछ तिम्रो याद; म तिमी हुँ भनी बताउन आउँछ तिम्रो याद।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Gharī-ghari yahī jatauna āũcha timro yād; ma timī hũ bhanī batauna āũcha timro yād.",
+      "transliteration_original": "Gharī-ghari yahī jatauna āũcha timro yād; ma timī hũ bhanī batauna āũcha timro yād.",
+      "transliteration_notes": [],
+      "translation": "Your memory keeps returning again and again to remind me; your memory comes to tell me that I am you.",
+      "translation_original": "Your memory keeps returning again and again to remind me; your memory comes to tell me that I am you.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Memory",
+      "love",
+      "identity",
+      "emotional attachment",
+      "nostalgia"
+    ],
+    "coding": {
+      "text_types": [
+        "Poetic expression"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Longing",
+        "Attachment"
+      ],
+      "emotional_targets": [
+        "Lover"
+      ],
+      "relationship_types": [
+        "Romantic (separated)"
+      ],
+      "love_types": [
+        "Eros (longing)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Repetition (आउँछ तिम्रो याद)"
+      ],
+      "primary_domain": "Interpersonal / Romance",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Merged self (म तिमी हुँ)",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Past/Present",
+      "deeper_meaning": "Memory so persistent it dissolves self/other boundaries.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "म तिमी हुँ भनी"
+      ]
+    },
+    "codes": [
+      "LOVE_ROMANCE",
+      "SEPARATION_LOSS"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Romantic loss and longing"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 20,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 20,
+    "corpus_id": "NVL-020",
+    "status": "active",
+    "text": {
+      "nepali": "मनमा जति नै पीडा भए पनि, ओठमा हाँसो लिएर चढ; तिमी मेरै GF भए पनि, झर्ने बेला भाडा दिएर झर।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Manmā jati nai pīḍā bhae pani, oṭhmā hā̃so lie-ra chaḍha; timī merai GF bhae pani, jharne belā bhāḍā die-ra jhara.",
+      "transliteration_original": "Manmā jati nai pīḍā bhae pani, oṭhmā hā̃so lie-ra chaḍha; timī merai GF bhae pani, jharne belā bhāḍā die-ra jhara.",
+      "transliteration_notes": [],
+      "translation": "No matter how much pain you have in your heart, board with a smile; even if you are my girlfriend, pay the fare when you get off.",
+      "translation_original": "No matter how much pain you have in your heart, board with a smile; even if you are my girlfriend, pay the fare when you get off.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Emotional resilience",
+      "romantic relationships",
+      "money",
+      "humour",
+      "professional boundaries"
+    ],
+    "coding": {
+      "text_types": [
+        "Humor",
+        "Couplet"
+      ],
+      "secondary_domains": [
+        "Romance"
+      ],
+      "emotions": [
+        "Wry"
+      ],
+      "emotional_targets": [
+        "Girlfriend / passenger"
+      ],
+      "relationship_types": [
+        "Romantic (playful)"
+      ],
+      "love_types": [
+        "Eros (playful)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme (चढ/झर)",
+        "Code-mixing (GF)"
+      ],
+      "primary_domain": "Economic / Livelihood",
+      "emotion_intensity": "Low",
+      "economic_theme": "Explicit: fare",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Love vs. fare",
+      "valence": "Mixed",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Affection does not suspend payment.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "झर्ने बेला भाडा दिएर झर"
+      ]
+    },
+    "codes": [
+      "FARE_LIVELIHOOD",
+      "HUMOR",
+      "LOVE_ROMANCE",
+      "CODE_MIXING_SLANG",
+      "HOPE_RESILIENCE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Template variant of #23; record as variants of one inscription type.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Template variants",
+        "finding": "Same fare-and-love template; record as variants."
+      }
+    ],
+    "clusters": [
+      "Love and money",
+      "The fare and the driver's dignity",
+      "Hope, patience, endurance",
+      "Youth humour and code-mixing"
+    ],
+    "variant": {
+      "group": "tpl-fare-love",
+      "relation": "template variant (fare-and-love)"
+    },
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 21,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 21,
+    "corpus_id": "NVL-021",
+    "status": "active",
+    "text": {
+      "nepali": "जङ्गलको बाटो हिँड्दैछु, सिकारी नभन्नु; लागेको भाडा माग्छु, भिकारी नभन्नु।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Jaṅgalko bāṭo hĩḍdaichu, sikārī nabhannu; lāgeko bhāḍā māgchu, bhikārī nabhannu.",
+      "transliteration_original": "Jaṅgalko bāṭo hĩḍdaichu, sikārī nabhannu; lāgeko bhāḍā māgchu, bhikārī nabhannu.",
+      "transliteration_notes": [],
+      "translation": "I am travelling along a forest road, so do not call me a hunter; I ask for the fare that is due, so do not call me a beggar.",
+      "translation_original": "I am travelling along a forest road, so do not call me a hunter; I ask for the fare that is due, so do not call me a beggar.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Dignity of labour",
+      "livelihood",
+      "poverty and stigma",
+      "self-respect",
+      "rural life"
+    ],
+    "coding": {
+      "text_types": [
+        "Couplet"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Indignation",
+        "Self-respect"
+      ],
+      "emotional_targets": [
+        "Passengers"
+      ],
+      "relationship_types": [
+        "Driver–passenger"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme (सिकारी/भिकारी)",
+        "Analogy"
+      ],
+      "primary_domain": "Occupational dignity",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: due fare",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Driver",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Asking for earned payment is not begging.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Resistance"
+        ],
+        "note": "to stigma",
+        "raw": "Resistance (to stigma)"
+      },
+      "evidence": [
+        "लागेको भाडा माग्छु, भिकारी नभन्नु"
+      ]
+    },
+    "codes": [
+      "FARE_LIVELIHOOD",
+      "LABOR_DIGNITY",
+      "SELF_RESPECT"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "The fare and the driver's dignity"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 22,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 22,
+    "corpus_id": "NVL-022",
+    "status": "active",
+    "text": {
+      "nepali": "नपल्टाउनु अब मेरो जिन्दगीका पुराना पानाहरू; पहिले जे थियो, त्यस्तै छैन। अहिले कस्तो छु, यो कसैलाई थाहा छैन।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Napalṭāunu aba mero jindagīkā purānā pānāharū; pahile je thiyo, tyastai chaina. Ahile kasto chu, yo kasailāī thāhā chaina.",
+      "transliteration_original": "Napalṭāunu aba mero jindagīkā purānā pānāharū; pahile je thiyo, tyastai chaina. Ahile kasto chu, yo kasailāī thāhā chaina.",
+      "transliteration_notes": [],
+      "translation": "Do not turn back the old pages of my life. I am no longer what I was before. No one knows what I am like now.",
+      "translation_original": "Do not turn back the old pages of my life. I am no longer what I was before. No one knows what I am like now.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Changing identity",
+      "transformation",
+      "past and present",
+      "memory",
+      "social judgment"
+    ],
+    "coding": {
+      "text_types": [
+        "Personal expression"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Guardedness",
+        "Quiet pride"
+      ],
+      "emotional_targets": [
+        "Others who judge"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Metaphor (pages of life)"
+      ],
+      "primary_domain": "Self / Identity",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Transformed self",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Past vs. Present",
+      "deeper_meaning": "Refusal to be defined by one's past.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "पहिले जे थियो, त्यस्तै छैन"
+      ]
+    },
+    "codes": [
+      "SELF_RESPECT"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Self-assertion and swagger"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 23,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 23,
+    "corpus_id": "NVL-023",
+    "status": "active",
+    "text": {
+      "nepali": "सुन माया, आँखाभरि आँसु भए पनि ओठमा मुस्कान लिएर चढ; तिमी मेरी प्यारी भए पनि भाडा दिएर झर।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Suna māyā, ā̃khābhari ā̃su bhae pani oṭhmā muskān lie-ra chaḍha; timī merī pyārī bhae pani bhāḍā die-ra jhara.",
+      "transliteration_original": "Suna māyā, ā̃khābhari ā̃su bhae pani oṭhmā muskān lie-ra chaḍha; timī merī pyārī bhae pani bhāḍā die-ra jhara.",
+      "transliteration_notes": [],
+      "translation": "Listen, my love: even if your eyes are filled with tears, board with a smile; even if you are my beloved, pay the fare when you get off.",
+      "translation_original": "Listen, my love: even if your eyes are filled with tears, board with a smile; even if you are my beloved, pay the fare when you get off.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Love and separation",
+      "emotional resilience",
+      "livelihood",
+      "humour",
+      "professional responsibility"
+    ],
+    "coding": {
+      "text_types": [
+        "Humor",
+        "Couplet"
+      ],
+      "secondary_domains": [
+        "Romance"
+      ],
+      "emotions": [
+        "Wry tenderness"
+      ],
+      "emotional_targets": [
+        "Beloved / passenger"
+      ],
+      "relationship_types": [
+        "Romantic (playful)"
+      ],
+      "love_types": [
+        "Eros (playful)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme (चढ/झर)"
+      ],
+      "primary_domain": "Economic / Livelihood",
+      "emotion_intensity": "Low",
+      "economic_theme": "Explicit: fare",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Love vs. fare",
+      "valence": "Mixed",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Same template as #20 with tears in place of pain.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "भाडा दिएर झर"
+      ]
+    },
+    "codes": [
+      "FARE_LIVELIHOOD",
+      "HUMOR",
+      "LOVE_ROMANCE",
+      "HOPE_RESILIENCE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Template variant of #20.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Template variants",
+        "finding": "Same fare-and-love template; record as variants."
+      }
+    ],
+    "clusters": [
+      "Love and money",
+      "The fare and the driver's dignity",
+      "Hope, patience, endurance"
+    ],
+    "variant": {
+      "group": "tpl-fare-love",
+      "relation": "template variant (fare-and-love)"
+    },
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 24,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 24,
+    "corpus_id": "NVL-024",
+    "status": "active",
+    "text": {
+      "nepali": "निद्रा के हो, ड्राइभरलाई सोध; पीडा के हो, परदेशीलाई सोध; आँसु के हो, आमालाई सोध; भोक के हो, अनाथ बच्चालाई सोध; जिन्दगी के हो, बुबालाई सोध; जलन के हो, आफन्तलाई सोध।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Nidrā ke ho, ḍrāibar-lāī sodha; pīḍā ke ho, pardeshī-lāī sodha; ā̃su ke ho, āmā-lāī sodha; bhok ke ho, anāth bacchā-lāī sodha; jindagī ke ho, bubā-lāī sodha; jalan ke ho, āphant-lāī sodha.",
+      "transliteration_original": "Nidrā ke ho, ḍrāibar-lāī sodha; pīḍā ke ho, pardeshī-lāī sodha; ā̃su ke ho, āmā-lāī sodha; bhok ke ho, anāth bacchā-lāī sodha; jindagī ke ho, bubā-lāī sodha; jalan ke ho, āphant-lāī sodha.",
+      "transliteration_notes": [],
+      "translation": "Ask a driver what sleep is; ask a migrant what pain is; ask a mother what tears are; ask an orphaned child what hunger is; ask a father what life is; ask relatives what jealousy is.",
+      "translation_original": "Ask a driver what sleep is; ask a migrant what pain is; ask a mother what tears are; ask an orphaned child what hunger is; ask a father what life is; ask relatives what jealousy is.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Labour and exhaustion",
+      "migration",
+      "motherhood",
+      "poverty",
+      "orphanhood",
+      "family",
+      "jealousy",
+      "human suffering"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism",
+        "List poem"
+      ],
+      "secondary_domains": [
+        "Family",
+        "Labour",
+        "Migration"
+      ],
+      "emotions": [
+        "Pathos",
+        "Sorrow"
+      ],
+      "emotional_targets": [
+        "Social roles"
+      ],
+      "relationship_types": [
+        "Family",
+        "Kin"
+      ],
+      "love_types": [],
+      "cultural_concepts": [
+        "जलन (jealousy) attributed to relatives"
+      ],
+      "rhetorical_devices": [
+        "Anaphora ('X के हो, Y लाई सोध')"
+      ],
+      "primary_domain": "Existential / Suffering",
+      "emotion_intensity": "High",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Driver|Migrant|Mother|Father|Orphan",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Each role is defined by its characteristic suffering; relatives defined by jealousy.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "निद्रा के हो, ड्राइभरलाई सोध..."
+      ]
+    },
+    "codes": [
+      "DRIVER_IDENTITY",
+      "LABOR_DIGNITY",
+      "MIGRATION",
+      "FAMILY",
+      "DISTRUST_HYPOCRISY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Gulf migration as default exit",
+      "Family and parents",
+      "Distrust of the world"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 25,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 25,
+    "corpus_id": "NVL-025",
+    "status": "active",
+    "text": {
+      "nepali": "चौरजहारीमा चट्ट कम्मर छिनेको; जाने भए जाम कान्छी, म त सुर्खेततिर हिँडेको।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Caurjahārīmā caṭṭa kammar chineko; jāne bhae jām kāñchhī, ma ta Surkhet-tira hĩḍeko.",
+      "transliteration_original": "Caurjahārīmā caṭṭa kammar chineko; jāne bhae jām kāñchhī, ma ta Surkhet-tira hĩḍeko.",
+      "transliteration_notes": [],
+      "translation": "In Chaurjahari, with a strikingly slender waist; if you want to come, let us go, dear—I am heading toward Surkhet.",
+      "translation_original": "In Chaurjahari, with a strikingly slender waist; if you want to come, let us go, dear—I am heading toward Surkhet.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Local identity",
+      "mobility",
+      "romance",
+      "regional geography",
+      "popular culture"
+    ],
+    "coding": {
+      "text_types": [
+        "Folk-song line",
+        "Flirtation"
+      ],
+      "secondary_domains": [
+        "Place"
+      ],
+      "emotions": [
+        "Playful desire"
+      ],
+      "emotional_targets": [
+        "Woman (कान्छी)"
+      ],
+      "relationship_types": [
+        "Flirtation"
+      ],
+      "love_types": [
+        "Eros"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Invitation formula"
+      ],
+      "primary_domain": "Romance",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "Female body described (slender waist)",
+      "identity_theme": "Regional (Chaurjahari → Surkhet)",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Positive",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Karnali route geography carries a romantic invitation.",
+      "confidence": "Medium",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Reproduction"
+        ],
+        "note": "mild",
+        "raw": "Reproduction (mild)"
+      },
+      "evidence": [
+        "चौरजहारीमा ... सुर्खेततिर"
+      ]
+    },
+    "codes": [
+      "PLACE_IDENTITY",
+      "LOVE_ROMANCE",
+      "WOMEN_REPRESENTATION"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Resembles a lok-geet line; check if quoted from a known song.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Karnali place-names"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 26,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 26,
+    "corpus_id": "NVL-026",
+    "status": "active",
+    "text": {
+      "nepali": "तिमी त नफर्किने खोला रहेछौ, तर म भने किनारा बनी पर्खिरहेँ। बाटो कठिन भए पनि हिम्मत हारिन्न।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Timī ta nafarkine kholā rahechau, tara ma bhane kinārā banī parkhirahẽ. Bāṭo kaṭhin bhae pani himmat hārinna.",
+      "transliteration_original": "Timī ta nafarkine kholā rahechau, tara ma bhane kinārā banī parkhirahẽ. Bāṭo kaṭhin bhae pani himmat hārinna.",
+      "transliteration_notes": [],
+      "translation": "You are like a river that never returns, yet I remain waiting like its shore. Even if the road is difficult, I will not lose courage.",
+      "translation_original": "You are like a river that never returns, yet I remain waiting like its shore. Even if the road is difficult, I will not lose courage.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Love and separation",
+      "waiting",
+      "perseverance",
+      "hardship",
+      "hope"
+    ],
+    "coding": {
+      "text_types": [
+        "Poetic expression"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Longing",
+        "Perseverance"
+      ],
+      "emotional_targets": [
+        "Absent lover"
+      ],
+      "relationship_types": [
+        "Romantic (separated)"
+      ],
+      "love_types": [
+        "Eros (waiting)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Metaphor (river / shore)"
+      ],
+      "primary_domain": "Interpersonal / Romance",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": "Individual — resilient",
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Past/Future",
+      "deeper_meaning": "Waiting as fidelity; second sentence generalizes to courage.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "नफर्किने खोला ... किनारा बनी पर्खिरहेँ"
+      ]
+    },
+    "codes": [
+      "LOVE_ROMANCE",
+      "SEPARATION_LOSS",
+      "HOPE_RESILIENCE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Second sentence may be a separate slogan joined to the first.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Romantic loss and longing",
+      "Hope, patience, endurance"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 27,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 27,
+    "corpus_id": "NVL-027",
+    "status": "active",
+    "text": {
+      "nepali": "सागरझैँ शान्त बन, तुफानझैँ जोश गर; दुनियाँ सारा स्वार्थी छ, कदम–कदममा होस गर।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Sāgarjhaĩ śānta bana, tufān-jhaĩ jośa gara; duniyā sārā svārthī cha, kadam-kadammā hos gara.",
+      "transliteration_original": "Sāgarjhaĩ śānta bana, tufān-jhaĩ jośa gara; duniyā sārā svārthī cha, kadam-kadammā hos gara.",
+      "transliteration_notes": [],
+      "translation": "Be calm like the ocean and passionate like a storm; the world is full of self-interest, so be cautious at every step.",
+      "translation_original": "Be calm like the ocean and passionate like a storm; the world is full of self-interest, so be cautious at every step.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Self-control",
+      "ambition",
+      "caution",
+      "distrust",
+      "social reality",
+      "personal wisdom"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism",
+        "Advice"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Vigilance"
+      ],
+      "emotional_targets": [
+        "Reader"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Simile (ocean / storm)"
+      ],
+      "primary_domain": "Moral / Advice",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Balance of calm and passion amid a selfish world.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "दुनियाँ सारा स्वार्थी छ"
+      ]
+    },
+    "codes": [
+      "MORAL_ADVICE",
+      "DISTRUST_HYPOCRISY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Distrust of the world"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 28,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 28,
+    "corpus_id": "NVL-028",
+    "status": "active",
+    "text": {
+      "nepali": "यो पैसा कसले बनायो? जसले बनायो, बेकार बनायो। हुनेलाई त ठिकै छ, तर नहुनेलाई दिग्दार बनायो।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Yo paisā kasle banāyo? Jasle banāyo, bekār banāyo. Hunelāī ta ṭhikai cha, tara nahunelāī digdār banāyo.",
+      "transliteration_original": "Yo paisā kasle banāyo? Jasle banāyo, bekār banāyo. Hunelāī ta ṭhikai cha, tara nahunelāī digdār banāyo.",
+      "transliteration_notes": [],
+      "translation": "Who created this money? Whoever created it made it troublesome. It may be fine for those who have it, but it has made life difficult for those who do not.",
+      "translation_original": "Who created this money? Whoever created it made it troublesome. It may be fine for those who have it, but it has made life difficult for those who do not.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Money and inequality",
+      "poverty",
+      "economic injustice",
+      "materialism",
+      "social frustration"
+    ],
+    "coding": {
+      "text_types": [
+        "Social commentary"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Frustration"
+      ],
+      "emotional_targets": [
+        "Money / unnamed creator"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhetorical question",
+        "Rhyme (बनायो)"
+      ],
+      "primary_domain": "Economic / Inequality",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: haves vs. have-nots",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Money as the source of unequal suffering.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Critique"
+        ],
+        "note": null,
+        "raw": "Critique"
+      },
+      "evidence": [
+        "नहुनेलाई दिग्दार बनायो"
+      ]
+    },
+    "codes": [
+      "MONEY_MATERIALISM",
+      "CLASS_INEQUALITY_CRITIQUE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Wealth, class and fair-weather kin"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 29,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 29,
+    "corpus_id": "NVL-029",
+    "status": "active",
+    "text": {
+      "nepali": "बितेर जानेछ यो दुःखको घडी पनि; अलिकति धैर्य गरिदेऊ न, आमा।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Biter jānecha yo duḥkhako ghaḍī pani; alikati dhairya garideu na, āmā.",
+      "transliteration_original": "Biter jānecha yo duḥkhako ghaḍī pani; alikati dhairya garideu na, āmā.",
+      "transliteration_notes": [],
+      "translation": "This difficult time will also pass; please have a little patience, Mother.",
+      "translation_original": "This difficult time will also pass; please have a little patience, Mother.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Hope",
+      "family",
+      "hardship",
+      "patience",
+      "emotional support",
+      "resilience"
+    ],
+    "coding": {
+      "text_types": [
+        "Personal expression",
+        "Encouragement"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Hope",
+        "Tenderness"
+      ],
+      "emotional_targets": [
+        "Mother"
+      ],
+      "relationship_types": [
+        "Parent–child"
+      ],
+      "love_types": [
+        "Storge"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Direct address"
+      ],
+      "primary_domain": "Family / Hope",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": "Individual — resilient",
+      "humor_irony": null,
+      "valence": "Positive",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Child comforting mother through hardship.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "अलिकति धैर्य गरिदेऊ न, आमा"
+      ]
+    },
+    "codes": [
+      "FAMILY",
+      "HOPE_RESILIENCE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Family and parents",
+      "Hope, patience, endurance"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 30,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 30,
+    "corpus_id": "NVL-030",
+    "status": "active",
+    "text": {
+      "nepali": "सम्पत्ति हुँदा शत्रु बढ्छन्; सम्पत्ति नहुँदा आफन्त घट्छन्। धन देखे नाता जोड्छन्; गरिब देखे साथ छोड्छन्।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Sampatti hundā śatru baḍhchan; sampatti nahundā āphanta ghaṭchan. Dhan dekhe nātā joḍchan; garīb dekhe sātha choḍchan.",
+      "transliteration_original": "Sampatti hundā śatru baḍhchan; sampatti nahundā āphanta ghaṭchan. Dhan dekhe nātā joḍchan; garīb dekhe sātha choḍchan.",
+      "transliteration_notes": [],
+      "translation": "When you have wealth, your enemies increase; when you have no wealth, your relatives decrease. People establish relationships when they see money and abandon you when they see poverty.",
+      "translation_original": "When you have wealth, your enemies increase; when you have no wealth, your relatives decrease. People establish relationships when they see money and abandon you when they see poverty.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Wealth and relationships",
+      "class inequality",
+      "hypocrisy",
+      "poverty",
+      "social discrimination"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Cynicism",
+        "Disillusionment"
+      ],
+      "emotional_targets": [
+        "Relatives / society"
+      ],
+      "relationship_types": [
+        "Kin"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Parallelism",
+        "Chiasmus"
+      ],
+      "primary_domain": "Economic / Relationships",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: wealth shapes kinship",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Kinship tracks wealth.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Critique"
+        ],
+        "note": null,
+        "raw": "Critique"
+      },
+      "evidence": [
+        "धन देखे नाता जोड्छन्; गरिब देखे साथ छोड्छन्"
+      ]
+    },
+    "codes": [
+      "MONEY_MATERIALISM",
+      "CLASS_INEQUALITY_CRITIQUE",
+      "DISTRUST_HYPOCRISY",
+      "FAMILY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Wealth, class and fair-weather kin",
+      "Distrust of the world"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 31,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 31,
+    "corpus_id": "NVL-031",
+    "status": "active",
+    "text": {
+      "nepali": "कलम रोए कवि बन्छ; कवि रोए कविता। धनी मरे श्रद्धाञ्जली; गरिब मरे रमिता।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Kalam roe kavi bancha; kavi roe kavitā. Dhanī mare śraddhāñjalī; garīb mare ramitā.",
+      "transliteration_original": "Kalam roe kavi bancha; kavi roe kavitā. Dhanī mare śraddhāñjalī; garīb mare ramitā.",
+      "transliteration_notes": [],
+      "translation": "When the pen weeps, it becomes a poet; when the poet weeps, it becomes poetry. When the rich die, there are tributes; when the poor die, it becomes a spectacle.",
+      "translation_original": "When the pen weeps, it becomes a poet; when the poet weeps, it becomes poetry. When the rich die, there are tributes; when the poor die, it becomes a spectacle.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Literature",
+      "class inequality",
+      "death",
+      "social hypocrisy",
+      "dignity",
+      "social criticism"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism",
+        "Social commentary"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Bitterness",
+        "Sorrow"
+      ],
+      "emotional_targets": [
+        "Society"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Chain construction",
+        "Antithesis (श्रद्धाञ्जली/रमिता)"
+      ],
+      "primary_domain": "Class / Death",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: rich vs. poor",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Even death is ranked by class.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Critique"
+        ],
+        "note": null,
+        "raw": "Critique"
+      },
+      "evidence": [
+        "धनी मरे श्रद्धाञ्जली; गरिब मरे रमिता"
+      ]
+    },
+    "codes": [
+      "CLASS_INEQUALITY_CRITIQUE",
+      "MORTALITY_RISK"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Wealth, class and fair-weather kin",
+      "Mortality and the road"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 32,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 32,
+    "corpus_id": "NVL-032",
+    "status": "active",
+    "text": {
+      "nepali": "मर्द आफ्नो सपनासँग लड्छ; नामर्द अर्काको रिस गर्छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Marda āphno sapanāsãga laḍcha; nāmarda arkāko ris garcha.",
+      "transliteration_original": "Marda āphno sapanāsãga laḍcha; nāmarda arkāko ris garcha.",
+      "transliteration_notes": [],
+      "translation": "A real man fights with his own dreams; an unmanly one resents others.",
+      "translation_original": "A courageous man struggles with his own dreams; a coward is consumed by resentment toward others.",
+      "translation_normalized": "A real man fights with his own dreams; an unmanly one resents others."
+    },
+    "original_theme": [
+      "Masculinity",
+      "ambition",
+      "self-reliance",
+      "jealousy",
+      "personal struggle"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Determination",
+        "Contempt"
+      ],
+      "emotional_targets": [
+        "Men"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Antithesis"
+      ],
+      "primary_domain": "Gender / Masculinity",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "मर्द/नामर्द: courage coded as manhood",
+      "identity_theme": "Masculine",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Ambition framed as a test of manhood.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Reproduction"
+        ],
+        "note": null,
+        "raw": "Reproduction"
+      },
+      "evidence": [
+        "मर्द ... नामर्द"
+      ]
+    },
+    "codes": [
+      "MASCULINITY",
+      "SELF_RESPECT",
+      "MORAL_ADVICE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "'coward' loses the gendered insult in नामर्द.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Masculine burden and display"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 33,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 33,
+    "corpus_id": "NVL-033",
+    "status": "active",
+    "text": {
+      "nepali": "“नाइँ, मलाई तिमी नै चाहिन्छ” रे; म घोप्टिनी फुस्कियो कि क्या हो? “चाहिन्छ” भन्दैमा अर्काको बडो कहाँ पाइन्छ त नि?",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "“Nāĩ, malāī timī nai cāhincha” re; ma ghopṭinī phuskio ki kyā ho? “Cāhincha” bhandaimā arkāko baḍo kahā̃ pāincha ta ni?",
+      "transliteration_original": "“Nāĩ, malāī timī nai cāhincha” re; ma ghopṭinī phuskio ki kyā ho? “Cāhincha” bhandaimā arkāko baḍo kahā̃ pāincha ta ni?",
+      "transliteration_notes": [],
+      "translation": "“No, I want only you,” she says. Have I somehow become foolish enough to fall for it? Just because someone says they want something does not mean they can have what belongs to someone else.",
+      "translation_original": "“No, I want only you,” she says. Have I somehow become foolish enough to fall for it? Just because someone says they want something does not mean they can have what belongs to someone else.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Romantic relationships",
+      "desire",
+      "social boundaries",
+      "humour",
+      "possessiveness",
+      "interpersonal relationships"
+    ],
+    "coding": {
+      "text_types": [
+        "Humor"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Amusement",
+        "Suspicion"
+      ],
+      "emotional_targets": [
+        "Woman"
+      ],
+      "relationship_types": [
+        "Romantic (contested)"
+      ],
+      "love_types": [
+        "Eros"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Reported speech",
+        "Rhetorical question"
+      ],
+      "primary_domain": "Interpersonal / Romance",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Mock incredulity",
+      "valence": "Mixed",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Comic suspicion of a declaration of love; claims over 'someone else's' partner.",
+      "confidence": "Low",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "अर्काको ... कहाँ पाइन्छ"
+      ]
+    },
+    "codes": [
+      "HUMOR",
+      "LOVE_ROMANCE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "घोप्टिनी, फुस्कियो and बडो unclear; translation uncertain.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 34,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 34,
+    "corpus_id": "NVL-034",
+    "status": "active",
+    "text": {
+      "nepali": "शान्तिनेलाई दिइँदैन मान; आयो सल्यानको राजा, आफैँ जान।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Śāntinelāī dĩdaina māna; āyo Salyānko rājā, āphaĩ jāna.",
+      "transliteration_original": "Śāntinelāī dĩdaina māna; āyo Salyānko rājā, āphaĩ jāna.",
+      "transliteration_notes": [],
+      "translation": "No respect is given to Shantineli; when the king of Salyan arrives, he goes on his own way.",
+      "translation_original": "No respect is given to Shantineli; when the king of Salyan arrives, he goes on his own way.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Local identity",
+      "regional rivalry",
+      "humour",
+      "status",
+      "place-based pride"
+    ],
+    "coding": {
+      "text_types": [
+        "Humor",
+        "Regional boast"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Swagger"
+      ],
+      "emotional_targets": [
+        "Other road users"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Self-aggrandizing title ('राजा')"
+      ],
+      "primary_domain": "Place / Status",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Regional (Salyan)",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Mock royalty",
+      "valence": "Mixed",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Place-based pride in a mock-royal register.",
+      "confidence": "Low",
+      "alternative_interpretation": "'Respect isn't given to the meek; the king of Salyan has arrived — move aside yourselves.'",
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "आयो सल्यानको राजा"
+      ]
+    },
+    "codes": [
+      "PLACE_IDENTITY",
+      "HUMOR",
+      "SELF_RESPECT"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "शान्तिने and आफैँ जान unclear; original translation doubtful.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Self-assertion and swagger",
+      "Karnali place-names"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 35,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 35,
+    "corpus_id": "NVL-035",
+    "status": "active",
+    "text": {
+      "nepali": "बुवाले कुन उमेरसम्म कमाउनुपर्छ? त्यो छोरामा भर पर्छ, बुवामा होइन।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Buvāle kun umer-samma kamāunuparcha? Tyo chhorāmā bhar parcha, buvāmā hoina.",
+      "transliteration_original": "Buvāle kun umer-samma kamāunupardcha? Tyo chhorāmā bhar parcha, buvāmā hoina.",
+      "transliteration_notes": [
+        "'-pardcha' corrected to '-parcha' (QC log)"
+      ],
+      "translation": "Until what age must a father keep earning? That depends on the son, not on the father.",
+      "translation_original": "Until what age must a father keep earning? That depends on the son, not on the father.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Parent–child relations",
+      "filial responsibility",
+      "ageing",
+      "family economics",
+      "generational expectations"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Moral reproach"
+      ],
+      "emotional_targets": [
+        "Sons"
+      ],
+      "relationship_types": [
+        "Parent–child"
+      ],
+      "love_types": [
+        "Storge"
+      ],
+      "cultural_concepts": [
+        "Filial duty"
+      ],
+      "rhetorical_devices": [
+        "Question and answer"
+      ],
+      "primary_domain": "Family / Intergenerational",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: father's earning age",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "Son (not child) named as responsible",
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Places responsibility for ageing fathers on sons.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Reflection"
+        ],
+        "note": null,
+        "raw": "Reflection"
+      },
+      "evidence": [
+        "त्यो छोरामा भर पर्छ"
+      ]
+    },
+    "codes": [
+      "FAMILY",
+      "MORAL_ADVICE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Transliteration error",
+        "finding": "'-pardcha' for पर्छ (should be 'parcha')."
+      }
+    ],
+    "clusters": [
+      "Family and parents"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 36,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 36,
+    "corpus_id": "NVL-036",
+    "status": "active",
+    "text": {
+      "nepali": "साथ कहिल्यै नछाड्नु है, माया, सुखमा होस् या दुःखको मोडमा। ड्राइभर भनेर कहिले हेला नगर्नु है, माया; तिमी नै त हौ, रोडमा होस् या करोडमा।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Sātha kahilyai nachāḍnu hai, māyā, sukhmā hos yā duḥkhako moḍmā. Ḍrāibar bhanera kahile helā nagarnu hai, māyā; timī nai ta hau, roḍmā hos yā karoḍmā.",
+      "transliteration_original": "Sātha kahilyai nachāḍnu hai, māyā, sukhmā hos yā duḥkhako moḍmā. Ḍrāibar bhanera kahile helā nagarnu hai, māyā; timī nai ta hau, roḍmā hos yā karoḍmā.",
+      "transliteration_notes": [],
+      "translation": "Never leave my side, my love, whether in happiness or at a difficult turn in life. Never look down on me because I am a driver; you are the one, whether on the road or among the wealthy.",
+      "translation_original": "Never leave my side, my love, whether in happiness or at a difficult turn in life. Never look down on me because I am a driver; you are the one, whether on the road or among the wealthy.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Love",
+      "loyalty",
+      "dignity of labour",
+      "social status",
+      "class",
+      "romantic commitment"
+    ],
+    "coding": {
+      "text_types": [
+        "Couplet",
+        "Romantic expression"
+      ],
+      "secondary_domains": [
+        "Class"
+      ],
+      "emotions": [
+        "Devotion",
+        "Vulnerability"
+      ],
+      "emotional_targets": [
+        "Lover"
+      ],
+      "relationship_types": [
+        "Romantic (committed)"
+      ],
+      "love_types": [
+        "Eros (committed)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Wordplay (रोड/करोड)",
+        "Rhyme (मोडमा/करोडमा)"
+      ],
+      "primary_domain": "Romance / Dignity",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: road vs. crore",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Driver",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Positive",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Asks love not to follow occupational stigma.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Resistance"
+        ],
+        "note": "to stigma",
+        "raw": "Resistance (to stigma)"
+      },
+      "evidence": [
+        "ड्राइभर भनेर कहिले हेला नगर्नु"
+      ]
+    },
+    "codes": [
+      "LOVE_ROMANCE",
+      "LABOR_DIGNITY",
+      "DRIVER_IDENTITY",
+      "SELF_RESPECT"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "The fare and the driver's dignity"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 37,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 37,
+    "corpus_id": "NVL-037",
+    "status": "active",
+    "text": {
+      "nepali": "संसारमा सबैभन्दा बढी झुट अदालतमा बोलिन्छ र सबैभन्दा बढी सत्य भट्टीमा बोलिन्छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Saṁsāramā sabaibhanda baḍhī jhuṭa adālatmā bolincha ra sabaibhanda baḍhī satya bhaṭṭīmā bolincha.",
+      "transliteration_original": "Saṁsāramā sabaibhanda baḍhī jhuṭa adālatmā bolincha ra sabaibhanda baḍhī satya bhaṭṭīmā bolincha.",
+      "transliteration_notes": [],
+      "translation": "In this world, the most lies are spoken in courts, while the most truth is spoken in taverns.",
+      "translation_original": "In this world, the most lies are spoken in courts, while the most truth is spoken in taverns.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Truth and deception",
+      "justice",
+      "law",
+      "alcohol culture",
+      "social hypocrisy",
+      "humour"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism",
+        "Satire"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Cynicism",
+        "Amusement"
+      ],
+      "emotional_targets": [
+        "Courts"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Paradox",
+        "Antithesis (court / tavern)"
+      ],
+      "primary_domain": "Institutional / Legal",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": "Critique of justice institutions; non-partisan",
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Paradox",
+      "valence": "Negative",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Formal justice as a site of lies; informal space as a site of truth.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Critique"
+        ],
+        "note": null,
+        "raw": "Critique"
+      },
+      "evidence": [
+        "झुट अदालतमा ... सत्य भट्टीमा"
+      ]
+    },
+    "codes": [
+      "INSTITUTION_CRITIQUE",
+      "HUMOR",
+      "DISTRUST_HYPOCRISY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Distrust of the world",
+      "Political satire"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 38,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 38,
+    "corpus_id": "NVL-038",
+    "status": "active",
+    "text": {
+      "nepali": "जिन्दगीभर साथ दिन्छु भन्यौ, हैन? कस्तो एक्लो बनाएर गयौ, माया!",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Jindagībhar sātha dinchu bhanyau, haina? Kasto eklo banāera gayau, māyā!",
+      "transliteration_original": "Jindagībhar sātha dinchu bhanyau, haina? Kasto eklo banāera gayau, māyā!",
+      "transliteration_notes": [],
+      "translation": "You said you would stay with me for a lifetime, didn’t you? Yet you left me so completely alone, my love!",
+      "translation_original": "You said you would stay with me for a lifetime, didn’t you? Yet you left me so completely alone, my love!",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Love",
+      "betrayal",
+      "separation",
+      "loneliness",
+      "emotional loss"
+    ],
+    "coding": {
+      "text_types": [
+        "Personal expression",
+        "Lament"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Betrayal",
+        "Loneliness"
+      ],
+      "emotional_targets": [
+        "Former lover"
+      ],
+      "relationship_types": [
+        "Romantic (abandoned)"
+      ],
+      "love_types": [
+        "Eros (lost)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhetorical question"
+      ],
+      "primary_domain": "Interpersonal / Romance",
+      "emotion_intensity": "High",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Past",
+      "deeper_meaning": "Broken lifetime promise.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "कस्तो एक्लो बनाएर गयौ"
+      ]
+    },
+    "codes": [
+      "LOVE_ROMANCE",
+      "SEPARATION_LOSS"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Escaped characters",
+        "finding": "Markdown backslashes (-, !) removed in this workbook."
+      }
+    ],
+    "clusters": [
+      "Romantic loss and longing"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 39,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 39,
+    "corpus_id": "NVL-039",
+    "status": "active",
+    "text": {
+      "nepali": "कसैसँग झुट बोलेर सम्बन्ध गाँस्नु भन्दा साँचो बोलेर सम्बन्ध तोड्नु धेरै राम्रो हुन्छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Kasaīsãga jhuṭa bolera sambandha gā̃snu bhanda sā̃co bolera sambandha toḍnu dherai rāmrō hunchha.",
+      "transliteration_original": "Kasaīsãga jhuṭa bolera sambandha gā̃snu bhanda sā̃co bolera sambandha toḍnu dherai rāmrō hunchha.",
+      "transliteration_notes": [],
+      "translation": "It is much better to tell the truth and end a relationship than to build a relationship by lying to someone.",
+      "translation_original": "It is much better to tell the truth and end a relationship than to build a relationship by lying to someone.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Honesty",
+      "relationships",
+      "morality",
+      "trust",
+      "personal integrity"
+    ],
+    "coding": {
+      "text_types": [
+        "Moral statement"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Conviction"
+      ],
+      "emotional_targets": [
+        "Reader"
+      ],
+      "relationship_types": [
+        "Romantic (generic)"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Comparison"
+      ],
+      "primary_domain": "Moral / Advice",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Neutral",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Honesty above relationship preservation.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "साँचो बोलेर सम्बन्ध तोड्नु धेरै राम्रो"
+      ]
+    },
+    "codes": [
+      "MORAL_ADVICE",
+      "LOVE_ROMANCE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 40,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 40,
+    "corpus_id": "NVL-040",
+    "status": "active",
+    "text": {
+      "nepali": "उडाउने र गुडाउनेको भर हुँदैन; दुर्घटना गर्ने कसैको रहर हुँदैन। “पर्खी बस, फर्की आउँछु” भन्ने ड्राइभरको बानी हो, तर आफ्नो जीवनको भर हुँदैन।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Uḍāune ra guḍāune ko bhar hudaina; durghaṭanā garne kasai ko rahar hudaina. “Parkhī basa, farkī āũchu” bhanne ḍrāibarko bānī ho, tara āphno jīvan ko bhar hudaina.",
+      "transliteration_original": "Uḍāune ra guḍāune ko bhar hudaina; durghaṭanā garne kasai ko rahar hudaina. “Parkhī basa, farkī āũchu” bhanne ḍrāibarko bānī ho, tara āphno jīvan ko bhar hudaina.",
+      "transliteration_notes": [],
+      "translation": "There is no certainty in travelling by air or road; no one wishes to have an accident. “Wait for me, I will come back” is what a driver usually says, but there is no certainty about one’s life.",
+      "translation_original": "There is no certainty in travelling by air or road; no one wishes to have an accident. “Wait for me, I will come back” is what a driver usually says, but there is no certainty about one’s life.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Road safety",
+      "occupational risk",
+      "mortality",
+      "uncertainty",
+      "family separation",
+      "transport culture"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism",
+        "Personal expression"
+      ],
+      "secondary_domains": [
+        "Mortality"
+      ],
+      "emotions": [
+        "Anxiety",
+        "Resignation"
+      ],
+      "emotional_targets": [
+        "Family / passengers"
+      ],
+      "relationship_types": [
+        "Driver–family"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Reported speech",
+        "Rhyme (भर/रहर)"
+      ],
+      "primary_domain": "Occupational risk",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Driver",
+      "aspiration": null,
+      "agency": "Fate / chance",
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "The driver's routine promise to return is never guaranteed.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "आफ्नो जीवनको भर हुँदैन"
+      ]
+    },
+    "codes": [
+      "DRIVER_IDENTITY",
+      "MORTALITY_RISK",
+      "LABOR_DIGNITY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "The fare and the driver's dignity",
+      "Mortality and the road"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 41,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 41,
+    "corpus_id": "NVL-041",
+    "status": "active",
+    "text": {
+      "nepali": "अनजानबाट चिनजान हुँदै फेरि अनजान हुने सम्बन्ध नै माया हो।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Anjān-bāṭa cinjān hundai pheri anjān hune sambandha nai māyā ho.",
+      "transliteration_original": "Anjān-bāṭa cinjān hundai pheri anjān hune sambandha nai māyā ho.",
+      "transliteration_notes": [],
+      "translation": "Love is a relationship that begins with strangers becoming acquainted and eventually turns them into strangers again.",
+      "translation_original": "Love is a relationship that begins with strangers becoming acquainted and eventually turns them into strangers again.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Love",
+      "relationships",
+      "impermanence",
+      "emotional change",
+      "separation"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Melancholy"
+      ],
+      "emotional_targets": [
+        "Love (abstract)"
+      ],
+      "relationship_types": [],
+      "love_types": [
+        "Eros (impermanent)"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Cyclical structure"
+      ],
+      "primary_domain": "Interpersonal / Romance",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Cyclical",
+      "deeper_meaning": "Love defined by its ending.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "फेरि अनजान हुने सम्बन्ध नै माया हो"
+      ]
+    },
+    "codes": [
+      "LOVE_ROMANCE",
+      "SEPARATION_LOSS"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Romantic loss and longing"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 42,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 42,
+    "corpus_id": "NVL-042",
+    "status": "active",
+    "text": {
+      "nepali": "सुन्नु न, आमा! जिन्दगी सम्झिँदा रमाउन मन लाग्छ; भविष्य सम्झँदा कमाउन मन लाग्छ। राम्रो गर्नेलाई घात गर्दिनँ, नराम्रो गर्नेलाई हात पनि जोड्दिनँ। आफ्नो ठाउँमा बस्छु; म कसैको औकात देखेर शिर झुकाउनेमा पर्दिनँ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Sunnu na, āmā! Jindagī samjhĩdā ramāuna mana lāgcha; bhaviṣya samjhĩdā kamāuna mana lāgcha. Rāmrō garne-lāī ghāta gardinã, narāmrō garne-lāī hāta pani joḍdinã. Āphno ṭhāumā baschu; ma kasaiko aukāta dekhera śir jhukāunemā pardinã.",
+      "transliteration_original": "Sunnu na, āmā! Jindagī samjhĩdā ramāuna mana lāgcha; bhaviṣya samjhĩdā kamāuna mana lāgcha. Rāmrō garne-lāī ghāta gardinã, narāmrō garne-lāī hāta pani joḍdinã. Āphno ṭhāumā baschu; ma kasaiko aukāta dekhera śir jhukāunemā pardinã.",
+      "transliteration_notes": [],
+      "translation": "Listen, Mother! When I think about life, I want to enjoy it; when I think about the future, I want to earn. I do not betray those who do good, nor do I bow before those who do wrong. I remain in my own place; I do not bow my head based on someone’s social status.",
+      "translation_original": "Listen, Mother! When I think about life, I want to enjoy it; when I think about the future, I want to earn. I do not betray those who do good, nor do I bow before those who do wrong. I remain in my own place; I do not bow my head based on someone’s social status.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Self-respect",
+      "integrity",
+      "ambition",
+      "future aspirations",
+      "social status",
+      "independence",
+      "morality"
+    ],
+    "coding": {
+      "text_types": [
+        "Personal expression",
+        "Moral statement"
+      ],
+      "secondary_domains": [
+        "Family",
+        "Economic"
+      ],
+      "emotions": [
+        "Pride",
+        "Determination"
+      ],
+      "emotional_targets": [
+        "Mother",
+        "Status-holders"
+      ],
+      "relationship_types": [
+        "Parent–child"
+      ],
+      "love_types": [
+        "Storge"
+      ],
+      "cultural_concepts": [
+        "औकात (status)",
+        "शिर झुकाउनु"
+      ],
+      "rhetorical_devices": [
+        "Parallelism"
+      ],
+      "primary_domain": "Self-regard",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: future earning",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Independent self",
+      "aspiration": "Earning, enjoying life",
+      "agency": "Individual — agentic",
+      "humor_irony": null,
+      "valence": "Positive",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Refusal to bow to others' status.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Resistance"
+        ],
+        "note": null,
+        "raw": "Resistance"
+      },
+      "evidence": [
+        "कसैको औकात देखेर शिर झुकाउनेमा पर्दिनँ"
+      ]
+    },
+    "codes": [
+      "SELF_RESPECT",
+      "FAMILY",
+      "MONEY_MATERIALISM",
+      "CLASS_INEQUALITY_CRITIQUE",
+      "MORAL_ADVICE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Escaped characters",
+        "finding": "Markdown backslashes (-, !) removed in this workbook."
+      }
+    ],
+    "clusters": [
+      "Wealth, class and fair-weather kin",
+      "Family and parents",
+      "Self-assertion and swagger"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 43,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 43,
+    "corpus_id": "NVL-043",
+    "status": "active",
+    "text": {
+      "nepali": "भोलि त सबको मिठो नै हुन्छ; समय आएपछि व्यवहारले असली रूप देखाउँछ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Bholi ta sabko miṭho nai hunchha; samaya āepachi byavahārle asalī rūpa dekhāũcha.",
+      "transliteration_original": "Bholi ta sabko miṭho nai hunchha; samaya āepachi byavahārle asalī rūpa dekhāũcha.",
+      "transliteration_notes": [],
+      "translation": "Everyone's words are sweet; when the time comes, behaviour shows their real face.",
+      "translation_original": "Tomorrow may seem sweet for everyone; when the time comes, people’s behaviour reveals their true nature.",
+      "translation_normalized": "Everyone's words are sweet; when the time comes, behaviour shows their real face."
+    },
+    "original_theme": [
+      "Human character",
+      "patience",
+      "changing behaviour",
+      "trust",
+      "social relationships"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Wariness"
+      ],
+      "emotional_targets": [
+        "People"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Contrast (words vs. behaviour)"
+      ],
+      "primary_domain": "Moral / Human character",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Distrust of speech; trust in conduct.",
+      "confidence": "Medium",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "व्यवहारले असली रूप देखाउँछ"
+      ]
+    },
+    "codes": [
+      "DISTRUST_HYPOCRISY",
+      "MORAL_ADVICE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "भोलि (tomorrow) is likely a mis-transcription of बोली (speech) — the common saying is 'बोली त सबको मिठो'. Check the source photo.",
+      "priority": "High — meaning changes",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Probable transcription errors",
+        "finding": "भोलि likely बोली; पठाएको likely पटाएको."
+      }
+    ],
+    "clusters": [
+      "Distrust of the world"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 44,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 44,
+    "corpus_id": "NVL-044",
+    "status": "active",
+    "text": {
+      "nepali": "ब्याट्री हो, ५३ वाटको; कच्चा नसम्झ। साहुजी हो, रिदम सञ्जाल; बच्चा नसम्झ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Byāṭrī ho, 53 wāṭko; kaccā nasamjha. Sāhujī ho, ridam sañjāl; baccā nasamjha.",
+      "transliteration_original": "Byāṭrī ho, 53 wāṭko; kaccā nasamjha. Sāhujī ho, ridam sañjāl; baccā nasamjha.",
+      "transliteration_notes": [],
+      "translation": "It is a 53-watt battery, so do not underestimate it. It is the owner of the rhythm network, so do not mistake it for a child.",
+      "translation_original": "It is a 53-watt battery, so do not underestimate it. It is the owner of the rhythm network, so do not mistake it for a child.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Self-confidence",
+      "status",
+      "technology",
+      "youth identity",
+      "vehicle culture",
+      "assertiveness"
+    ],
+    "coding": {
+      "text_types": [
+        "Self-assertion",
+        "Vehicle boast"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Swagger"
+      ],
+      "emotional_targets": [
+        "Other road users"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme (कच्चा/बच्चा)"
+      ],
+      "primary_domain": "Vehicle culture",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": "Owner/vehicle|Youth",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Boast",
+      "valence": "Positive",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Vehicle and owner as a status unit.",
+      "confidence": "Low",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "कच्चा नसम्झ ... बच्चा नसम्झ"
+      ]
+    },
+    "codes": [
+      "DRIVER_IDENTITY",
+      "SELF_RESPECT",
+      "HUMOR"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "'रिदम सञ्जाल' likely a business name; '५३ वाट' meaning unclear.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Self-assertion and swagger"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 45,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 45,
+    "corpus_id": "NVL-045",
+    "status": "active",
+    "text": {
+      "nepali": "अप्ठ्यारो छ भन्दैमा जीवन सकिएको नसोच्नुस्; यहाँ सुन्दर बिहानी आउन पनि ती अँध्यारा रात कटाउनुपर्छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Apṭhyāro cha bhandaimā jīvan sakieko nasocnus; yahā̃ sundar bihānī āuna pani tī andhyārā rāta kaṭāunuparcha.",
+      "transliteration_original": "Apṭhyāro cha bhandaimā jīvan sakieko nasocnus; yahā̃ sundar bihānī āuna pani tī andhyārā rāta kaṭāunupardcha.",
+      "transliteration_notes": [
+        "'-pardcha' corrected to '-parcha' (QC log)"
+      ],
+      "translation": "Do not think that life is over simply because things are difficult; even a beautiful morning requires us to pass through the dark night.",
+      "translation_original": "Do not think that life is over simply because things are difficult; even a beautiful morning requires us to pass through the dark night.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Hope",
+      "resilience",
+      "hardship",
+      "perseverance",
+      "optimism",
+      "life philosophy"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism",
+        "Encouragement"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Hope"
+      ],
+      "emotional_targets": [
+        "Reader"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Metaphor (night / morning)"
+      ],
+      "primary_domain": "Philosophical / Hope",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": "Individual — resilient",
+      "humor_irony": null,
+      "valence": "Positive",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Hardship as passage.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "ती अँध्यारा रात कटाउनुपर्छ"
+      ]
+    },
+    "codes": [
+      "HOPE_RESILIENCE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Transliteration error",
+        "finding": "'-pardcha' for पर्छ (should be 'parcha')."
+      }
+    ],
+    "clusters": [
+      "Hope, patience, endurance"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 46,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 46,
+    "corpus_id": "NVL-046",
+    "status": "active",
+    "text": {
+      "nepali": "शरीरले आराम खोजिरहेछ, परिवारले पैसा, दिमागले शान्ति।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Śarīrle ārām khojirhecha, parivārle paisā, dimāgle śānti.",
+      "transliteration_original": "Śarīrle ārām khojirhecha, parivārle paisā, dimāgle śānti.",
+      "transliteration_notes": [],
+      "translation": "The body seeks rest, the family seeks money, and the mind seeks peace.",
+      "translation_original": "The body seeks rest, the family seeks money, and the mind seeks peace.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Work–life balance",
+      "economic pressure",
+      "family responsibility",
+      "mental peace",
+      "modern life"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism"
+      ],
+      "secondary_domains": [
+        "Family"
+      ],
+      "emotions": [
+        "Exhaustion"
+      ],
+      "emotional_targets": [
+        "Self"
+      ],
+      "relationship_types": [
+        "Family"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Tricolon"
+      ],
+      "primary_domain": "Economic / Wellbeing",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: family needs money",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Three competing claims on one person.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "शरीरले आराम ... परिवारले पैसा, दिमागले शान्ति"
+      ]
+    },
+    "codes": [
+      "FAMILY",
+      "MONEY_MATERIALISM",
+      "LABOR_DIGNITY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Family and parents"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 47,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 47,
+    "corpus_id": "NVL-047",
+    "status": "active",
+    "text": {
+      "nepali": "ढिला हुन्छ, तर सबै राम्रो हुन्छ। समय खराब हो, जिन्दगी हैन, साथी।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Ḍhilā hunchha, tara sabai rāmrō hunchha. Samaya kharāb ho, jindagī haina, sāthī.",
+      "transliteration_original": "Ḍhilā hunchha, tara sabai rāmrō hunchha. Samaya kharāb ho, jindagī haina, sāthī.",
+      "transliteration_notes": [],
+      "translation": "It may take time, but everything will be fine. It is the time that is bad, not life itself, my friend.",
+      "translation_original": "It may take time, but everything will be fine. It is the time that is bad, not life itself, my friend.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Hope",
+      "patience",
+      "resilience",
+      "hardship",
+      "optimism"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism",
+        "Encouragement"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Hope",
+        "Patience"
+      ],
+      "emotional_targets": [
+        "Friend / reader"
+      ],
+      "relationship_types": [
+        "Friendship (address form)"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Antithesis (time vs. life)"
+      ],
+      "primary_domain": "Philosophical / Hope",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": "Individual — resilient",
+      "humor_irony": null,
+      "valence": "Positive",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Duplicate of #9.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "समय खराब हो, जिन्दगी हैन"
+      ]
+    },
+    "codes": [
+      "HOPE_RESILIENCE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Duplicate of #9.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Exact/near duplicates",
+        "finding": "Identical except होइन/हैन."
+      }
+    ],
+    "clusters": [
+      "Hope, patience, endurance"
+    ],
+    "variant": {
+      "group": "dup-9-47",
+      "relation": "near-duplicate (होइन/हैन)"
+    },
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 48,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 48,
+    "corpus_id": "NVL-048",
+    "status": "active",
+    "text": {
+      "nepali": "हेर्ने नजर र सोच्ने मन सफा हुनुपर्छ; दुनियाँले खराब छस् भन्दैमा केही फरक पर्दैन।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Herne najar ra socne mana sapha hunuparcha; duniyā̃le kharāb chhas bhandaimā kehi pharak pardaina.",
+      "transliteration_original": "Herne najar ra socne mana sapha hunupardcha; duniyā̃le kharāb chhas bhandaimā kehi pharak pardaina.",
+      "transliteration_notes": [
+        "'-pardcha' corrected to '-parcha' (QC log)"
+      ],
+      "translation": "Your way of seeing and your mind should be pure; it does not matter simply because the world says you are bad.",
+      "translation_original": "Your way of seeing and your mind should be pure; it does not matter simply because the world says you are bad.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Self-perception",
+      "social judgment",
+      "inner character",
+      "confidence",
+      "morality"
+    ],
+    "coding": {
+      "text_types": [
+        "Moral statement"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Self-assurance"
+      ],
+      "emotional_targets": [
+        "Self",
+        "Society"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Contrast (inner / outer judgement)"
+      ],
+      "primary_domain": "Moral / Self",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Positive",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Inner purity over external judgement.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "दुनियाँले खराब छस् भन्दैमा केही फरक पर्दैन"
+      ]
+    },
+    "codes": [
+      "MORAL_ADVICE",
+      "SELF_RESPECT"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Transliteration error",
+        "finding": "'-pardcha' for पर्छ (should be 'parcha')."
+      }
+    ],
+    "clusters": [
+      "Self-assertion and swagger"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 49,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 49,
+    "corpus_id": "NVL-049",
+    "status": "active",
+    "text": {
+      "nepali": "गाडी चलाउने भनेर नहेप; गोरु चढ्ने शिवजीले बाघ चढ्ने पार्वतीलाई पठाएको इतिहासमा छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Gāḍī calāune bhanera nahepa; goru chaḍne Śivajīle bāgha chaḍne Pārvatīlāī paṭhāeko itihāsmā cha.",
+      "transliteration_original": "Gāḍī calāune bhanera nahepa; goru chaḍne Śivajīle bāgha chaḍne Pārvatīlāī paṭhāeko itihāsmā cha.",
+      "transliteration_notes": [],
+      "translation": "Don't look down on someone because he drives; history shows bull-riding Shiva won over tiger-riding Parvati.",
+      "translation_original": "Do not look down on someone because they drive a vehicle; history tells that Shiva, who rides a bull, sent Parvati, who rides a tiger.",
+      "translation_normalized": "Don't look down on someone because he drives; history shows bull-riding Shiva won over tiger-riding Parvati."
+    },
+    "original_theme": [
+      "Dignity of occupation",
+      "social status",
+      "religious-cultural references",
+      "respect",
+      "class"
+    ],
+    "coding": {
+      "text_types": [
+        "Mythological analogy",
+        "Humor"
+      ],
+      "secondary_domains": [
+        "Religious-cultural"
+      ],
+      "emotions": [
+        "Pride",
+        "Playful"
+      ],
+      "emotional_targets": [
+        "Those who look down on drivers"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Mythological analogy",
+        "Rhyme"
+      ],
+      "primary_domain": "Occupational dignity",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": "Hindu mythology (Shiva, Parvati)",
+      "gender_theme": null,
+      "identity_theme": "Driver",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Divine precedent",
+      "valence": "Positive",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "The lowly mount does not decide the worth (or romantic chances) of the rider.",
+      "confidence": "Medium",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Resistance"
+        ],
+        "note": "to stigma",
+        "raw": "Resistance (to stigma)"
+      },
+      "evidence": [
+        "गोरु चढ्ने शिवजी ... बाघ चढ्ने पार्वती"
+      ]
+    },
+    "codes": [
+      "LABOR_DIGNITY",
+      "DRIVER_IDENTITY",
+      "RELIGION_FATE",
+      "HUMOR",
+      "LOVE_ROMANCE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "पठाएको ('sent') is probably a hypercorrection of slang पटाएको ('won over / wooed'); 'sent' makes the analogy meaningless.",
+      "priority": "High — meaning changes",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Probable transcription errors",
+        "finding": "भोलि likely बोली; पठाएको likely पटाएको."
+      }
+    ],
+    "clusters": [
+      "The fare and the driver's dignity"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 50,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 50,
+    "corpus_id": "NVL-050",
+    "status": "active",
+    "text": {
+      "nepali": "कसैको अगाडि झुकेर माग्नु छ भने आशीर्वाद माग्नु, माया होइन।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Kasaiko agāḍi jhukera māgnu cha bhane āśīrbād māgnu, māyā hoina.",
+      "transliteration_original": "Kasaiko agāḍi jhukera māgnu cha bhane āśīrbād māgnu, māyā hoina.",
+      "transliteration_notes": [],
+      "translation": "If you must bow before someone and ask for something, ask for blessings, not love.",
+      "translation_original": "If you must bow before someone and ask for something, ask for blessings, not love.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Dignity",
+      "love",
+      "self-respect",
+      "relationships",
+      "cultural values",
+      "emotional independence"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism"
+      ],
+      "secondary_domains": [
+        "Romance"
+      ],
+      "emotions": [
+        "Dignity"
+      ],
+      "emotional_targets": [
+        "Reader"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [
+        "आशीर्वाद (blessing)"
+      ],
+      "rhetorical_devices": [
+        "Contrast (blessing / love)"
+      ],
+      "primary_domain": "Self-regard",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Neutral",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Begging is acceptable only for blessings.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "आशीर्वाद माग्नु, माया होइन"
+      ]
+    },
+    "codes": [
+      "SELF_RESPECT",
+      "LOVE_ROMANCE",
+      "MORAL_ADVICE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Self-assertion and swagger"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 51,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 51,
+    "corpus_id": "NVL-051",
+    "status": "active",
+    "text": {
+      "nepali": "पैसाको मुठै–मुठाले तँलाई हान्न मन छ; सुनको सिक्री नै सिक्रीले तँलाई बाँध्न मन छ। साथीहरूमा हल्का–फुल्का मजाक त भइहाल्छ; करोडौँको भीडमा तेरो कट्टु तान्न मन छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Paisāko muṭhai-muṭhaile tãlāī hānna mana cha; sunko sikrī nai sikrīle tãlāī bā̃dhna mana cha. Sāthīharūmā halkā-phulkā majāk ta bhaīhālcha; karoḍaũko bhīḍmā tero kaṭṭu tānna mana cha.",
+      "transliteration_original": "Paisāko muṭhai-muṭhaile tãlāī hānna mana cha; sunko sikrī nai sikrīle tãlāī bā̃dhna mana cha. Sāthīharūmā halkā-phulkā majāk ta bhaīhālcha; karoḍaũko bhīḍmā tero kaṭṭu tānna mana cha.",
+      "transliteration_notes": [],
+      "translation": "I feel like hitting you with bundles of money and binding you with chains of gold. Among friends, a little playful teasing is natural; in a crowd of millions, I feel like pulling your shorts.",
+      "translation_original": "I feel like hitting you with bundles of money and binding you with chains of gold. Among friends, a little playful teasing is natural; in a crowd of millions, I feel like pulling your shorts.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Friendship",
+      "humour",
+      "wealth",
+      "teasing",
+      "masculinity",
+      "popular youth culture"
+    ],
+    "coding": {
+      "text_types": [
+        "Humor",
+        "Teasing"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Affectionate mockery"
+      ],
+      "emotional_targets": [
+        "Friend"
+      ],
+      "relationship_types": [
+        "Friendship"
+      ],
+      "love_types": [
+        "Philia"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Hyperbole",
+        "Intimate pronoun तँ"
+      ],
+      "primary_domain": "Friendship",
+      "emotion_intensity": "Low",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "Homosocial teasing (inferred)",
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Hyperbole and pranking",
+      "valence": "Positive",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "Friendship expressed through mock aggression.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "साथीहरूमा हल्का–फुल्का मजाक"
+      ]
+    },
+    "codes": [
+      "HUMOR",
+      "MONEY_MATERIALISM",
+      "MASCULINITY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Masculine burden and display",
+      "Youth humour and code-mixing"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 52,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 52,
+    "corpus_id": "NVL-052",
+    "status": "text_missing",
+    "text": {
+      "nepali": "gem",
+      "nepali_candidate": "आमाको फाटेको चोला मात्र नहेर, बुबाको फुटेको कुर्कुच्चा पनि हेर्ने गर। दुःख पर्दा आमाको त जाने माइती हुन्छ; तर बुबाको पीडा कहाँ गएर सुनाउने?",
+      "nepali_candidate_note": "Reconstructed from the transliteration; verify against the source photograph.",
+      "transliteration": "Āmāko phāṭeko colā mātra nahera, bubāko phuṭeko kurkucchā pani herne gara. Duḥkha pardā āmāko ta jāne māitī hunchha; tara bubāko pīḍā kahā̃ gaera sunāune?",
+      "transliteration_original": "Āmāko phāṭeko colā mātra nahera, bubāko phuṭeko kurkucchā pani herne gara. Duḥkha pardā āmāko ta jāne māitī hunchha; tara bubāko pīḍā kahā̃ gaera sunāune?",
+      "transliteration_notes": [],
+      "translation": "Do not look only at the mother’s torn clothes; also notice the father’s cracked heels. When hardship comes, a mother has her maternal home to turn to, but where can a father go to share his pain?",
+      "translation_original": "Do not look only at the mother’s torn clothes; also notice the father’s cracked heels. When hardship comes, a mother has her maternal home to turn to, but where can a father go to share his pain?",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Parents",
+      "fatherhood",
+      "motherhood",
+      "hidden suffering",
+      "family responsibility",
+      "gender roles",
+      "emotional burden"
+    ],
+    "coding": {
+      "text_types": [
+        "Moral statement"
+      ],
+      "secondary_domains": [
+        "Gender"
+      ],
+      "emotions": [
+        "Compassion",
+        "Pathos"
+      ],
+      "emotional_targets": [
+        "Father",
+        "Mother"
+      ],
+      "relationship_types": [
+        "Parent–child"
+      ],
+      "love_types": [
+        "Storge"
+      ],
+      "cultural_concepts": [
+        "माइती (natal home)"
+      ],
+      "rhetorical_devices": [
+        "Synecdoche (torn blouse / cracked heels)"
+      ],
+      "primary_domain": "Family",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "Mother has माइती; father has nowhere to share pain",
+      "identity_theme": "Fatherhood",
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Makes paternal suffering visible.",
+      "confidence": "Medium",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "बुबाको पीडा कहाँ गएर सुनाउने?"
+      ]
+    },
+    "codes": [
+      "FAMILY",
+      "MASCULINITY"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Nepali text missing (cell reads 'gem'); reconstruct from transliteration and source photo.",
+      "priority": "High — meaning changes",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Missing text",
+        "finding": "Nepali cell reads 'gem'."
+      }
+    ],
+    "clusters": [
+      "Masculine burden and display",
+      "Family and parents"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 53,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 53,
+    "corpus_id": "NVL-053",
+    "status": "active",
+    "text": {
+      "nepali": "अलपत्र छ जिन्दगी, गन्तव्य लामो छ। कतिबेला के हुन्छ, साथ दिनुहोस् है भगवान्।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Alapatra cha jindagī, gantabya lāmo cha. Katibelā ke hunchha, sātha dinuhos hai Bhagavān.",
+      "transliteration_original": "Alapatra cha jindagī, gantabya lāmo cha. Katibelā ke hunchha, sātha dinuhos hai Bhagavān.",
+      "transliteration_notes": [],
+      "translation": "Life is uncertain and the destination is far away. Lord, please stay with me; who knows what may happen at any moment.",
+      "translation_original": "Life is uncertain and the destination is far away. Lord, please stay with me; who knows what may happen at any moment.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Uncertainty of life",
+      "faith",
+      "spirituality",
+      "journey",
+      "hope",
+      "dependence on God"
+    ],
+    "coding": {
+      "text_types": [
+        "Prayer"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Anxiety",
+        "Faith"
+      ],
+      "emotional_targets": [
+        "God"
+      ],
+      "relationship_types": [
+        "Divine–devotee"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Journey metaphor"
+      ],
+      "primary_domain": "Religious / Uncertainty",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": "Generic theistic (भगवान्)",
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": "Divine",
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "The road as life; divine accompaniment against uncertainty.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "साथ दिनुहोस् है भगवान्"
+      ]
+    },
+    "codes": [
+      "RELIGION_FATE",
+      "MORTALITY_RISK",
+      "HOPE_RESILIENCE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Hope, patience, endurance",
+      "Mortality and the road"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 54,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 54,
+    "corpus_id": "NVL-054",
+    "status": "active",
+    "text": {
+      "nepali": "पढाइ बिग्रियो भनेर चिन्ता नगर, केटा हो। पढ्नेलाई हतार छ, नपढ्नेलाई साउदी–कतार छ।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Paḍhāi bigriyo bhanera cintā nagara, keṭā ho. Paḍhnelāī hatār cha, napaḍhnelāī Saudī–Qatār cha.",
+      "transliteration_original": "Paḍhāi bigriyo bhanera cintā nagara, keṭā ho. Paḍhnelāī hatār cha, napaḍhnelāī Saudī–Qatār cha.",
+      "transliteration_notes": [],
+      "translation": "Do not worry just because your studies have not gone well, boys. Those who study are in a hurry to move ahead, while those who do not study have Saudi or Qatar as their destination.",
+      "translation_original": "Do not worry just because your studies have not gone well, boys. Those who study are in a hurry to move ahead, while those who do not study have Saudi or Qatar as their destination.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Education",
+      "youth",
+      "migration",
+      "foreign employment",
+      "social aspirations",
+      "economic pressure"
+    ],
+    "coding": {
+      "text_types": [
+        "Humor",
+        "Social commentary"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Resigned humour"
+      ],
+      "emotional_targets": [
+        "Boys (केटा हो)"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Rhyme (हतार/कतार)"
+      ],
+      "primary_domain": "Education / Migration",
+      "emotion_intensity": "Low",
+      "economic_theme": "Explicit: Gulf labour",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": "Addressed to boys",
+      "identity_theme": "Youth|Migrant",
+      "aspiration": "Education vs. migration",
+      "agency": null,
+      "humor_irony": "Deadpan reassurance",
+      "valence": "Mixed",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Gulf migration as the fallback for failed schooling.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "नपढ्नेलाई साउदी–कतार छ"
+      ]
+    },
+    "codes": [
+      "EDUCATION",
+      "MIGRATION",
+      "HUMOR"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Shared rhyme formula",
+        "finding": "कतार/हतार used in both."
+      }
+    ],
+    "clusters": [
+      "Gulf migration as default exit"
+    ],
+    "variant": {
+      "group": "rhyme-katar-hatar",
+      "relation": "shared rhyme formula (कतार/हतार)"
+    },
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 55,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 55,
+    "corpus_id": "NVL-055",
+    "status": "active",
+    "text": {
+      "nepali": "चुपचाप घन्टीछाप, सिलिन्डर हाफ, सुकुम्बासी टाप।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Cupacāp ghaṇṭīchhāp, silinḍara hāpha, sukumbāsī ṭāpa.",
+      "transliteration_original": "Cupacāp ghaṇṭīchhāp, silinḍara hāpha, sukumbāsī ṭāpa.",
+      "transliteration_notes": [],
+      "translation": "Quietly voted for the Bell — gas cylinder half, squatters gone.",
+      "translation_original": "Quietly: bell symbol, half-cylinder, squatters’ stamp.",
+      "translation_normalized": "Quietly voted for the Bell — gas cylinder half, squatters gone."
+    },
+    "original_theme": [
+      "Political symbolism",
+      "public satire",
+      "political slogans",
+      "social commentary",
+      "colloquial humour"
+    ],
+    "coding": {
+      "text_types": [
+        "Political slogan parody"
+      ],
+      "secondary_domains": [
+        "Economic",
+        "Housing"
+      ],
+      "emotions": [
+        "Sarcasm",
+        "Disillusionment"
+      ],
+      "emotional_targets": [
+        "Rastriya Swatantra Party / government"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Parody",
+        "Rhyme (छाप/हाफ/टाप)"
+      ],
+      "primary_domain": "Political",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": "Explicit party reference: 'चुपचाप घण्टी छाप' was RSP's 2026 campaign slogan; squatter evictions",
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Slogan parody",
+      "valence": "Negative",
+      "temporal_orientation": "Past/Present",
+      "deeper_meaning": "Contrasts campaign promises with post-election outcomes (likely the 2026 squatter evictions).",
+      "confidence": "Medium",
+      "alternative_interpretation": "Could be read as supportive (a list of achievements) rather than satirical.",
+      "power_hierarchy": {
+        "stances": [
+          "Critique"
+        ],
+        "note": null,
+        "raw": "Critique"
+      },
+      "evidence": [
+        "चुपचाप घन्टीछाप ... सुकुम्बासी टाप"
+      ]
+    },
+    "codes": [
+      "INSTITUTION_CRITIQUE",
+      "HUMOR",
+      "CLASS_INEQUALITY_CRITIQUE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "'टाप' = gone/vanished, not 'stamp'; 'सिलिन्डर हाफ' unclear. Dates the inscription to 2026.",
+      "priority": "High — meaning changes",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [
+      {
+        "check": "Mistranslations",
+        "finding": "See Human_Review (High priority)."
+      }
+    ],
+    "clusters": [
+      "Political satire"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 56,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 56,
+    "corpus_id": "NVL-056",
+    "status": "active",
+    "text": {
+      "nepali": "कता हो नेताजी? संविधान त बन्यो क्यारे। गाउँमा फर्कने होइन? जनता त लाठी लिएर स्वागत गर्न बसेका छन्।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Katā ho netājī? Saṁvidhāna ta banyo kyāre. Gāũmā farkane hoina? Janatā ta lāṭhī lie-ra svāgata garna basekā chan.",
+      "transliteration_original": "Katā ho netājī? Saṁvidhāna ta banyo kyāre. Gāũmā farkane hoina? Janatā ta lāṭhī lie-ra svāgata garna basekā chan.",
+      "transliteration_notes": [],
+      "translation": "Where are you, leader? The Constitution has apparently been made. Aren’t you coming back to the village? The people are waiting to welcome you with sticks.",
+      "translation_original": "Where are you, leader? The Constitution has apparently been made. Aren’t you coming back to the village? The people are waiting to welcome you with sticks.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Political frustration",
+      "leadership",
+      "Constitution",
+      "rural–political relations",
+      "public dissatisfaction",
+      "satire"
+    ],
+    "coding": {
+      "text_types": [
+        "Political satire"
+      ],
+      "secondary_domains": [
+        "Rural–urban"
+      ],
+      "emotions": [
+        "Anger",
+        "Sarcasm"
+      ],
+      "emotional_targets": [
+        "Political leaders"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Irony",
+        "Rhetorical questions"
+      ],
+      "primary_domain": "Political",
+      "emotion_intensity": "High",
+      "economic_theme": null,
+      "political_theme": "Explicit: leaders, Constitution",
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": "Ironic 'welcome'",
+      "valence": "Negative",
+      "temporal_orientation": "Present",
+      "deeper_meaning": "The rural electorate's anger at absent leaders.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [
+          "Resistance"
+        ],
+        "note": null,
+        "raw": "Resistance"
+      },
+      "evidence": [
+        "लाठी लिएर स्वागत गर्न बसेका छन्"
+      ]
+    },
+    "codes": [
+      "INSTITUTION_CRITIQUE",
+      "HUMOR",
+      "PLACE_IDENTITY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Political satire"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 57,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 57,
+    "corpus_id": "NVL-057",
+    "status": "active",
+    "text": {
+      "nepali": "देश त पुरानै ठीक थियो।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Deśa ta purānai ṭhīk thiyo.",
+      "transliteration_original": "Deśa ta purānai ṭhīk thiyo.",
+      "transliteration_notes": [],
+      "translation": "The country was better the way it was before.",
+      "translation_original": "The country was better the way it was before.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Political nostalgia",
+      "social change",
+      "dissatisfaction",
+      "national identity",
+      "public sentiment"
+    ],
+    "coding": {
+      "text_types": [
+        "Slogan"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Nostalgia",
+        "Disillusionment"
+      ],
+      "emotional_targets": [
+        "Nation"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Ellipsis"
+      ],
+      "primary_domain": "Political",
+      "emotion_intensity": "Low",
+      "economic_theme": null,
+      "political_theme": "Explicit: dissatisfaction with change; referent of 'old' unspecified",
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Negative",
+      "temporal_orientation": "Past",
+      "deeper_meaning": "Political nostalgia without a stated object.",
+      "confidence": "Low",
+      "alternative_interpretation": "Could signal pro-monarchy sentiment or general disillusionment; text does not say which.",
+      "power_hierarchy": {
+        "stances": [
+          "Critique",
+          "Ambiguous"
+        ],
+        "note": "ambiguous",
+        "raw": "Critique (ambiguous)"
+      },
+      "evidence": [
+        "देश त पुरानै ठीक थियो"
+      ]
+    },
+    "codes": [
+      "INSTITUTION_CRITIQUE"
+    ],
+    "review": {
+      "needs_review": true,
+      "reason": "Do not code as royalist without evidence.",
+      "priority": "Medium",
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Political satire"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 58,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 58,
+    "corpus_id": "NVL-058",
+    "status": "active",
+    "text": {
+      "nepali": "आमा, एकचोटि धेरै पैसा कमाउने मन छ। सुनेको छु, पैसा हुनेहरू सबैको प्यारो हुन्छन् रे।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Āmā, ekacoṭi dherai paisā kamāune mana cha. Suneko chu, paisā huneharū sabaiko pyāro hunchan re.",
+      "transliteration_original": "Āmā, ekacoṭi dherai paisā kamāune mana cha. Suneko chu, paisā huneharū sabaiko pyāro hunchan re.",
+      "transliteration_notes": [],
+      "translation": "Mother, I want to earn a lot of money at least once. I have heard that people who have money are loved by everyone.",
+      "translation_original": "Mother, I want to earn a lot of money at least once. I have heard that people who have money are loved by everyone.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Money and affection",
+      "materialism",
+      "family",
+      "economic aspiration",
+      "social status"
+    ],
+    "coding": {
+      "text_types": [
+        "Personal expression"
+      ],
+      "secondary_domains": [
+        "Family"
+      ],
+      "emotions": [
+        "Longing",
+        "Irony"
+      ],
+      "emotional_targets": [
+        "Mother"
+      ],
+      "relationship_types": [
+        "Parent–child"
+      ],
+      "love_types": [
+        "Storge"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Hearsay marker रे (irony)"
+      ],
+      "primary_domain": "Economic aspiration",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: earning a lot",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": "Wealth as route to being loved",
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Wealth desired for affection, not for itself.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "पैसा हुनेहरू सबैको प्यारो हुन्छन् रे"
+      ]
+    },
+    "codes": [
+      "MONEY_MATERIALISM",
+      "FAMILY"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Love and money",
+      "Wealth, class and fair-weather kin",
+      "Family and parents"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 59,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 59,
+    "corpus_id": "NVL-059",
+    "status": "active",
+    "text": {
+      "nepali": "आशा अनि विश्वास दुवै राखेको छु। भगवान्, अब पल्टिन लागेको पानामा सफल भविष्य लेखिएको होस्।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Āśā ani viśvās dubai rākheko chu. Bhagavān, aba palṭina lāgeko pānāmā saphala bhaviṣya lekhi'eko hos.",
+      "transliteration_original": "Āśā ani viśvās dubai rākheko chu. Bhagavān, aba palṭina lāgeko pānāmā saphala bhaviṣya lekhi'eko hos.",
+      "transliteration_notes": [],
+      "translation": "I have both hope and faith. May the page I am about to turn contain a successful future, Lord.",
+      "translation_original": "I have both hope and faith. May the page I am about to turn contain a successful future, Lord.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Hope",
+      "faith",
+      "future",
+      "aspiration",
+      "spirituality",
+      "resilience"
+    ],
+    "coding": {
+      "text_types": [
+        "Prayer",
+        "Encouragement"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Hope",
+        "Faith"
+      ],
+      "emotional_targets": [
+        "God"
+      ],
+      "relationship_types": [
+        "Divine–devotee"
+      ],
+      "love_types": [],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Metaphor (turning page)"
+      ],
+      "primary_domain": "Religious / Hope",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": "Generic theistic (भगवान्)",
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": "Successful future",
+      "agency": "Divine",
+      "humor_irony": null,
+      "valence": "Positive",
+      "temporal_orientation": "Future",
+      "deeper_meaning": "Hope and faith paired.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "आशा अनि विश्वास दुवै"
+      ]
+    },
+    "codes": [
+      "RELIGION_FATE",
+      "HOPE_RESILIENCE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Hope, patience, endurance"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 60,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 60,
+    "corpus_id": "NVL-060",
+    "status": "active",
+    "text": {
+      "nepali": "मान्छे–मान्छे नै मान्छेको दबाइ हो। कसैले खुसी दिन्छन् भने कसैले पीडा, साथी।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Mānche-mānche nai māncheko dabāi ho. Kasaile khusī dinchan bhane kasaile pīḍā, sāthī.",
+      "transliteration_original": "Mānche-mānche nai māncheko dabāi ho. Kasaile khusī dinchan bhane kasaile pīḍā, sāthī.",
+      "transliteration_notes": [],
+      "translation": "People themselves are both the medicine and the pain of other people. Some bring happiness, while others bring suffering, my friend.",
+      "translation_original": "People themselves are both the medicine and the pain of other people. Some bring happiness, while others bring suffering, my friend.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Human relationships",
+      "happiness and suffering",
+      "friendship",
+      "emotional life",
+      "social interaction"
+    ],
+    "coding": {
+      "text_types": [
+        "Aphorism"
+      ],
+      "secondary_domains": [],
+      "emotions": [
+        "Reflective"
+      ],
+      "emotional_targets": [
+        "People"
+      ],
+      "relationship_types": [
+        "Friendship (address form)"
+      ],
+      "love_types": [
+        "Philia"
+      ],
+      "cultural_concepts": [],
+      "rhetorical_devices": [
+        "Metaphor (medicine)",
+        "Antithesis"
+      ],
+      "primary_domain": "Interpersonal",
+      "emotion_intensity": "Moderate",
+      "economic_theme": null,
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Other people as both cure and wound.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "मान्छे नै मान्छेको दबाइ हो"
+      ]
+    },
+    "codes": [
+      "MORAL_ADVICE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 61,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  },
+  {
+    "id": 61,
+    "corpus_id": "NVL-061",
+    "status": "active",
+    "text": {
+      "nepali": "केको घमण्ड? सेतो कात्रोका गोजी हुँदैनन्, मसानघाटमा रोजी हुँदैन। किन तछाडमछाड गर्छौ? मृत्यु पश्चात् खोजी हुँदैन। जीवन अजम्बरी हुँदैन, एकनास सधैँभरि हुँदैन। केको घमण्ड गर्छौ? यो झुटो संसार सधैँभरि हुँदैन।",
+      "nepali_candidate": null,
+      "nepali_candidate_note": null,
+      "transliteration": "Keko ghamanḍa? Seto kātro-kā gojī hudainan, masānaghāṭmā rojī hudaina. Kina tachāḍmachāḍ garchau? Mṛtyu paścāt khojī hudaina. Jīvan ajambarī hudaina, ekanāsa sadhaĩbhari hudaina. Keko ghamanḍa garchau? Yo jhuṭo saṁsār sadhaĩbhari hudaina.",
+      "transliteration_original": "Keko ghamanḍa? Seto kātro-kā gojī hudainan, masānaghāṭmā rojī hudaina. Kina tachāḍmachāḍ garchau? Mṛtyu paścāt khojī hudaina. Jīvan ajambarī hudaina, ekanāsa sadhaĩbhari hudaina. Keko ghamanḍa garchau? Yo jhuṭo saṁsār sadhaĩbhari hudaina.",
+      "transliteration_notes": [],
+      "translation": "What is there to be proud of? A white funeral shroud has no pockets, and there is no livelihood in the cremation ground. Why do you struggle so desperately for more? After death, no one searches for what you possessed. Life is not immortal, and nothing remains the same forever. Why be proud? This temporary world does not last forever.",
+      "translation_original": "What is there to be proud of? A white funeral shroud has no pockets, and there is no livelihood in the cremation ground. Why do you struggle so desperately for more? After death, no one searches for what you possessed. Life is not immortal, and nothing remains the same forever. Why be proud? This temporary world does not last forever.",
+      "translation_normalized": null
+    },
+    "original_theme": [
+      "Mortality",
+      "humility",
+      "materialism",
+      "impermanence",
+      "wealth",
+      "death",
+      "human pride",
+      "philosophical reflection"
+    ],
+    "coding": {
+      "text_types": [
+        "Philosophical reflection"
+      ],
+      "secondary_domains": [
+        "Economic"
+      ],
+      "emotions": [
+        "Humility",
+        "Melancholy"
+      ],
+      "emotional_targets": [
+        "The proud / everyone"
+      ],
+      "relationship_types": [],
+      "love_types": [],
+      "cultural_concepts": [
+        "कात्रो (shroud)",
+        "मसानघाट (cremation ground)"
+      ],
+      "rhetorical_devices": [
+        "Rhetorical questions",
+        "Rhyme (हुँदैन)",
+        "Imagery"
+      ],
+      "primary_domain": "Existential / Mortality",
+      "emotion_intensity": "Moderate",
+      "economic_theme": "Explicit: futility of accumulation",
+      "political_theme": null,
+      "religious_theme": null,
+      "gender_theme": null,
+      "identity_theme": null,
+      "aspiration": null,
+      "agency": null,
+      "humor_irony": null,
+      "valence": "Mixed",
+      "temporal_orientation": "Timeless",
+      "deeper_meaning": "Death erases wealth; pride is unjustified.",
+      "confidence": "High",
+      "alternative_interpretation": null,
+      "power_hierarchy": {
+        "stances": [],
+        "note": null
+      },
+      "evidence": [
+        "सेतो कात्रोका गोजी हुँदैनन्"
+      ]
+    },
+    "codes": [
+      "MORTALITY_RISK",
+      "MONEY_MATERIALISM",
+      "MORAL_ADVICE"
+    ],
+    "review": {
+      "needs_review": false,
+      "reason": null,
+      "priority": null,
+      "coder": "AI first pass (Claude); not yet validated by a native speaker"
+    },
+    "qc_flags": [],
+    "clusters": [
+      "Wealth, class and fair-weather kin",
+      "Mortality and the road"
+    ],
+    "variant": null,
+    "context": {
+      "vehicle_type": null,
+      "location": null,
+      "observed_at": null,
+      "photo_ref": null
+    },
+    "provenance": {
+      "source_file": "Vehicle_Inscriptions_Master_Dataset.xlsx",
+      "sheet": "Master_Dataset",
+      "row": 62,
+      "sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474"
+    }
+  }
+]

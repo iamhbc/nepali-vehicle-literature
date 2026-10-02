@@ -1,0 +1,156 @@
+{
+  "policy": "Level 2 curated sources. Only real, published works are listed. Bibliographic details were entered by the project team and must be verified against the publication before academic use. URLs are given only where they are stable (DOI or institutional archive). Each reference lists the taxonomy topics it informs; the platform shows a reference only when one of those topics appears in an analysis, and says which topic triggered it.",
+  "references": [
+    {
+      "id": "turner-1931",
+      "title": "A Comparative and Etymological Dictionary of the Nepali Language",
+      "authors": "Ralph Lilley Turner",
+      "year": 1931,
+      "source": "Kegan Paul, Trench, Trubner & Co., London",
+      "url": "https://dsal.uchicago.edu/dictionaries/turner/",
+      "kind": "dictionary",
+      "topics": ["lexicon", "cultural_concept", "linguistic"]
+    },
+    {
+      "id": "ahearn-2001",
+      "title": "Invitations to Love: Literacy, Love Letters, and Social Change in Nepal",
+      "authors": "Laura M. Ahearn",
+      "year": 2001,
+      "source": "University of Michigan Press",
+      "url": null,
+      "kind": "book",
+      "topics": ["LOVE_ROMANCE", "SEPARATION_LOSS", "maya", "love", "Marriage expectations", "Courtship"]
+    },
+    {
+      "id": "liechty-2003",
+      "title": "Suitably Modern: Making Middle-Class Culture in a New Consumer Society",
+      "authors": "Mark Liechty",
+      "year": 2003,
+      "source": "Princeton University Press",
+      "url": null,
+      "kind": "book",
+      "topics": ["CONSUMER_STATUS", "CLASS_INEQUALITY_CRITIQUE", "Consumerism", "Class", "Youth culture", "Modernity", "CODE_MIXING_SLANG"]
+    },
+    {
+      "id": "seddon-adhikari-gurung-2002",
+      "title": "Foreign Labor Migration and the Remittance Economy of Nepal",
+      "authors": "David Seddon, Jagannath Adhikari, Ganesh Gurung",
+      "year": 2002,
+      "source": "Critical Asian Studies 34(1): 19–40",
+      "url": "https://doi.org/10.1080/146727102760166581",
+      "kind": "article",
+      "topics": ["MIGRATION", "Migration", "Remittance", "Labour", "Employment"]
+    },
+    {
+      "id": "bista-1991",
+      "title": "Fatalism and Development: Nepal's Struggle for Modernization",
+      "authors": "Dor Bahadur Bista",
+      "year": 1991,
+      "source": "Orient Longman, Calcutta",
+      "url": null,
+      "kind": "book",
+      "topics": ["RELIGION_FATE", "Fate", "Karma", "bhagya", "karma", "Tradition"],
+      "note": "Influential and contested; read alongside its critics."
+    },
+    {
+      "id": "kandiyoti-1988",
+      "title": "Bargaining with Patriarchy",
+      "authors": "Deniz Kandiyoti",
+      "year": 1988,
+      "source": "Gender & Society 2(3): 274–290",
+      "url": "https://doi.org/10.1177/089124388002003004",
+      "kind": "article",
+      "topics": ["WOMEN_REPRESENTATION", "Patriarchal assumptions", "Gender roles", "Marriage expectations", "Female agency", "Power asymmetry"]
+    },
+    {
+      "id": "connell-messerschmidt-2005",
+      "title": "Hegemonic Masculinity: Rethinking the Concept",
+      "authors": "R. W. Connell, James W. Messerschmidt",
+      "year": 2005,
+      "source": "Gender & Society 19(6): 829–859",
+      "url": "https://doi.org/10.1177/0891243205278639",
+      "kind": "article",
+      "topics": ["MASCULINITY", "Masculinity", "Male authority", "Gendered labour"]
+    },
+    {
+      "id": "scott-1990",
+      "title": "Domination and the Arts of Resistance: Hidden Transcripts",
+      "authors": "James C. Scott",
+      "year": 1990,
+      "source": "Yale University Press",
+      "url": null,
+      "kind": "book",
+      "topics": ["INSTITUTION_CRITIQUE", "Political satire", "Political humour", "Protest", "resistance", "critique", "implied"]
+    },
+    {
+      "id": "lee-1973",
+      "title": "Colours of Love: An Exploration of the Ways of Loving",
+      "authors": "John Alan Lee",
+      "year": 1973,
+      "source": "New Press, Toronto",
+      "url": null,
+      "kind": "book",
+      "topics": ["eros", "ludus", "storge", "love"]
+    },
+    {
+      "id": "lewis-1960",
+      "title": "The Four Loves",
+      "authors": "C. S. Lewis",
+      "year": 1960,
+      "source": "Geoffrey Bles, London",
+      "url": null,
+      "kind": "book",
+      "topics": ["storge", "philia", "eros", "agape"]
+    },
+    {
+      "id": "plutchik-1980",
+      "title": "Emotion: A Psychoevolutionary Synthesis",
+      "authors": "Robert Plutchik",
+      "year": 1980,
+      "source": "Harper & Row, New York",
+      "url": null,
+      "kind": "book",
+      "topics": ["emotion"]
+    },
+    {
+      "id": "lakoff-johnson-1980",
+      "title": "Metaphors We Live By",
+      "authors": "George Lakoff, Mark Johnson",
+      "year": 1980,
+      "source": "University of Chicago Press",
+      "url": null,
+      "kind": "book",
+      "topics": ["Metaphor", "Simile", "Analogy"]
+    },
+    {
+      "id": "myers-scotton-1993",
+      "title": "Social Motivations for Codeswitching: Evidence from Africa",
+      "authors": "Carol Myers-Scotton",
+      "year": 1993,
+      "source": "Clarendon Press, Oxford",
+      "url": null,
+      "kind": "book",
+      "topics": ["CODE_MIXING_SLANG", "Code-mixing"]
+    },
+    {
+      "id": "braun-clarke-2006",
+      "title": "Using Thematic Analysis in Psychology",
+      "authors": "Virginia Braun, Victoria Clarke",
+      "year": 2006,
+      "source": "Qualitative Research in Psychology 3(2): 77–101",
+      "url": "https://doi.org/10.1191/1478088706qp063oa",
+      "kind": "article",
+      "topics": ["method"]
+    },
+    {
+      "id": "elias-2011",
+      "title": "On Wings of Diesel: Trucks, Identity and Culture in Pakistan",
+      "authors": "Jamal J. Elias",
+      "year": 2011,
+      "source": "Oneworld Publications, Oxford",
+      "url": null,
+      "kind": "book",
+      "topics": ["DRIVER_IDENTITY", "vehicle_art", "Occupational identity"]
+    }
+  ]
+}

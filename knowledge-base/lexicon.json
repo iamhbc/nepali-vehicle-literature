@@ -1,0 +1,933 @@
+{
+ "policy": "Surface cues for the baseline engine. A match is lexical evidence that a word is present; it is never treated as proof of a reading. Each signal is 'dimension:Label'. Forms match whole tokens, or tokens followed by a Nepali case suffix; entries with \"prefix\": true also match any continuation (for verb stems). Signals prefixed with '~' are weak: the word is ambiguous or the reading depends on context, so they are reported as hypotheses only.",
+ "entries": [
+  {
+   "forms": [
+    "माया",
+    "प्रेम",
+    "प्यार",
+    "प्यारी",
+    "प्यारो",
+    "मायालु"
+   ],
+   "gloss": "love, affection",
+   "signals": [
+    "love:maya",
+    "theme:LOVE_ROMANCE",
+    "emotion:longing"
+   ]
+  },
+  {
+   "forms": [
+    "लभ",
+    "GF",
+    "BF",
+    "girlfriend",
+    "boyfriend"
+   ],
+   "gloss": "love / girlfriend (English loan)",
+   "signals": [
+    "love:eros",
+    "theme:LOVE_ROMANCE",
+    "theme:CODE_MIXING_SLANG",
+    "rhetorical:Code-mixing",
+    "cultural:Youth culture"
+   ]
+  },
+  {
+   "forms": [
+    "याद",
+    "सम्झना",
+    "सम्झ"
+   ],
+   "prefix": true,
+   "gloss": "memory, missing someone",
+   "signals": [
+    "emotion:longing",
+    "love:viraha",
+    "theme:SEPARATION_LOSS"
+   ]
+  },
+  {
+   "forms": [
+    "पर्खी",
+    "पर्खिरहेँ",
+    "पर्खाइ",
+    "पर्खनु",
+    "पर्ख"
+   ],
+   "prefix": true,
+   "gloss": "to wait",
+   "signals": [
+    "emotion:longing",
+    "theme:SEPARATION_LOSS"
+   ]
+  },
+  {
+   "forms": [
+    "एक्लो",
+    "एक्लै",
+    "एक्लोपन"
+   ],
+   "gloss": "alone, lonely",
+   "signals": [
+    "emotion:sorrow",
+    "theme:SEPARATION_LOSS",
+    "philosophical:Human suffering"
+   ]
+  },
+  {
+   "forms": [
+    "छाडी",
+    "छोडी",
+    "छोड्छन्",
+    "छोडेर",
+    "छाडेर"
+   ],
+   "gloss": "leaving, abandoning",
+   "signals": [
+    "theme:SEPARATION_LOSS",
+    "emotion:sorrow"
+   ]
+  },
+  {
+   "forms": [
+    "आमा",
+    "आमाले",
+    "आमालाई"
+   ],
+   "gloss": "mother",
+   "signals": [
+    "relationship:Parent–child",
+    "social:Family",
+    "theme:FAMILY",
+    "love:vatsalya"
+   ]
+  },
+  {
+   "forms": [
+    "बुबा",
+    "बुवा",
+    "बाबा",
+    "बाउ"
+   ],
+   "gloss": "father",
+   "signals": [
+    "relationship:Parent–child",
+    "social:Family",
+    "theme:FAMILY",
+    "gender_power:Gender roles"
+   ]
+  },
+  {
+   "forms": [
+    "छोरा",
+    "छोरो"
+   ],
+   "gloss": "son",
+   "signals": [
+    "relationship:Parent–child",
+    "theme:FAMILY",
+    "social:Generational relationships"
+   ]
+  },
+  {
+   "forms": [
+    "छोरी"
+   ],
+   "gloss": "daughter",
+   "signals": [
+    "relationship:Parent–child",
+    "theme:FAMILY",
+    "theme:WOMEN_REPRESENTATION"
+   ]
+  },
+  {
+   "forms": [
+    "परिवार",
+    "परिवारले",
+    "घरपरिवार"
+   ],
+   "gloss": "family",
+   "signals": [
+    "social:Family",
+    "theme:FAMILY"
+   ]
+  },
+  {
+   "forms": [
+    "आफन्त",
+    "इष्ट",
+    "इष्टमित्र",
+    "नाता",
+    "नातागोता"
+   ],
+   "gloss": "relatives, kin",
+   "signals": [
+    "relationship:Kin",
+    "social:Family",
+    "theme:FAMILY"
+   ]
+  },
+  {
+   "forms": [
+    "साथी",
+    "साथीहरू",
+    "मित्र",
+    "दोस्त",
+    "यार"
+   ],
+   "gloss": "friend",
+   "signals": [
+    "relationship:Friendship",
+    "love:philia",
+    "social:Friendship"
+   ]
+  },
+  {
+   "forms": [
+    "दाइ",
+    "दिदी",
+    "भाइ",
+    "बहिनी"
+   ],
+   "gloss": "elder brother / sister, younger sibling (also address forms)",
+   "signals": [
+    "relationship:Kin",
+    "cultural:Respect"
+   ]
+  },
+  {
+   "forms": [
+    "पैसा",
+    "पैसाको",
+    "पैसाले",
+    "रुपैयाँ",
+    "नोट"
+   ],
+   "gloss": "money",
+   "signals": [
+    "economic:Money",
+    "theme:MONEY_MATERIALISM"
+   ]
+  },
+  {
+   "forms": [
+    "धन",
+    "धनसम्पत्ति",
+    "सम्पत्ति",
+    "करोड",
+    "करोडौँ",
+    "लाख"
+   ],
+   "gloss": "wealth, property",
+   "signals": [
+    "economic:Wealth",
+    "theme:MONEY_MATERIALISM"
+   ]
+  },
+  {
+   "forms": [
+    "कमाउ",
+    "कमाइ",
+    "कमाई"
+   ],
+   "prefix": true,
+   "gloss": "to earn",
+   "signals": [
+    "economic:Labour",
+    "economic:Economic aspiration",
+    "theme:MONEY_MATERIALISM"
+   ]
+  },
+  {
+   "forms": [
+    "गरिब",
+    "गरिबी",
+    "नहुने",
+    "रित्तो"
+   ],
+   "gloss": "poor, poverty, empty",
+   "signals": [
+    "economic:Poverty",
+    "theme:CLASS_INEQUALITY_CRITIQUE"
+   ]
+  },
+  {
+   "forms": [
+    "धनी",
+    "साहु",
+    "साहुजी"
+   ],
+   "gloss": "rich, the haves, moneylender/owner",
+   "signals": [
+    "economic:Wealth",
+    "social:Social status",
+    "theme:CLASS_INEQUALITY_CRITIQUE"
+   ]
+  },
+  {
+   "forms": [
+    "गोजी",
+    "गोजीको"
+   ],
+   "gloss": "pocket",
+   "signals": [
+    "economic:Financial insecurity",
+    "theme:MONEY_MATERIALISM"
+   ]
+  },
+  {
+   "forms": [
+    "भाडा"
+   ],
+   "gloss": "fare",
+   "signals": [
+    "economic:Livelihood",
+    "theme:FARE_LIVELIHOOD",
+    "relationship:Driver–passenger"
+   ]
+  },
+  {
+   "forms": [
+    "कार",
+    "सिक्री",
+    "रेस्टुरेन्ट",
+    "मोबाइल",
+    "आइफोन",
+    "सुनको",
+    "सुनौलो"
+   ],
+   "gloss": "status goods",
+   "signals": [
+    "economic:Consumerism",
+    "theme:CONSUMER_STATUS"
+   ]
+  },
+  {
+   "forms": [
+    "खाडी",
+    "कतार",
+    "साउदी",
+    "मलेसिया",
+    "दुबई",
+    "दुबइ",
+    "कोरिया",
+    "जापान",
+    "अमेरिका",
+    "लाहुर",
+    "लाहुरे"
+   ],
+   "gloss": "migration destinations",
+   "signals": [
+    "economic:Migration",
+    "social:Migration",
+    "theme:MIGRATION"
+   ]
+  },
+  {
+   "forms": [
+    "परदेश",
+    "परदेशी",
+    "विदेश",
+    "विदेशी",
+    "बिदेश"
+   ],
+   "gloss": "abroad, foreign land",
+   "signals": [
+    "economic:Migration",
+    "theme:MIGRATION",
+    "emotion:longing"
+   ]
+  },
+  {
+   "forms": [
+    "पढाइ",
+    "पढ्ने",
+    "नपढ्ने",
+    "स्कुल",
+    "कलेज",
+    "परीक्षा",
+    "शिक्षा"
+   ],
+   "gloss": "education",
+   "signals": [
+    "social:Education",
+    "theme:EDUCATION"
+   ]
+  },
+  {
+   "forms": [
+    "ड्राइभर",
+    "चालक",
+    "खलासी",
+    "कन्डक्टर",
+    "सहचालक"
+   ],
+   "gloss": "driver, helper, conductor",
+   "signals": [
+    "social:Occupational identity",
+    "theme:DRIVER_IDENTITY"
+   ]
+  },
+  {
+   "forms": [
+    "गाडी",
+    "मोटर",
+    "बस",
+    "ट्रक",
+    "टिपर",
+    "जीप",
+    "स्टेयरिङ",
+    "ब्याट्री",
+    "हर्न"
+   ],
+   "gloss": "vehicle",
+   "signals": [
+    "theme:DRIVER_IDENTITY"
+   ]
+  },
+  {
+   "forms": [
+    "बाटो",
+    "बाटोमा",
+    "रोड",
+    "रोडमा",
+    "सडक",
+    "सडकमा"
+   ],
+   "gloss": "road",
+   "signals": [
+    "theme:DRIVER_IDENTITY",
+    "philosophical:Resilience"
+   ]
+  },
+  {
+   "forms": [
+    "रफ्तार",
+    "स्पिड",
+    "गुडाउ",
+    "उडाउ"
+   ],
+   "prefix": true,
+   "gloss": "speed, driving",
+   "signals": [
+    "theme:DRIVER_IDENTITY",
+    "theme:MASCULINITY"
+   ]
+  },
+  {
+   "forms": [
+    "निद्रा",
+    "थकाइ",
+    "आराम"
+   ],
+   "gloss": "sleep, fatigue, rest",
+   "signals": [
+    "social:Labour",
+    "theme:LABOR_DIGNITY",
+    "emotion:sorrow"
+   ]
+  },
+  {
+   "forms": [
+    "हेला",
+    "नहेप",
+    "हेप्ने",
+    "भिकारी"
+   ],
+   "gloss": "contempt, looking down on; beggar",
+   "signals": [
+    "theme:LABOR_DIGNITY",
+    "theme:SELF_RESPECT",
+    "gender_power:Power asymmetry",
+    "emotion:pride"
+   ]
+  },
+  {
+   "forms": [
+    "मर्द",
+    "नामर्द",
+    "पुरुष",
+    "लोग्ने",
+    "केटा",
+    "केटाहरू"
+   ],
+   "gloss": "man, manhood, boy",
+   "signals": [
+    "gender_power:Masculinity",
+    "theme:MASCULINITY"
+   ]
+  },
+  {
+   "forms": [
+    "स्त्री",
+    "आइमाई",
+    "महिला",
+    "केटी",
+    "केटीहरू",
+    "नारी"
+   ],
+   "gloss": "woman, girl",
+   "signals": [
+    "gender_power:Femininity",
+    "theme:WOMEN_REPRESENTATION"
+   ]
+  },
+  {
+   "forms": [
+    "कान्छी",
+    "कान्छा"
+   ],
+   "gloss": "youngest (f./m.), also an affectionate address to a woman/man",
+   "signals": [
+    "relationship:Romantic",
+    "theme:WOMEN_REPRESENTATION",
+    "cultural:Folk wisdom"
+   ]
+  },
+  {
+   "forms": [
+    "श्रीमती",
+    "श्रीमान्",
+    "बुहारी",
+    "बिहे",
+    "विवाह",
+    "दुलही",
+    "पोइल"
+   ],
+   "gloss": "wife, husband, daughter-in-law, marriage, elopement",
+   "signals": [
+    "social:Marriage",
+    "gender_power:Marriage expectations",
+    "gender_power:Gender roles"
+   ]
+  },
+  {
+   "forms": [
+    "कम्मर",
+    "जिउ",
+    "ओठ"
+   ],
+   "gloss": "waist, body, lips",
+   "signals": [
+    "~gender_power:Sexual objectification",
+    "love:eros"
+   ]
+  },
+  {
+   "forms": [
+    "नेता",
+    "नेताजी",
+    "मन्त्री",
+    "सांसद",
+    "प्रधानमन्त्री"
+   ],
+   "gloss": "political leader",
+   "signals": [
+    "political:Political leadership",
+    "theme:INSTITUTION_CRITIQUE"
+   ]
+  },
+  {
+   "forms": [
+    "सरकार",
+    "राज्य",
+    "संविधान",
+    "कानुन",
+    "अदालत",
+    "प्रहरी"
+   ],
+   "gloss": "state institutions",
+   "signals": [
+    "political:Governance",
+    "political:Justice",
+    "theme:INSTITUTION_CRITIQUE"
+   ]
+  },
+  {
+   "forms": [
+    "चुनाव",
+    "भोट",
+    "पार्टी",
+    "दल",
+    "छाप",
+    "निर्वाचन"
+   ],
+   "gloss": "elections, parties, ballot symbol",
+   "signals": [
+    "political:Elections",
+    "political:Political parties",
+    "theme:INSTITUTION_CRITIQUE"
+   ]
+  },
+  {
+   "forms": [
+    "देश",
+    "राष्ट्र",
+    "नेपाल",
+    "जनता",
+    "नागरिक"
+   ],
+   "gloss": "nation, the people",
+   "signals": [
+    "political:Nationalism",
+    "political:Citizenship",
+    "cultural:National identity"
+   ]
+  },
+  {
+   "forms": [
+    "भ्रष्टाचार",
+    "घुस",
+    "कमिसन",
+    "झुट"
+   ],
+   "gloss": "corruption, bribe, lies",
+   "signals": [
+    "political:Corruption",
+    "theme:DISTRUST_HYPOCRISY"
+   ]
+  },
+  {
+   "forms": [
+    "सुकुम्बासी"
+   ],
+   "gloss": "landless squatter",
+   "signals": [
+    "economic:Economic inequality",
+    "political:Rights",
+    "theme:CLASS_INEQUALITY_CRITIQUE"
+   ]
+  },
+  {
+   "forms": [
+    "भगवान्",
+    "भगवान",
+    "ईश्वर",
+    "प्रभु",
+    "देवता",
+    "दैव"
+   ],
+   "gloss": "God, Lord",
+   "signals": [
+    "cultural:Religion",
+    "relationship:Divine–devotee",
+    "theme:RELIGION_FATE",
+    "love:bhakti"
+   ]
+  },
+  {
+   "forms": [
+    "शिव",
+    "शिवजी",
+    "पार्वती",
+    "राम",
+    "कृष्ण",
+    "हनुमान",
+    "बुद्ध",
+    "येशू",
+    "अल्लाह"
+   ],
+   "gloss": "deity names",
+   "signals": [
+    "cultural:Religion",
+    "theme:RELIGION_FATE"
+   ]
+  },
+  {
+   "forms": [
+    "आशीर्वाद",
+    "पूजा",
+    "प्रार्थना",
+    "मन्दिर"
+   ],
+   "gloss": "blessing, worship, prayer",
+   "signals": [
+    "cultural:Religion",
+    "cultural:Spirituality",
+    "theme:RELIGION_FATE"
+   ]
+  },
+  {
+   "forms": [
+    "भाग्य",
+    "किस्मत",
+    "कर्म",
+    "धर्म",
+    "पाप",
+    "पुण्य"
+   ],
+   "gloss": "fate, karma, dharma",
+   "signals": [
+    "cultural:Fate",
+    "cultural:Karma",
+    "philosophical:Fate",
+    "theme:RELIGION_FATE"
+   ]
+  },
+  {
+   "forms": [
+    "मृत्यु",
+    "मर्नु",
+    "मरे",
+    "मर्ने",
+    "मरेपछि",
+    "कात्रो",
+    "मसानघाट",
+    "चिता",
+    "लास"
+   ],
+   "gloss": "death, shroud, cremation ground",
+   "signals": [
+    "philosophical:Mortality",
+    "theme:MORTALITY_RISK",
+    "emotion:sorrow"
+   ]
+  },
+  {
+   "forms": [
+    "दुर्घटना",
+    "बाढी",
+    "पहिरो",
+    "भेल"
+   ],
+   "gloss": "accident, flood, landslide",
+   "signals": [
+    "philosophical:Mortality",
+    "theme:MORTALITY_RISK",
+    "emotion:fear"
+   ]
+  },
+  {
+   "forms": [
+    "जिन्दगी",
+    "जीवन",
+    "जिन्दगीका",
+    "जिन्दगीभर"
+   ],
+   "gloss": "life",
+   "signals": [
+    "philosophical:Meaning of life",
+    "philosophical:Existential reflection"
+   ]
+  },
+  {
+   "forms": [
+    "समय",
+    "घडी",
+    "बेला",
+    "भोलि",
+    "हिजो"
+   ],
+   "gloss": "time",
+   "signals": [
+    "philosophical:Time"
+   ]
+  },
+  {
+   "forms": [
+    "संसार",
+    "दुनियाँ",
+    "दुनिया"
+   ],
+   "gloss": "the world",
+   "signals": [
+    "philosophical:Existential reflection",
+    "social:Social norms"
+   ]
+  },
+  {
+   "forms": [
+    "आशा",
+    "धैर्य",
+    "हिम्मत",
+    "बिहानी",
+    "विश्वास",
+    "भरोसा"
+   ],
+   "gloss": "hope, patience, courage, dawn, trust",
+   "signals": [
+    "emotion:hope",
+    "philosophical:Resilience",
+    "theme:HOPE_RESILIENCE"
+   ]
+  },
+  {
+   "forms": [
+    "आँसु",
+    "रुने",
+    "रोए",
+    "रुनु",
+    "पीडा",
+    "दुःख",
+    "दुख",
+    "वेदना"
+   ],
+   "gloss": "tears, crying, pain, suffering",
+   "signals": [
+    "emotion:sorrow",
+    "philosophical:Human suffering"
+   ]
+  },
+  {
+   "forms": [
+    "खुसी",
+    "सुख",
+    "हाँसो",
+    "मुस्कान",
+    "रमाउन",
+    "मस्ती",
+    "मस्तीमा"
+   ],
+   "gloss": "happiness, laughter, enjoyment",
+   "signals": [
+    "emotion:joy",
+    "philosophical:Happiness"
+   ]
+  },
+  {
+   "forms": [
+    "रिस",
+    "क्रोध",
+    "आक्रोश"
+   ],
+   "gloss": "anger",
+   "signals": [
+    "emotion:anger"
+   ]
+  },
+  {
+   "forms": [
+    "डर",
+    "चिन्ता",
+    "त्रास"
+   ],
+   "gloss": "fear, worry",
+   "signals": [
+    "emotion:fear"
+   ]
+  },
+  {
+   "forms": [
+    "जलन",
+    "ईर्ष्या",
+    "डाह"
+   ],
+   "gloss": "jealousy",
+   "signals": [
+    "emotion:anger",
+    "theme:DISTRUST_HYPOCRISY"
+   ]
+  },
+  {
+   "forms": [
+    "स्वार्थी",
+    "स्वार्थ",
+    "धोका",
+    "बेइमान"
+   ],
+   "gloss": "selfish, betrayal",
+   "signals": [
+    "emotion:disillusionment",
+    "theme:DISTRUST_HYPOCRISY"
+   ]
+  },
+  {
+   "forms": [
+    "इज्जत",
+    "लाज",
+    "सम्मान",
+    "शिर",
+    "शान"
+   ],
+   "gloss": "honour, shame, respect, head (held high)",
+   "signals": [
+    "cultural:Honour",
+    "cultural:Respect",
+    "theme:SELF_RESPECT"
+   ]
+  },
+  {
+   "forms": [
+    "घमण्ड",
+    "घमन्ड",
+    "औकात"
+   ],
+   "gloss": "arrogance, status",
+   "signals": [
+    "social:Social status",
+    "theme:SELF_RESPECT",
+    "theme:MORAL_ADVICE"
+   ]
+  },
+  {
+   "forms": [
+    "गाउँ",
+    "गाउँमा",
+    "शहर",
+    "सहर",
+    "पहाड",
+    "मधेस",
+    "हिमाल"
+   ],
+   "gloss": "village, city, hills, plains, mountains",
+   "signals": [
+    "cultural:Rural culture",
+    "social:Rural/urban identity",
+    "theme:PLACE_IDENTITY"
+   ]
+  },
+  {
+   "forms": [
+    "ठट्टा",
+    "मजाक",
+    "जोक"
+   ],
+   "gloss": "joke",
+   "signals": [
+    "rhetorical:Humour",
+    "theme:HUMOR"
+   ]
+  },
+  {
+   "forms": [
+    "अङ्कल",
+    "अंकल",
+    "आन्टी",
+    "सरी",
+    "सोरी",
+    "ब्रो",
+    "हाइ",
+    "बाइ",
+    "ओके",
+    "बबाल"
+   ],
+   "gloss": "English loans / slang",
+   "signals": [
+    "rhetorical:Code-mixing",
+    "theme:CODE_MIXING_SLANG",
+    "cultural:Youth culture"
+   ]
+  },
+  {
+   "forms": [
+    "हार"
+   ],
+   "gloss": "necklace; also 'defeat'",
+   "signals": [
+    "~economic:Consumerism",
+    "~theme:CONSUMER_STATUS"
+   ]
+  },
+  {
+   "forms": [
+    "मान"
+   ],
+   "gloss": "respect; also 'accept/consider' (verb)",
+   "signals": [
+    "~cultural:Respect"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "name": "Nepali Vehicle Literature — multidimensional coding taxonomy",
+  "status": "draft — derived from the research codebook; needs native-speaker validation",
+  "principles": [
+    "Multi-label: an expression may carry any number of labels across any number of dimensions.",
+    "Every label must cite textual evidence or be marked as hypothesis.",
+    "'Not evident' means no textual basis; it is not a negative finding.",
+    "Greek love categories are an analytical lens, not a claim that Nepali speakers think in them. Culturally specific concepts (माया, विरह, भक्ति, वात्सल्य) are preferred where they fit better.",
+    "Sensitive labels (misogyny, patriarchy, caste, political affiliation, religious identity) require explicit evidence and a stated confidence."
+  ],
+  "confidence_levels": {
+    "high": "The reading is explicit in the wording.",
+    "medium": "The reading needs contextual or cultural inference.",
+    "low": "Several readings are plausible; treat as a hypothesis."
+  },
+  "epistemic_kinds": {
+    "evidence": "What the phrase literally says.",
+    "interpretation": "What the analysis infers from the wording.",
+    "hypothesis": "What may be implied; plausible but not established.",
+    "external": "What a cited source establishes."
+  },
+  "dimensions": [
+    {"key": "emotion", "label_en": "Emotion", "label_ne": "भावना", "color": "vermilion"},
+    {"key": "love", "label_en": "Love", "label_ne": "माया", "color": "rose"},
+    {"key": "relationship", "label_en": "Relationship", "label_ne": "सम्बन्ध", "color": "marigold"},
+    {"key": "social", "label_en": "Social", "label_ne": "समाज", "color": "indigo"},
+    {"key": "economic", "label_en": "Economic", "label_ne": "अर्थ", "color": "turmeric"},
+    {"key": "political", "label_en": "Political", "label_ne": "राजनीति", "color": "ink"},
+    {"key": "gender_power", "label_en": "Gender & Power", "label_ne": "लैङ्गिकता र शक्ति", "color": "plum"},
+    {"key": "cultural", "label_en": "Cultural", "label_ne": "संस्कृति", "color": "peacock"},
+    {"key": "philosophical", "label_en": "Philosophical", "label_ne": "दर्शन", "color": "leaf"},
+    {"key": "rhetorical", "label_en": "Rhetoric & Humour", "label_ne": "शैली र हास्य", "color": "chrome"}
+  ],
+  "themes": [
+    {"code": "LOVE_ROMANCE", "label_en": "Love & romance", "label_ne": "प्रेम", "group": "love", "origin": "Deductive", "definition": "Romantic love, courtship, flirtation", "keywords_en": ["love", "romance", "romantic", "flirt", "courtship", "girlfriend", "beloved", "darling", "sweetheart", "crush"], "keywords_ne": ["माया", "प्रेम", "प्यार", "प्यारी", "मायालु", "लभ"]},
+    {"code": "SEPARATION_LOSS", "label_en": "Separation & loss", "label_ne": "विछोड", "group": "love", "origin": "Deductive", "definition": "Heartbreak, abandonment, waiting, lost love", "keywords_en": ["heartbreak", "breakup", "separation", "lost love", "abandoned", "waiting", "longing", "memory", "missing", "loneliness", "lonely", "left me", "ex"], "keywords_ne": ["याद", "सम्झना", "पर्खाइ", "पर्खी", "एक्लो", "छाडी", "विरह", "बिछोड"]},
+    {"code": "FAMILY", "label_en": "Family", "label_ne": "परिवार", "group": "social", "origin": "Deductive", "definition": "Parents, children, kin, household obligation", "keywords_en": ["family", "mother", "father", "parents", "son", "daughter", "kin", "relatives", "home", "household"], "keywords_ne": ["आमा", "बुबा", "बुवा", "छोरा", "छोरी", "परिवार", "आफन्त", "घर", "माइती"]},
+    {"code": "MONEY_MATERIALISM", "label_en": "Money & materialism", "label_ne": "पैसा", "group": "economic", "origin": "Deductive", "definition": "Money, wealth, earning as theme", "keywords_en": ["money", "wealth", "rich", "earning", "income", "materialism", "cash", "gold", "property"], "keywords_ne": ["पैसा", "धन", "सम्पत्ति", "कमाउ", "करोड", "सुन", "गोजी"]},
+    {"code": "CLASS_INEQUALITY_CRITIQUE", "label_en": "Class & inequality", "label_ne": "वर्ग असमानता", "group": "economic", "origin": "Deductive", "definition": "Rich/poor contrast, critique of status hierarchy", "keywords_en": ["class", "inequality", "poor", "poverty", "rich and poor", "status", "hierarchy", "injustice", "squatter"], "keywords_ne": ["गरिब", "धनी", "हुने", "नहुने", "औकात", "सुकुम्बासी"]},
+    {"code": "CONSUMER_STATUS", "label_en": "Consumer status", "label_ne": "उपभोग र हैसियत", "group": "economic", "origin": "Emergent", "definition": "Status goods and consumption sites (car, necklace, restaurants) mediating relationships", "keywords_en": ["car", "restaurant", "necklace", "status symbol", "consumerism", "brand", "luxury", "shopping"], "keywords_ne": ["कार", "हार", "रेस्टुरेन्ट", "सिक्री"]},
+    {"code": "MIGRATION", "label_en": "Migration", "label_ne": "वैदेशिक रोजगारी", "group": "economic", "origin": "Deductive", "definition": "Gulf/foreign labour migration", "keywords_en": ["migration", "migrant", "abroad", "foreign employment", "gulf", "qatar", "saudi", "malaysia", "dubai", "remittance", "homesick", "homesickness", "exile", "leaving home"], "keywords_ne": ["खाडी", "कतार", "साउदी", "मलेसिया", "दुबई", "परदेश", "परदेशी", "विदेश", "लाहुरे"]},
+    {"code": "EDUCATION", "label_en": "Education", "label_ne": "शिक्षा", "group": "social", "origin": "Deductive", "definition": "Schooling and its failure", "keywords_en": ["education", "study", "school", "exam", "college", "degree"], "keywords_ne": ["पढाइ", "पढ्ने", "स्कुल", "परीक्षा", "शिक्षा"]},
+    {"code": "DRIVER_IDENTITY", "label_en": "Driver identity", "label_ne": "चालकको पहिचान", "group": "social", "origin": "Emergent", "definition": "Driver/vehicle self-reference; the inscription speaks as or about the driver", "keywords_en": ["driver", "vehicle", "truck", "bus", "road", "speed", "steering"], "keywords_ne": ["ड्राइभर", "गाडी", "मोटर", "बाटो", "रफ्तार", "गुडाउ"]},
+    {"code": "LABOR_DIGNITY", "label_en": "Labour & dignity", "label_ne": "श्रमको सम्मान", "group": "economic", "origin": "Emergent", "definition": "Defence of the occupation against stigma; work conditions; exhaustion", "keywords_en": ["labour", "labor", "work", "dignity of work", "stigma", "exhaustion", "sleepless", "occupation", "worker"], "keywords_ne": ["कर्म", "निद्रा", "आराम", "हेला", "नहेप"]},
+    {"code": "FARE_LIVELIHOOD", "label_en": "Fare & livelihood", "label_ne": "भाडा र जीविका", "group": "economic", "origin": "Emergent", "definition": "The fare as moral and economic flashpoint", "keywords_en": ["fare", "livelihood", "passenger", "payment", "ticket"], "keywords_ne": ["भाडा"]},
+    {"code": "MASCULINITY", "label_en": "Masculinity", "label_ne": "पुरुषत्व", "group": "gender_power", "origin": "Deductive", "definition": "Male roles, provider burden, manhood norms", "keywords_en": ["masculinity", "manhood", "man", "men", "provider", "breadwinner", "macho", "father"], "keywords_ne": ["मर्द", "नामर्द", "पुरुष", "केटा", "लोग्ने"]},
+    {"code": "WOMEN_REPRESENTATION", "label_en": "Representation of women", "label_ne": "महिलाको चित्रण", "group": "gender_power", "origin": "Deductive", "definition": "How women are described, addressed or blamed", "keywords_en": ["women", "woman", "girl", "wife", "daughter", "female", "gender", "misogyny", "elopement"], "keywords_ne": ["स्त्री", "केटी", "कान्छी", "छोरी", "आइमाई", "श्रीमती", "पोइल"]},
+    {"code": "SELF_RESPECT", "label_en": "Self-respect & swagger", "label_ne": "स्वाभिमान", "group": "cultural", "origin": "Emergent", "definition": "Dignity, refusal to bow, self-assertion, swagger", "keywords_en": ["self-respect", "dignity", "pride", "attitude", "swagger", "independence", "bow"], "keywords_ne": ["शिर", "झुक", "मान", "घमण्ड", "बबाल"]},
+    {"code": "DISTRUST_HYPOCRISY", "label_en": "Distrust & hypocrisy", "label_ne": "अविश्वास", "group": "social", "origin": "Emergent", "definition": "World as selfish; kin/people as fair-weather; words vs. deeds", "keywords_en": ["distrust", "hypocrisy", "selfish", "betrayal", "jealousy", "fake", "two-faced", "lies"], "keywords_ne": ["स्वार्थी", "झुट", "जलन", "व्यवहार"]},
+    {"code": "MORAL_ADVICE", "label_en": "Moral advice", "label_ne": "नैतिक सल्लाह", "group": "philosophical", "origin": "Deductive", "definition": "Didactic or ethical instruction", "keywords_en": ["advice", "moral", "ethics", "lesson", "wisdom", "proverb", "should"], "keywords_ne": ["गर", "नगर", "हुनुपर्छ", "राम्रो"]},
+    {"code": "HOPE_RESILIENCE", "label_en": "Hope & resilience", "label_ne": "आशा र धैर्य", "group": "philosophical", "origin": "Deductive", "definition": "Patience, endurance, optimism", "keywords_en": ["hope", "resilience", "patience", "endurance", "optimism", "courage", "perseverance", "better days"], "keywords_ne": ["आशा", "धैर्य", "हिम्मत", "बिहानी", "विश्वास"]},
+    {"code": "RELIGION_FATE", "label_en": "Religion & fate", "label_ne": "धर्म र भाग्य", "group": "cultural", "origin": "Deductive", "definition": "Deity, scripture, mythology, prayer", "keywords_en": ["religion", "god", "faith", "prayer", "fate", "destiny", "karma", "mythology", "blessing"], "keywords_ne": ["भगवान्", "ईश्वर", "प्रभु", "शिव", "पार्वती", "येशू", "भाग्य", "कर्म", "धर्म", "आशीर्वाद"]},
+    {"code": "MORTALITY_RISK", "label_en": "Mortality & risk", "label_ne": "मृत्यु र जोखिम", "group": "philosophical", "origin": "Deductive", "definition": "Death, disaster, road risk, impermanence", "keywords_en": ["death", "mortality", "accident", "disaster", "flood", "risk", "impermanence", "funeral"], "keywords_ne": ["मृत्यु", "दुर्घटना", "बाढी", "कात्रो", "मसानघाट", "मरे"]},
+    {"code": "INSTITUTION_CRITIQUE", "label_en": "Institutional critique", "label_ne": "संस्था आलोचना", "group": "political", "origin": "Deductive", "definition": "Courts, politicians, parties, the state", "keywords_en": ["politics", "political", "politician", "government", "state", "court", "corruption", "election", "party", "constitution", "leader", "satire"], "keywords_ne": ["नेता", "नेताजी", "सरकार", "अदालत", "संविधान", "देश", "जनता", "चुनाव", "पार्टी"]},
+    {"code": "PLACE_IDENTITY", "label_en": "Place identity", "label_ne": "स्थान पहिचान", "group": "cultural", "origin": "Deductive", "definition": "Named places, regional demonyms, rural–urban", "keywords_en": ["place", "region", "village", "hometown", "regional", "karnali", "rural", "urban"], "keywords_ne": ["गाउँ", "सुर्खेत", "सल्यान", "मुगु", "मुगाली", "चौरजहारी"]},
+    {"code": "HUMOR", "label_en": "Humour", "label_ne": "हास्य", "group": "rhetorical", "origin": "Deductive", "definition": "Jokes, irony, satire, teasing", "keywords_en": ["humour", "humor", "funny", "joke", "satire", "irony", "teasing", "sarcasm", "witty"], "keywords_ne": ["ठट्टा", "मजाक", "हाँसो"]},
+    {"code": "CODE_MIXING_SLANG", "label_en": "Code-mixing & slang", "label_ne": "भाषा मिश्रण", "group": "rhetorical", "origin": "Emergent", "definition": "English/Hindi mixing, youth slang, wordplay on slang", "keywords_en": ["slang", "code-mixing", "english words", "hindi", "youth language"], "keywords_ne": ["यार", "लभ", "बाइ", "हाइ", "बबाल"]}
+  ],
+  "emotion_families": [
+    {"key": "longing", "label_en": "Longing", "label_ne": "विरह / याद", "members": ["Longing", "Melancholy", "Wounded love", "Vindictive longing", "Nostalgia"]},
+    {"key": "sorrow", "label_en": "Sorrow", "label_ne": "दुःख", "members": ["Sorrow", "Grief", "Pathos", "Self-pity", "Weariness", "Lament"]},
+    {"key": "disillusionment", "label_en": "Disillusionment", "label_ne": "निराशा", "members": ["Disillusionment", "Cynicism", "Bitterness", "Resignation", "Resigned humour", "Wounded goodwill"]},
+    {"key": "anger", "label_en": "Anger & resentment", "label_ne": "रिस", "members": ["Frustration", "Resentment", "Anger", "Defensiveness", "Self-justification"]},
+    {"key": "fear", "label_en": "Fear & anxiety", "label_ne": "डर", "members": ["Anxiety", "Fear", "Urgency"]},
+    {"key": "joy", "label_en": "Joy & amusement", "label_ne": "खुसी", "members": ["Amusement", "Playful", "Playful bravado", "Defiant cheer", "Joy", "Mild chagrin"]},
+    {"key": "pride", "label_en": "Pride & self-respect", "label_ne": "स्वाभिमान", "members": ["Pride", "Swagger", "Wounded pride", "Determination"]},
+    {"key": "hope", "label_en": "Hope", "label_ne": "आशा", "members": ["Hope", "Patience", "Faith"]},
+    {"key": "devotion", "label_en": "Devotion & reverence", "label_ne": "भक्ति", "members": ["Devotion", "Reverence"]},
+    {"key": "compassion", "label_en": "Compassion", "label_ne": "करुणा", "members": ["Compassion"]},
+    {"key": "irony", "label_en": "Irony & sarcasm", "label_ne": "व्यङ्ग्य", "members": ["Irony", "Sarcasm", "Possible sarcasm"]},
+    {"key": "ambivalence", "label_en": "Ambivalence", "label_ne": "दोधार", "members": ["Ambivalence"]}
+  ],
+  "love_types": [
+    {"key": "maya", "label_en": "Māyā (affection, attachment)", "label_ne": "माया", "note": "Broad Nepali term covering romantic, familial and compassionate attachment; often the best first description before any Greek lens."},
+    {"key": "viraha", "label_en": "Viraha (love-in-separation)", "label_ne": "विरह", "note": "South Asian poetic category of love experienced through absence and longing."},
+    {"key": "eros", "label_en": "Eros (romantic/passionate)", "label_ne": "प्रणय", "note": "Analytical lens (Lee 1973)."},
+    {"key": "ludus", "label_en": "Ludus (playful, flirtatious)", "label_ne": "चञ्चल प्रेम", "note": "Analytical lens (Lee 1973)."},
+    {"key": "storge", "label_en": "Storge (familial affection)", "label_ne": "स्नेह", "note": "Analytical lens (Lewis 1960; Lee 1973)."},
+    {"key": "vatsalya", "label_en": "Vātsalya (parental tenderness)", "label_ne": "वात्सल्य", "note": "Parent–child tenderness; a rasa category in Sanskrit aesthetics."},
+    {"key": "philia", "label_en": "Philia (friendship)", "label_ne": "मित्रता", "note": "Analytical lens (Lewis 1960)."},
+    {"key": "agape", "label_en": "Agape (self-giving)", "label_ne": "निःस्वार्थ प्रेम", "note": "Analytical lens (Lewis 1960)."},
+    {"key": "bhakti", "label_en": "Bhakti (devotional love)", "label_ne": "भक्ति", "note": "Love directed to the divine."},
+    {"key": "unrequited", "label_en": "Unrequited love", "label_ne": "एकतर्फी माया", "note": ""},
+    {"key": "conditional", "label_en": "Conditional love", "label_ne": "सशर्त माया", "note": "Affection framed as contingent on money, status or performance."}
+  ],
+  "power_stances": [
+    {"key": "reproduction", "label_en": "Reproduction", "definition": "Restates an existing hierarchy as natural or acceptable."},
+    {"key": "reflection", "label_en": "Reflection", "definition": "Describes a hierarchy without clearly endorsing or opposing it."},
+    {"key": "critique", "label_en": "Critique", "definition": "Questions or criticizes a hierarchy."},
+    {"key": "resistance", "label_en": "Resistance", "definition": "Asserts dignity or agency against stigma or domination."},
+    {"key": "ambiguous", "label_en": "Ambiguous", "definition": "Several stances are plausible."}
+  ],
+  "dimension_vocabularies": {
+    "social": ["Family", "Friendship", "Marriage", "Community", "Social norms", "Social expectations", "Social pressure", "Social status", "Reputation", "Class", "Education", "Migration", "Labour", "Rural/urban identity", "Generational relationships", "Social inequality", "Occupational identity"],
+    "economic": ["Money", "Poverty", "Wealth", "Labour", "Employment", "Migration", "Remittance", "Economic aspiration", "Consumerism", "Class mobility", "Economic inequality", "Financial insecurity", "Livelihood"],
+    "political": ["Political reference", "Government", "Political leadership", "Political parties", "Elections", "Democracy", "Governance", "Corruption", "Political satire", "Nationalism", "Citizenship", "Rights", "Justice", "Public services", "Political dissatisfaction", "Protest", "Political humour"],
+    "gender_power": ["Patriarchal assumptions", "Misogyny", "Misandry", "Feminist expression", "Gender equality", "Gender stereotypes", "Masculinity", "Femininity", "Gender roles", "Male authority", "Female agency", "Sexual objectification", "Marriage expectations", "Gendered labour", "Power asymmetry"],
+    "cultural": ["Nepali cultural values", "Folk wisdom", "Religion", "Spirituality", "Karma", "Fate", "Family values", "Honour", "Shame", "Respect", "Tradition", "Modernity", "Rural culture", "Urban culture", "Youth culture", "Regional identity", "Ethnic identity", "National identity"],
+    "philosophical": ["Fate", "Mortality", "Meaning of life", "Human suffering", "Happiness", "Time", "Change", "Impermanence", "Success", "Failure", "Freedom", "Identity", "Resilience", "Existential reflection"],
+    "rhetorical": ["Humour", "Satire", "Sarcasm", "Irony", "Paradox", "Metaphor", "Simile", "Hyperbole", "Pun", "Wordplay", "Double meaning", "Self-deprecation", "Rhyme", "Parallelism", "Antithesis", "Rhetorical question", "Anaphora", "Repetition", "Code-mixing", "Reported speech", "Analogy", "Double bind"],
+    "relationship": ["Romantic", "Courtship", "Parent–child", "Kin", "Friendship", "Driver–passenger", "Worker–public", "Divine–devotee", "Self–society", "Citizen–state", "Man–woman (generic)", "Self"]
+  },
+  "sensitive_labels": ["Misogyny", "Misandry", "Patriarchal assumptions", "Sexual objectification", "Political parties", "Caste", "Ethnic identity", "Religion"]
+}

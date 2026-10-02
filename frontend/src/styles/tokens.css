@@ -1,0 +1,171 @@
+/*
+ * Design tokens — "enamel by day, night road by dark".
+ * Palette drawn from South Asian painted vehicles: sindoor vermilion, marigold,
+ * turmeric, peacock teal, royal indigo, rose pink, on warm enamel cream.
+ * Text-bearing colours are tuned for WCAG AA (≥4.5:1) on their backgrounds;
+ * marigold/turmeric/chrome are decorative or carry dark text only.
+ */
+:root {
+  color-scheme: light;
+
+  /* Surfaces */
+  --paper: #f4ecdb;
+  --paper-2: #ebe0c8;
+  --paper-3: #e0d2b4;
+  --card: #fbf6ea;
+  --ink: #1c1633;
+  --ink-2: #463f5c;
+  --ink-3: #6a6380;
+  --line: #cdbf9f;
+
+  /* Paint */
+  --vermilion: #b3301c;
+  --vermilion-bright: #d8452a;
+  --marigold: #e8892b;
+  --turmeric: #e6b325;
+  --peacock: #0d6767;
+  --indigo: #24378a;
+  --rose: #b42d62;
+  --plum: #6a2c6a;
+  --leaf: #2d6838;
+  --chrome: #9aa0aa;
+  --asphalt: #2a2733;
+  --road-paint: #f2c14e;
+
+  /* Semantic */
+  --bg: var(--paper);
+  --surface: var(--card);
+  --text: var(--ink);
+  --text-muted: var(--ink-2);
+  --text-subtle: var(--ink-3);
+  --accent: var(--vermilion);
+  --accent-ink: #fff8ec;
+  --focus: #1f6fe0;
+  --success: var(--leaf);
+  --warning-bg: #fbe7b5;
+  --warning-ink: #6a4a00;
+  --danger: #a3261b;
+
+  /* Dimension colours (cultural map) */
+  --dim-emotion: var(--vermilion);
+  --dim-love: var(--rose);
+  --dim-relationship: #a85d12;
+  --dim-social: var(--indigo);
+  --dim-economic: #8a6400;
+  --dim-political: var(--ink);
+  --dim-gender_power: var(--plum);
+  --dim-cultural: var(--peacock);
+  --dim-philosophical: var(--leaf);
+  --dim-rhetoric: #5c6170;
+  --dim-themes: #7a4b1e;
+  --dim-concepts: #0b5f8a;
+  --dim-related: var(--ink-2);
+
+  /* Type */
+  --font-display-ne: "Yatra One", "Rozha One", "Mukta", serif;
+  --font-display: "Rozha One", "Yatra One", Georgia, serif;
+  --font-body: "Mukta", "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-translit: "Noto Serif", Georgia, serif;
+
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: clamp(1.5rem, 1.2rem + 1.4vw, 2rem);
+  --fs-2xl: clamp(1.9rem, 1.4rem + 2.6vw, 3rem);
+  --fs-phrase: clamp(1.75rem, 1.3rem + 2.4vw, 3rem);
+  --fs-hero: clamp(2.3rem, 1.4rem + 4.6vw, 4.6rem);
+
+  /* Space (4px grid) */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4.5rem;
+  --gutter: 16px;
+  --maxw: 1180px;
+
+  /* Shape */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --bevel: 12px;
+  --frame-w: 3px;
+
+  /* Elevation: painted-metal shadows are hard-edged, not blurry */
+  --shadow-paint: 3px 3px 0 var(--ink);
+  --shadow-soft: 0 1px 0 rgb(28 22 51 / 0.08), 0 6px 18px -8px rgb(28 22 51 / 0.25);
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur-1: 120ms;
+  --dur-2: 240ms;
+  --dur-3: 480ms;
+
+  --tap: 48px; /* minimum touch target */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #15112a;
+    --paper-2: #1d1838;
+    --paper-3: #282148;
+    --card: #1f1a3b;
+    --ink: #f3ead6;
+    --ink-2: #cfc4ac;
+    --ink-3: #a99f8a;
+    --line: #3d3560;
+    --vermilion: #ff7457;
+    --vermilion-bright: #ff8a6f;
+    --peacock: #48c8ba;
+    --indigo: #9fb0ff;
+    --rose: #ff86b0;
+    --plum: #d79bd7;
+    --leaf: #7fcf8c;
+    --accent-ink: #1b0f08;
+    --warning-bg: #3d3110;
+    --warning-ink: #f6d98a;
+    --danger: #ff8070;
+    --dim-relationship: #f0a45a;
+    --dim-economic: #e6c25a;
+    --dim-rhetoric: #b8bdc8;
+    --dim-themes: #e2a670;
+    --dim-concepts: #6cc3f0;
+    --shadow-paint: 3px 3px 0 #000;
+    --shadow-soft: 0 6px 18px -8px rgb(0 0 0 / 0.6);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #15112a;
+  --paper-2: #1d1838;
+  --paper-3: #282148;
+  --card: #1f1a3b;
+  --ink: #f3ead6;
+  --ink-2: #cfc4ac;
+  --ink-3: #a99f8a;
+  --line: #3d3560;
+  --vermilion: #ff7457;
+  --vermilion-bright: #ff8a6f;
+  --peacock: #48c8ba;
+  --indigo: #9fb0ff;
+  --rose: #ff86b0;
+  --plum: #d79bd7;
+  --leaf: #7fcf8c;
+  --accent-ink: #1b0f08;
+  --warning-bg: #3d3110;
+  --warning-ink: #f6d98a;
+  --danger: #ff8070;
+  --dim-relationship: #f0a45a;
+  --dim-economic: #e6c25a;
+  --dim-rhetoric: #b8bdc8;
+  --dim-themes: #e2a670;
+  --dim-concepts: #6cc3f0;
+  --shadow-paint: 3px 3px 0 #000;
+  --shadow-soft: 0 6px 18px -8px rgb(0 0 0 / 0.6);
+}

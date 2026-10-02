@@ -1,0 +1,128 @@
+{
+  "notes": [
+    "Source: user-supplied file '52_Vehicle_proverbs_and_sayings' (61 rows despite the filename). Columns B–F of Master_Dataset are copied verbatim from that file (escape backslashes removed only).",
+    "Original_Translation is never overwritten. Corrections appear in Normalized_Translation and are flagged in Human_Review.",
+    "Multi-label fields use '|' as separator. 'Not evident' = no textual basis; it is not a negative finding.",
+    "Code_Matrix, Frequencies and Co_occurrence are formula-driven from the Codes column: edit Codes and they recalculate.",
+    "Confidence: High = explicit; Medium = needs contextual inference; Low = several readings plausible.",
+    "Power_Hierarchy uses: Reproduction / Reflection / Critique / Resistance / Ambiguous (master prompt §10).",
+    "Coding is a first pass by Claude, not a validated annotation. All entries flagged Y need native-speaker review before publication."
+  ],
+  "codes": [
+    {
+      "code": "LOVE_ROMANCE",
+      "origin": "Deductive",
+      "definition": "Romantic love, courtship, flirtation"
+    },
+    {
+      "code": "SEPARATION_LOSS",
+      "origin": "Deductive",
+      "definition": "Heartbreak, abandonment, waiting, lost love"
+    },
+    {
+      "code": "FAMILY",
+      "origin": "Deductive",
+      "definition": "Parents, children, kin, household obligation"
+    },
+    {
+      "code": "MONEY_MATERIALISM",
+      "origin": "Deductive",
+      "definition": "Money, wealth, earning as theme"
+    },
+    {
+      "code": "CLASS_INEQUALITY_CRITIQUE",
+      "origin": "Deductive",
+      "definition": "Rich/poor contrast, critique of status hierarchy"
+    },
+    {
+      "code": "CONSUMER_STATUS",
+      "origin": "Emergent",
+      "definition": "Status goods and consumption sites (car, necklace, restaurants) mediating relationships"
+    },
+    {
+      "code": "MIGRATION",
+      "origin": "Deductive",
+      "definition": "Gulf/foreign labour migration"
+    },
+    {
+      "code": "EDUCATION",
+      "origin": "Deductive",
+      "definition": "Schooling and its failure"
+    },
+    {
+      "code": "DRIVER_IDENTITY",
+      "origin": "Emergent",
+      "definition": "Driver/vehicle self-reference; the inscription speaks as or about the driver"
+    },
+    {
+      "code": "LABOR_DIGNITY",
+      "origin": "Emergent",
+      "definition": "Defence of the occupation against stigma; work conditions; exhaustion"
+    },
+    {
+      "code": "FARE_LIVELIHOOD",
+      "origin": "Emergent",
+      "definition": "The fare as moral and economic flashpoint"
+    },
+    {
+      "code": "MASCULINITY",
+      "origin": "Deductive",
+      "definition": "Male roles, provider burden, manhood norms"
+    },
+    {
+      "code": "WOMEN_REPRESENTATION",
+      "origin": "Deductive",
+      "definition": "How women are described, addressed or blamed"
+    },
+    {
+      "code": "SELF_RESPECT",
+      "origin": "Emergent",
+      "definition": "Dignity, refusal to bow, self-assertion, swagger"
+    },
+    {
+      "code": "DISTRUST_HYPOCRISY",
+      "origin": "Emergent",
+      "definition": "World as selfish; kin/people as fair-weather; words vs. deeds"
+    },
+    {
+      "code": "MORAL_ADVICE",
+      "origin": "Deductive",
+      "definition": "Didactic or ethical instruction"
+    },
+    {
+      "code": "HOPE_RESILIENCE",
+      "origin": "Deductive",
+      "definition": "Patience, endurance, optimism"
+    },
+    {
+      "code": "RELIGION_FATE",
+      "origin": "Deductive",
+      "definition": "Deity, scripture, mythology, prayer"
+    },
+    {
+      "code": "MORTALITY_RISK",
+      "origin": "Deductive",
+      "definition": "Death, disaster, road risk, impermanence"
+    },
+    {
+      "code": "INSTITUTION_CRITIQUE",
+      "origin": "Deductive",
+      "definition": "Courts, politicians, parties, the state"
+    },
+    {
+      "code": "PLACE_IDENTITY",
+      "origin": "Deductive",
+      "definition": "Named places, regional demonyms, rural–urban"
+    },
+    {
+      "code": "HUMOR",
+      "origin": "Deductive",
+      "definition": "Jokes, irony, satire, teasing"
+    },
+    {
+      "code": "CODE_MIXING_SLANG",
+      "origin": "Emergent",
+      "definition": "English/Hindi mixing, youth slang, wordplay on slang"
+    }
+  ]
+}

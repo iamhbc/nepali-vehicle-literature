@@ -1,0 +1,32 @@
+# Render Blueprint: Python API (Docker) + managed PostgreSQL.
+# The frontend is deployed to Netlify separately (see netlify.toml).
+services:
+  - type: web
+    name: nvl-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: nvl-db
+          property: connectionString
+      - key: VECTOR_BACKEND
+        value: memory
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD_HASH
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+
+databases:
+  - name: nvl-db
+    plan: basic-256mb
+    databaseName: nvl

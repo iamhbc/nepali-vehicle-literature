@@ -1,0 +1,36 @@
+{
+  "source_file": "data/raw/Vehicle_Inscriptions_Master_Dataset.xlsx",
+  "source_sha256": "72c6805fa0fd895b10bf8c4f07cafc135f5638bea563fe07f2219395cb068474",
+  "processed_at": "2026-10-02T01:59:54+00:00",
+  "processor": "scripts/process_corpus.py",
+  "counts": {
+    "records": 61,
+    "active": 60,
+    "text_missing": 1,
+    "needs_review": 27,
+    "codes": 23,
+    "clusters": 14
+  },
+  "global_qc_findings": [
+    {
+      "check": "Row count",
+      "finding": "Filename says 52; the table has 61 entries plus one empty row.",
+      "scope": "—"
+    },
+    {
+      "check": "Theme column format",
+      "finding": "Mix of commas and semicolons; some trailing periods. Normalize to '|' before NLP.",
+      "scope": "All"
+    },
+    {
+      "check": "Context fields",
+      "finding": "No vehicle type, location, date or photo reference for any row; all contextual coding marked unavailable.",
+      "scope": "All"
+    }
+  ],
+  "notes": [
+    "Original fields are preserved verbatim; corrections live in separate *_normalized fields.",
+    "Multi-label fields are split on '|'. Empty markers ('Not evident', 'N/A', '—') become null/[].",
+    "Power_Hierarchy is parsed into stances (Reproduction/Reflection/Critique/Resistance/Ambiguous) with the coder's note kept."
+  ]
+}

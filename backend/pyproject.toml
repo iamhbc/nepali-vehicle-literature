@@ -1,0 +1,27 @@
+[project]
+name = "nvl-backend"
+version = "0.1.0"
+description = "Nepali Vehicle Literature — analysis API"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "sqlalchemy>=2.0.30",
+  "pydantic>=2.9",
+  "pydantic-settings>=2.4",
+  "anthropic>=1.0",
+  "numpy>=1.26",
+  "pillow>=10.4",
+  "python-multipart>=0.0.9",
+  "pyjwt>=2.9",
+  "bcrypt>=4.2",
+  "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.2", "pgvector>=0.3"]
+embeddings = ["sentence-transformers>=3.0"]
+dev = ["pytest>=8.3", "httpx>=0.27"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

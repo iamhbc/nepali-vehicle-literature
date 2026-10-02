@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Romantic loss and longing",
+    "member_ids": [
+      10,
+      11,
+      12,
+      16,
+      19,
+      26,
+      38,
+      41
+    ],
+    "description": "Heartbreak, waiting and abandonment; often tied to a wealthier rival."
+  },
+  {
+    "name": "Love and money",
+    "member_ids": [
+      3,
+      11,
+      12,
+      20,
+      23,
+      58
+    ],
+    "description": "Affection measured against wealth, status goods or the fare."
+  },
+  {
+    "name": "The fare and the driver's dignity",
+    "member_ids": [
+      1,
+      17,
+      20,
+      21,
+      23,
+      36,
+      40,
+      49
+    ],
+    "description": "The occupation defended against stigma; the fare as moral flashpoint."
+  },
+  {
+    "name": "Wealth, class and fair-weather kin",
+    "member_ids": [
+      3,
+      28,
+      30,
+      31,
+      42,
+      58,
+      61
+    ],
+    "description": "Money organizes kinship, respect and even death."
+  },
+  {
+    "name": "Gulf migration as default exit",
+    "member_ids": [
+      10,
+      14,
+      24,
+      54
+    ],
+    "description": "Qatar/Saudi as fallback for failed study or work."
+  },
+  {
+    "name": "Masculine burden and display",
+    "member_ids": [
+      2,
+      7,
+      32,
+      51,
+      52
+    ],
+    "description": "Provider pressure, speed, manhood norms, hidden paternal suffering."
+  },
+  {
+    "name": "Family and parents",
+    "member_ids": [
+      24,
+      29,
+      35,
+      42,
+      46,
+      52,
+      58
+    ],
+    "description": "Addresses to Āmā; filial responsibility; sons and fathers."
+  },
+  {
+    "name": "Hope, patience, endurance",
+    "member_ids": [
+      9,
+      47,
+      20,
+      23,
+      26,
+      29,
+      45,
+      53,
+      59
+    ],
+    "description": "Hardship framed as temporary passage."
+  },
+  {
+    "name": "Distrust of the world",
+    "member_ids": [
+      6,
+      24,
+      27,
+      30,
+      37,
+      43
+    ],
+    "description": "Selfish world, two-faced people, jealous relatives, lying courts."
+  },
+  {
+    "name": "Self-assertion and swagger",
+    "member_ids": [
+      18,
+      22,
+      34,
+      42,
+      44,
+      48,
+      50
+    ],
+    "description": "Refusal to bow; boasting; place-based pride."
+  },
+  {
+    "name": "Political satire",
+    "member_ids": [
+      37,
+      55,
+      56,
+      57
+    ],
+    "description": "Courts, politicians, campaign slogans, national nostalgia."
+  },
+  {
+    "name": "Mortality and the road",
+    "member_ids": [
+      4,
+      31,
+      40,
+      53,
+      61
+    ],
+    "description": "Disaster, road risk, death erasing wealth."
+  },
+  {
+    "name": "Karnali place-names",
+    "member_ids": [
+      15,
+      25,
+      34
+    ],
+    "description": "Mugu, Chaurjahari, Surkhet, Salyan — a regional sub-corpus."
+  },
+  {
+    "name": "Youth humour and code-mixing",
+    "member_ids": [
+      5,
+      13,
+      18,
+      20,
+      51
+    ],
+    "description": "English/Hindi loans and slang as comic register."
+  }
+]

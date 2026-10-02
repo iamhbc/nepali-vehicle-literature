@@ -1,0 +1,74 @@
+{
+ "vehicle_types": [
+  {
+   "slug": "bus",
+   "name_en": "Bus",
+   "name_ne": "बस"
+  },
+  {
+   "slug": "minibus",
+   "name_en": "Minibus",
+   "name_ne": "मिनीबस"
+  },
+  {
+   "slug": "microbus",
+   "name_en": "Microbus",
+   "name_ne": "माइक्रोबस"
+  },
+  {
+   "slug": "truck",
+   "name_en": "Truck",
+   "name_ne": "ट्रक"
+  },
+  {
+   "slug": "tipper",
+   "name_en": "Tipper",
+   "name_ne": "टिपर"
+  },
+  {
+   "slug": "tanker",
+   "name_en": "Tanker",
+   "name_ne": "ट्याङ्कर"
+  },
+  {
+   "slug": "jeep",
+   "name_en": "Jeep",
+   "name_ne": "जीप"
+  },
+  {
+   "slug": "taxi",
+   "name_en": "Taxi",
+   "name_ne": "ट्याक्सी"
+  },
+  {
+   "slug": "tempo",
+   "name_en": "Tempo",
+   "name_ne": "टेम्पो"
+  },
+  {
+   "slug": "auto-rickshaw",
+   "name_en": "Auto-rickshaw / e-rickshaw",
+   "name_ne": "अटो / इ-रिक्सा"
+  },
+  {
+   "slug": "motorcycle",
+   "name_en": "Motorcycle",
+   "name_ne": "मोटरसाइकल"
+  },
+  {
+   "slug": "tractor",
+   "name_en": "Tractor",
+   "name_ne": "ट्र्याक्टर"
+  },
+  {
+   "slug": "car",
+   "name_en": "Private car",
+   "name_ne": "कार"
+  },
+  {
+   "slug": "other",
+   "name_en": "Other",
+   "name_ne": "अन्य"
+  }
+ ]
+}

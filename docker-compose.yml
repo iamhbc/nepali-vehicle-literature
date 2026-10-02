@@ -1,0 +1,39 @@
+# Local production-like stack: PostgreSQL + pgvector and the API.
+# The frontend runs with `npm run dev` (or deploy it to Netlify).
+#   docker compose up --build
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: nvl
+      POSTGRES_PASSWORD: nvl-local-only
+      POSTGRES_DB: nvl
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nvl"]
+      interval: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql+psycopg://nvl:nvl-local-only@db:5432/nvl
+      VECTOR_BACKEND: pgvector
+      CORS_ORIGINS: http://localhost:5173
+      TRUST_PROXY_HEADERS: "false"
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:
