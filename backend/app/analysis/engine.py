@@ -96,7 +96,7 @@ class AnalysisEngine:
         model = self.llm.model if self.llm else None
         cache_key = self._cache_key(normalized, mode, model, context)
         if use_cache:
-            cached = db.scalar(select(Analysis).where(Analysis.cache_key == cache_key).order_by(Analysis.created_at.desc()))
+            cached = db.scalar(select(Analysis).where(Analysis.cache_key == cache_key, Analysis.engine == mode).order_by(Analysis.created_at.desc()))
             if cached:
                 data = dict(cached.result)
                 data["engine"] = {**data["engine"], "cached": True}
@@ -161,6 +161,8 @@ class AnalysisEngine:
                 log.warning("LLM analysis failed, using baseline: %s", exc)
                 warnings.append(f"The AI interpretation engine was unavailable ({exc}). Showing the baseline reading instead.")
                 payload, mode, model = baseline_payload(), "baseline", None
+                # A transient provider failure must not satisfy future LLM requests.
+                cache_key = self._cache_key(normalized, mode, model, context)
         else:
             payload = baseline_payload()
             engine_notes.append(

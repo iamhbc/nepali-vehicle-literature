@@ -132,3 +132,26 @@ def test_provider_raises_on_truncation():
         assert "cut off" in str(exc)
     else:  # pragma: no cover
         raise AssertionError("expected LLMError")
+
+
+def test_transient_llm_failure_does_not_poison_success_cache(client, db):
+    provider, messages = fake_provider(make_payload().model_dump(), stop_reason="refusal")
+    engine = AnalysisEngine(get_settings(), get_corpus_index(), provider)
+    text = "फेरि भेट्ने आशामा बाटो हेर्छु"
+    first = asyncio.run(engine.analyze(db, text))
+    assert first.engine.mode == "baseline"
+    from app.models import Analysis
+    row = db.get(Analysis, first.id)
+    llm_key = engine._cache_key(text, "llm", provider.model, None)
+    assert row.cache_key != llm_key
+    # Simulate a fallback cached by the previous release under an LLM key.
+    row.cache_key = llm_key
+    db.commit()
+    messages.stop_reason = "end_turn"
+    recovered = asyncio.run(engine.analyze(db, text))
+    assert len(messages.calls) == 2
+    assert recovered.engine.mode == "llm"
+    assert recovered.engine.cached is False
+    cached = asyncio.run(engine.analyze(db, text))
+    assert cached.engine.mode == "llm" and cached.engine.cached is True
+    assert len(messages.calls) == 2
